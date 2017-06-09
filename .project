@@ -3,6 +3,7 @@
 	<name>goby-design</name>
 	<comment></comment>
 	<projects>
+		<project>goby-budget-extractor</project>
 		<project>goby-classifier-extractor</project>
 	</projects>
 	<buildSpec>
