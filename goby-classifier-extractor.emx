@@ -192,6 +192,77 @@
             <ownedOperation xmi:id="_UbN10EquEeeJsdrfgQXeQw" name="extract" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_UXDukEquEeeJsdrfgQXeQw" name="elements">
+            <eAnnotations xmi:id="_C4JRwE--EeefpsQ0fYVzzw" source="uml2.diagrams">
+              <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_C4J40E--EeefpsQ0fYVzzw" type="Class" name="BudgetElementChangeListener">
+                <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_FCbYAE--EeefpsQ0fYVzzw" element="_COlZUE37EeeKMIXalYEMgg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_FCheoE--EeefpsQ0fYVzzw" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_FCheoU--EeefpsQ0fYVzzw" width="530" height="530"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_FCiFsE--EeefpsQ0fYVzzw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_FCiswE--EeefpsQ0fYVzzw" type="Kind"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_FCiswU--EeefpsQ0fYVzzw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_FCjT0E--EeefpsQ0fYVzzw" type="Parent"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_FCj64E--EeefpsQ0fYVzzw" type="AttributeCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_FCkh8E--EeefpsQ0fYVzzw" type="OperationCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_FCmXIE--EeefpsQ0fYVzzw" visible="false" type="SignalCompartment"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FCbYAU--EeefpsQ0fYVzzw" x="11088" y="7128"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_JfDUUE--EeefpsQ0fYVzzw" element="_UaAU4EquEeeJsdrfgQXeQw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_JfIz4E--EeefpsQ0fYVzzw" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_JfIz4U--EeefpsQ0fYVzzw" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_JfJa8E--EeefpsQ0fYVzzw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_JfJa8U--EeefpsQ0fYVzzw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_JfJa8k--EeefpsQ0fYVzzw" type="Parent"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_JfKCAE--EeefpsQ0fYVzzw" type="AttributeCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_JfKpEE--EeefpsQ0fYVzzw" type="OperationCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_JfKpEU--EeefpsQ0fYVzzw" visible="false" type="SignalCompartment"/>
+                  <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_JfO6gE--EeefpsQ0fYVzzw" visible="false" type="StructureCompartment"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JfDUUU--EeefpsQ0fYVzzw" x="20796" y="6429"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_MtiCgE--EeefpsQ0fYVzzw" element="_UZ4ZEEquEeeJsdrfgQXeQw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_MtipkE--EeefpsQ0fYVzzw" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_MtipkU--EeefpsQ0fYVzzw" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_MtjQoE--EeefpsQ0fYVzzw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_MtjQoU--EeefpsQ0fYVzzw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_MtjQok--EeefpsQ0fYVzzw" type="Parent"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Mtj3sE--EeefpsQ0fYVzzw" type="AttributeCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Mtj3sU--EeefpsQ0fYVzzw" type="OperationCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Mtj3sk--EeefpsQ0fYVzzw" visible="false" type="SignalCompartment"/>
+                  <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_MtkewE--EeefpsQ0fYVzzw" visible="false" type="StructureCompartment"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MtiCgU--EeefpsQ0fYVzzw" x="5873" y="14022"/>
+                </children>
+                <element xsi:nil="true"/>
+                <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Jfc88E--EeefpsQ0fYVzzw" element="_feMHEE37EeeKMIXalYEMgg" source="_JfDUUE--EeefpsQ0fYVzzw" target="_FCbYAE--EeefpsQ0fYVzzw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_JfeyIE--EeefpsQ0fYVzzw" type="NameLabel">
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_JffZME--EeefpsQ0fYVzzw" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_JffZMU--EeefpsQ0fYVzzw" type="Name"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JfeyIU--EeefpsQ0fYVzzw" y="-186"/>
+                  </children>
+                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jfc88U--EeefpsQ0fYVzzw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+                </edges>
+                <edges xmi:type="umlnotation:UMLConnector" xmi:id="_MtlF0E--EeefpsQ0fYVzzw" element="_UgdiMEquEeeJsdrfgQXeQw" source="_JfDUUE--EeefpsQ0fYVzzw" target="_MtiCgE--EeefpsQ0fYVzzw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_Mtls4E--EeefpsQ0fYVzzw" type="NameLabel">
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mtls4k--EeefpsQ0fYVzzw" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_MtmT8E--EeefpsQ0fYVzzw" type="Name"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mtls4U--EeefpsQ0fYVzzw" y="-186"/>
+                  </children>
+                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MtlF0U--EeefpsQ0fYVzzw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+                </edges>
+                <edges xmi:type="umlnotation:UMLConnector" xmi:id="_c9Ah0E--EeefpsQ0fYVzzw" element="_LptP8E37EeeKMIXalYEMgg" source="_MtiCgE--EeefpsQ0fYVzzw" target="_FCbYAE--EeefpsQ0fYVzzw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_c9BI4E--EeefpsQ0fYVzzw" type="FromMultiplicityLabel">
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_c9BI4k--EeefpsQ0fYVzzw" type="FromMultiplicity"/>
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_c9BI4U--EeefpsQ0fYVzzw" y="396"/>
+                  </children>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_c9Bv8E--EeefpsQ0fYVzzw" type="FromRoleLabel">
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_c9Bv8k--EeefpsQ0fYVzzw" type="FromRole"/>
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_c9Bv8U--EeefpsQ0fYVzzw" y="-397"/>
+                  </children>
+                  <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c9Ah0U--EeefpsQ0fYVzzw" points="[66, -325, -47, 227]$[106, -519, -7, 33]"/>
+                </edges>
+              </contents>
+            </eAnnotations>
             <packagedElement xmi:type="uml:Class" xmi:id="_UXEVoEquEeeJsdrfgQXeQw" name="Item" isLeaf="true">
               <ownedComment xmi:id="_UXEVoUquEeeJsdrfgQXeQw" annotatedElement="_UXEVoEquEeeJsdrfgQXeQw">
                 <body>lase&amp;nbsp;que&amp;nbsp;representa&amp;nbsp;el&amp;nbsp;clasificador&amp;nbsp;de&amp;nbsp;item&amp;nbsp;presupuestario.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrig</body>
@@ -460,6 +531,9 @@
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
               </ownedAttribute>
               <ownedAttribute xmi:id="_jKbzwE1VEeekuqvl4T6tsg" name="cummulativeDollarExecution" visibility="private">
+                <ownedComment xmi:id="_7U50cE3pEeeKMIXalYEMgg" annotatedElement="_jKbzwE1VEeekuqvl4T6tsg">
+                  <body>&lt;p>The amount of the element's dollar budget that has been spent.&lt;/p></body>
+                </ownedComment>
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
               </ownedAttribute>
               <ownedAttribute xmi:id="_sdc3QE1VEeekuqvl4T6tsg" name="initialDollarBudget" visibility="private">
@@ -468,6 +542,7 @@
                 </ownedComment>
                 <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
               </ownedAttribute>
+              <ownedAttribute xmi:id="_LptP8E37EeeKMIXalYEMgg" name="changeListeners" visibility="private" type="_COlZUE37EeeKMIXalYEMgg"/>
               <ownedOperation xmi:id="_UfqQ8EquEeeJsdrfgQXeQw" name="BudgetElement" visibility="public">
                 <ownedComment xmi:id="_UfqQ8UquEeeJsdrfgQXeQw" annotatedElement="_UfqQ8EquEeeJsdrfgQXeQw">
                   <body>&lt;p>Creates a new Budget Element.&lt;/p></body>
@@ -499,6 +574,17 @@
                   <ownedComment xmi:id="_wJx0cEunEeeV1tNCHYSKhw" annotatedElement="_khLTIEq2EeeJsdrfgQXeQw">
                     <body>&lt;p>the level of the element in the budgetary classifier's hierarchy&lt;/p></body>
                   </ownedComment>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_lnzO0E3pEeeKMIXalYEMgg" name="getCumulativeDollarExecution">
+                <ownedComment xmi:id="_8GykYE3pEeeKMIXalYEMgg" annotatedElement="_lnzO0E3pEeeKMIXalYEMgg">
+                  <body>&lt;p>Retunrs he amount of the element's dollar budget that has been spent.&lt;/p></body>
+                </ownedComment>
+                <ownedParameter xmi:id="_ujILEE3pEeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_9D7iEE3pEeeKMIXalYEMgg" annotatedElement="_ujILEE3pEeeKMIXalYEMgg">
+                    <body>&lt;p>the amount of the element's dollar budget that has been spent&lt;/p></body>
+                  </ownedComment>
+                  <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
               <ownedOperation xmi:id="_cuAscErwEeeJsdrfgQXeQw" name="getType" visibility="public" isLeaf="true">
@@ -737,16 +823,44 @@
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
+              <ownedOperation xmi:id="_zTimEE3pEeeKMIXalYEMgg" name="setCumulativeDollarExecution">
+                <ownedComment xmi:id="_-BzfkE3pEeeKMIXalYEMgg" annotatedElement="_zTimEE3pEeeKMIXalYEMgg">
+                  <body>&lt;p>Sets the amount of the element's dollar budget that has been spent.&lt;/p></body>
+                </ownedComment>
+                <ownedParameter xmi:id="_2WUakE3pEeeKMIXalYEMgg" name="execution">
+                  <ownedComment xmi:id="_-2dPoE3pEeeKMIXalYEMgg" annotatedElement="_2WUakE3pEeeKMIXalYEMgg">
+                    <body>&lt;p>the amount of the element's dollar budget that has been spent&lt;/p></body>
+                  </ownedComment>
+                  <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Uqf7AE37EeeKMIXalYEMgg" name="addChangeListener">
+                <ownedParameter xmi:id="_WsWeAE37EeeKMIXalYEMgg" name="listener" type="_COlZUE37EeeKMIXalYEMgg"/>
+              </ownedOperation>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_UaAU4EquEeeJsdrfgQXeQw" name="CompositeBudgetElement">
+            <packagedElement xmi:type="uml:Class" xmi:id="_UaAU4EquEeeJsdrfgQXeQw" name="CompositeBudgetElement" clientDependency="_feMHEE37EeeKMIXalYEMgg">
               <ownedComment xmi:id="_UaAU4UquEeeJsdrfgQXeQw" annotatedElement="_UaAU4EquEeeJsdrfgQXeQw">
-                <body>Clase&amp;nbsp;base&amp;nbsp;que&amp;nbsp;representa&amp;nbsp;un&amp;nbsp;clasificador&amp;nbsp;presupuestario&amp;nbsp;que&amp;nbsp;puede&amp;nbsp;componerse&lt;br>internamente&amp;nbsp;de&amp;nbsp;otros&amp;nbsp;subelementos&amp;nbsp;de&amp;nbsp;clasificación.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
+                <body>&lt;p>This class represents a budget elements that can be composed of other subelements in a hierarchical structure.&lt;/p>&lt;p>@author JaimeOviedo&lt;/p>&lt;p>&lt;/p></body>
               </ownedComment>
               <generalization xmi:id="_UgdiMEquEeeJsdrfgQXeQw" general="_UZ4ZEEquEeeJsdrfgQXeQw"/>
               <ownedAttribute xmi:id="_UgPfwEquEeeJsdrfgQXeQw" name="subElements" visibility="private" type="_UZ4ZEEquEeeJsdrfgQXeQw">
                 <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UgPfwUquEeeJsdrfgQXeQw" value="*"/>
                 <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UgPfwkquEeeJsdrfgQXeQw"/>
               </ownedAttribute>
+              <ownedAttribute xmi:id="_9E_bkE31EeeKMIXalYEMgg" name="isDirty" visibility="private">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_-cD8ME31EeeKMIXalYEMgg">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_2wZmIE33EeeKMIXalYEMgg" name="log" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+                <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_2wZmIU33EeeKMIXalYEMgg">
+                  <language></language>
+                  <body>Logger.getLogger(&quot;com.ingenium.goby.extractors.elements.CompositeBudgetElement&quot;)</body>
+                </defaultValue>
+              </ownedAttribute>
+              <interfaceRealization xmi:id="_feMHEE37EeeKMIXalYEMgg" supplier="_COlZUE37EeeKMIXalYEMgg" client="_UaAU4EquEeeJsdrfgQXeQw" contract="_COlZUE37EeeKMIXalYEMgg"/>
               <ownedOperation xmi:id="_UgRU8EquEeeJsdrfgQXeQw" name="CompositeBudgetElement" visibility="public">
                 <ownedComment xmi:id="_UgR8AEquEeeJsdrfgQXeQw" annotatedElement="_UgRU8EquEeeJsdrfgQXeQw">
                   <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&amp;nbsp;ClasificadorCompuesto.&lt;br>&lt;br>@param&amp;nbsp;numero&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;numero&lt;br>@param&amp;nbsp;nombre&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;nombre&lt;br>@param&amp;nbsp;descripcion&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;descripcion</body>
@@ -790,129 +904,161 @@
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ugae4UquEeeJsdrfgQXeQw"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZwwIE1XEeekuqvl4T6tsg" name="getInitialBudget">
-                <ownedComment xmi:id="_XZwwIU1XEeekuqvl4T6tsg" annotatedElement="_XZwwIE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_YIBkUE1XEeekuqvl4T6tsg" name="recalculate" visibility="private">
+                <ownedParameter xmi:id="_sgAxIE1XEeekuqvl4T6tsg" name="subelement" type="_UZ4ZEEquEeeJsdrfgQXeQw"/>
+                <ownedParameter xmi:id="_yEUuQE1XEeekuqvl4T6tsg" name="result" direction="return">
+                  <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0dxRoE32EeeKMIXalYEMgg" name="getCumulativeDollarExecution">
+                <ownedComment xmi:id="_0dxRoU32EeeKMIXalYEMgg" annotatedElement="_0dxRoE32EeeKMIXalYEMgg">
+                  <body>&lt;p>Retunrs he amount of the element's dollar budget that has been spent.&lt;/p></body>
+                </ownedComment>
+                <ownedParameter xmi:id="_0dxRok32EeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_0dxRo032EeeKMIXalYEMgg" annotatedElement="_0dxRok32EeeKMIXalYEMgg">
+                    <body>&lt;p>the amount of the element's dollar budget that has been spent&lt;/p></body>
+                  </ownedComment>
+                  <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0dyfwE32EeeKMIXalYEMgg" name="getInitialBudget">
+                <ownedComment xmi:id="_0dyfwU32EeeKMIXalYEMgg" annotatedElement="_0dyfwE32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the element's budget as was established in the budgetary law&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZwwIk1XEeekuqvl4T6tsg" name="initialBudget" direction="return">
-                  <ownedComment xmi:id="_XZwwI01XEeekuqvl4T6tsg" annotatedElement="_XZwwIk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0dyfwk32EeeKMIXalYEMgg" name="initialBudget" direction="return">
+                  <ownedComment xmi:id="_0dyfw032EeeKMIXalYEMgg" annotatedElement="_0dyfwk32EeeKMIXalYEMgg">
                     <body>&lt;p>the element's budget as was established in the budgetary law&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZx-QE1XEeekuqvl4T6tsg" name="getActualBudget">
-                <ownedComment xmi:id="_XZx-QU1XEeekuqvl4T6tsg" annotatedElement="_XZx-QE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0dzG0E32EeeKMIXalYEMgg" name="getActualBudget">
+                <ownedComment xmi:id="_0dzG0U32EeeKMIXalYEMgg" annotatedElement="_0dzG0E32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the current budget for the element.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZx-Qk1XEeekuqvl4T6tsg" name="Parameter1" direction="return">
-                  <ownedComment xmi:id="_XZx-Q01XEeekuqvl4T6tsg" annotatedElement="_XZx-Qk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0dzG0k32EeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_0dzG0032EeeKMIXalYEMgg" annotatedElement="_0dzG0k32EeeKMIXalYEMgg">
                     <body>&lt;p>the current budget for the element&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZylUE1XEeekuqvl4T6tsg" name="setInitialBudget">
-                <ownedComment xmi:id="_XZylUU1XEeekuqvl4T6tsg" annotatedElement="_XZylUE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0dzG1E32EeeKMIXalYEMgg" name="setInitialBudget">
+                <ownedComment xmi:id="_0dzG1U32EeeKMIXalYEMgg" annotatedElement="_0dzG1E32EeeKMIXalYEMgg">
                   <body>&lt;p>Sets the element's budget as was established in the budgetary law.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZylUk1XEeekuqvl4T6tsg" name="budget">
-                  <ownedComment xmi:id="_XZylU01XEeekuqvl4T6tsg" annotatedElement="_XZylUk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0dzG1k32EeeKMIXalYEMgg" name="budget">
+                  <ownedComment xmi:id="_0dzG1032EeeKMIXalYEMgg" annotatedElement="_0dzG1k32EeeKMIXalYEMgg">
                     <body>&lt;p>the element's budget as was established in the budgetary law&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZylVE1XEeekuqvl4T6tsg" name="getCurrency">
-                <ownedComment xmi:id="_XZylVU1XEeekuqvl4T6tsg" annotatedElement="_XZylVE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0dzt4E32EeeKMIXalYEMgg" name="setCurrency">
+                <ownedComment xmi:id="_0dzt4U32EeeKMIXalYEMgg" annotatedElement="_0dzt4E32EeeKMIXalYEMgg">
+                  <body>&lt;p>Sets the budget element's currency.&lt;/p></body>
+                </ownedComment>
+                <ownedParameter xmi:id="_0dzt4k32EeeKMIXalYEMgg" name="currency" type="_pXE6AE1GEeekuqvl4T6tsg">
+                  <ownedComment xmi:id="_0dzt4032EeeKMIXalYEMgg" annotatedElement="_0dzt4k32EeeKMIXalYEMgg">
+                    <body>&lt;p>the new budget element's currency&lt;/p></body>
+                  </ownedComment>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_0d0U8E32EeeKMIXalYEMgg" name="getCurrency">
+                <ownedComment xmi:id="_0d0U8U32EeeKMIXalYEMgg" annotatedElement="_0d0U8E32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the budget element's currency.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZylVk1XEeekuqvl4T6tsg" name="Parameter1" type="_pXE6AE1GEeekuqvl4T6tsg" direction="return">
-                  <ownedComment xmi:id="_XZylV01XEeekuqvl4T6tsg" annotatedElement="_XZylVk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d0U8k32EeeKMIXalYEMgg" name="Parameter1" type="_pXE6AE1GEeekuqvl4T6tsg" direction="return">
+                  <ownedComment xmi:id="_0d0U8032EeeKMIXalYEMgg" annotatedElement="_0d0U8k32EeeKMIXalYEMgg">
                     <body>&lt;p>the budget element's currency&lt;/p></body>
                   </ownedComment>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZzMYE1XEeekuqvl4T6tsg" name="setActualBudget">
-                <ownedComment xmi:id="_XZzMYU1XEeekuqvl4T6tsg" annotatedElement="_XZzMYE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d08AE32EeeKMIXalYEMgg" name="setActualBudget">
+                <ownedComment xmi:id="_0d08AU32EeeKMIXalYEMgg" annotatedElement="_0d08AE32EeeKMIXalYEMgg">
                   <body>&lt;p>Sets the current budget for the element.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZzMYk1XEeekuqvl4T6tsg" name="budget">
-                  <ownedComment xmi:id="_XZzMY01XEeekuqvl4T6tsg" annotatedElement="_XZzMYk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d08Ak32EeeKMIXalYEMgg" name="budget">
+                  <ownedComment xmi:id="_0d08A032EeeKMIXalYEMgg" annotatedElement="_0d08Ak32EeeKMIXalYEMgg">
                     <body>&lt;p>the new current budget for the element&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZzzcE1XEeekuqvl4T6tsg" name="getCumulativeExecution">
-                <ownedComment xmi:id="_XZzzcU1XEeekuqvl4T6tsg" annotatedElement="_XZzzcE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d1jEE32EeeKMIXalYEMgg" name="getCumulativeExecution">
+                <ownedComment xmi:id="_0d1jEU32EeeKMIXalYEMgg" annotatedElement="_0d1jEE32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the amount of the element's budget that has been spent.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZzzck1XEeekuqvl4T6tsg" name="Parameter1" direction="return">
-                  <ownedComment xmi:id="_XZzzc01XEeekuqvl4T6tsg" annotatedElement="_XZzzck1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d1jEk32EeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_0d1jE032EeeKMIXalYEMgg" annotatedElement="_0d1jEk32EeeKMIXalYEMgg">
                     <body>&lt;p>the amount of the element's budget that has been spent&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZ0agE1XEeekuqvl4T6tsg" name="setCumulativeExecution">
-                <ownedComment xmi:id="_XZ0agU1XEeekuqvl4T6tsg" annotatedElement="_XZ0agE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d2KIE32EeeKMIXalYEMgg" name="setCumulativeExecution">
+                <ownedComment xmi:id="_0d2KIU32EeeKMIXalYEMgg" annotatedElement="_0d2KIE32EeeKMIXalYEMgg">
                   <body>&lt;p>Sets the amount of the element's budget that has been spent.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZ0agk1XEeekuqvl4T6tsg" name="execution">
-                  <ownedComment xmi:id="_XZ0ag01XEeekuqvl4T6tsg" annotatedElement="_XZ0agk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d2KIk32EeeKMIXalYEMgg" name="execution">
+                  <ownedComment xmi:id="_0d2KI032EeeKMIXalYEMgg" annotatedElement="_0d2KIk32EeeKMIXalYEMgg">
                     <body>&lt;p>the new amount of the element's budget that has been spent&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZ0ahE1XEeekuqvl4T6tsg" name="getActualDollarBudget">
-                <ownedComment xmi:id="_XZ1BkE1XEeekuqvl4T6tsg" annotatedElement="_XZ0ahE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d2xME32EeeKMIXalYEMgg" name="getActualDollarBudget">
+                <ownedComment xmi:id="_0d2xMU32EeeKMIXalYEMgg" annotatedElement="_0d2xME32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the current dollar budget for the element.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZ1BkU1XEeekuqvl4T6tsg" name="Parameter1" direction="return">
-                  <ownedComment xmi:id="_XZ1Bkk1XEeekuqvl4T6tsg" annotatedElement="_XZ1BkU1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d2xMk32EeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_0d2xM032EeeKMIXalYEMgg" annotatedElement="_0d2xMk32EeeKMIXalYEMgg">
                     <body>&lt;p>the current dollar budget for the element.&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZ1Bk01XEeekuqvl4T6tsg" name="setActualDollarBudget">
-                <ownedComment xmi:id="_XZ1BlE1XEeekuqvl4T6tsg" annotatedElement="_XZ1Bk01XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d3YQE32EeeKMIXalYEMgg" name="setActualDollarBudget">
+                <ownedComment xmi:id="_0d3YQU32EeeKMIXalYEMgg" annotatedElement="_0d3YQE32EeeKMIXalYEMgg">
                   <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZ1BlU1XEeekuqvl4T6tsg" name="budget">
-                  <ownedComment xmi:id="_XZ1Blk1XEeekuqvl4T6tsg" annotatedElement="_XZ1BlU1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d3YQk32EeeKMIXalYEMgg" name="budget">
+                  <ownedComment xmi:id="_0d3YQ032EeeKMIXalYEMgg" annotatedElement="_0d3YQk32EeeKMIXalYEMgg">
                     <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZ1ooE1XEeekuqvl4T6tsg" name="getInitialDollarBudget">
-                <ownedComment xmi:id="_XZ1ooU1XEeekuqvl4T6tsg" annotatedElement="_XZ1ooE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d3_UE32EeeKMIXalYEMgg" name="getInitialDollarBudget">
+                <ownedComment xmi:id="_0d3_UU32EeeKMIXalYEMgg" annotatedElement="_0d3_UE32EeeKMIXalYEMgg">
                   <body>&lt;p>Returns the element's dollar budget as was established in the budgetary law&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZ1ook1XEeekuqvl4T6tsg" name="Parameter1" direction="return">
-                  <ownedComment xmi:id="_XZ1oo01XEeekuqvl4T6tsg" annotatedElement="_XZ1ook1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d3_Uk32EeeKMIXalYEMgg" name="Parameter1" direction="return">
+                  <ownedComment xmi:id="_0d3_U032EeeKMIXalYEMgg" annotatedElement="_0d3_Uk32EeeKMIXalYEMgg">
                     <body>&lt;p>Returns the element's dollar budget as was established in the budgetary law&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_XZ2PsE1XEeekuqvl4T6tsg" name="setInitialDollarBudget">
-                <ownedComment xmi:id="_XZ2PsU1XEeekuqvl4T6tsg" annotatedElement="_XZ2PsE1XEeekuqvl4T6tsg">
+              <ownedOperation xmi:id="_0d4mYE32EeeKMIXalYEMgg" name="setInitialDollarBudget">
+                <ownedComment xmi:id="_0d4mYU32EeeKMIXalYEMgg" annotatedElement="_0d4mYE32EeeKMIXalYEMgg">
                   <body>&lt;p>Sets the element's dollar budget as was established in the budgetary law.&lt;/p></body>
                 </ownedComment>
-                <ownedParameter xmi:id="_XZ2Psk1XEeekuqvl4T6tsg" name="budget">
-                  <ownedComment xmi:id="_XZ2Ps01XEeekuqvl4T6tsg" annotatedElement="_XZ2Psk1XEeekuqvl4T6tsg">
+                <ownedParameter xmi:id="_0d4mYk32EeeKMIXalYEMgg" name="budget">
+                  <ownedComment xmi:id="_0d4mY032EeeKMIXalYEMgg" annotatedElement="_0d4mYk32EeeKMIXalYEMgg">
                     <body>&lt;p>the element's dollar budget as was established in the budgetary law.&lt;/p></body>
                   </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_YIBkUE1XEeekuqvl4T6tsg" name="recalculate" visibility="private">
-                <ownedParameter xmi:id="_sgAxIE1XEeekuqvl4T6tsg" name="subelement" type="_UZ4ZEEquEeeJsdrfgQXeQw"/>
-                <ownedParameter xmi:id="_yEUuQE1XEeekuqvl4T6tsg" name="result" direction="return">
+              <ownedOperation xmi:id="_0d5NcE32EeeKMIXalYEMgg" name="setCumulativeDollarExecution">
+                <ownedComment xmi:id="_0d5NcU32EeeKMIXalYEMgg" annotatedElement="_0d5NcE32EeeKMIXalYEMgg">
+                  <body>&lt;p>Sets the amount of the element's dollar budget that has been spent.&lt;/p></body>
+                </ownedComment>
+                <ownedParameter xmi:id="_0d5Nck32EeeKMIXalYEMgg" name="execution">
+                  <ownedComment xmi:id="_0d5Nc032EeeKMIXalYEMgg" annotatedElement="_0d5Nck32EeeKMIXalYEMgg">
+                    <body>&lt;p>the amount of the element's dollar budget that has been spent&lt;/p></body>
+                  </ownedComment>
                   <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
                 </ownedParameter>
               </ownedOperation>
@@ -1043,6 +1189,11 @@
               <ownedLiteral xmi:id="_sS8OME1GEeekuqvl4T6tsg" name="DOLLAR" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
               <ownedLiteral xmi:id="_nkhZcE1VEeekuqvl4T6tsg" name="MIXED" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
               <ownedLiteral xmi:id="_oyC8gE1VEeekuqvl4T6tsg" name="NONE" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_COlZUE37EeeKMIXalYEMgg" name="BudgetElementChangeListener">
+              <ownedOperation xmi:id="_EmcokE37EeeKMIXalYEMgg" name="elementChanged">
+                <ownedParameter xmi:id="_I7fWME37EeeKMIXalYEMgg" name="element" type="_UZ4ZEEquEeeJsdrfgQXeQw"/>
+              </ownedOperation>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_UXFjwEquEeeJsdrfgQXeQw" name="BudgetFileListExtractor" visibility="package">
@@ -1852,26 +2003,39 @@
   <Default:Documentation xmi:id="_d0cxEE1WEeekuqvl4T6tsg" base_Comment="_d0bi8E1WEeekuqvl4T6tsg"/>
   <Default:Documentation xmi:id="_g1VvME1WEeekuqvl4T6tsg" base_Comment="_g1UhEE1WEeekuqvl4T6tsg"/>
   <Default:Documentation xmi:id="_ixfS0E1WEeekuqvl4T6tsg" base_Comment="_ixeEsE1WEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ3d0E1XEeekuqvl4T6tsg" base_Comment="_XZwwIU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ3d0U1XEeekuqvl4T6tsg" base_Comment="_XZwwI01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ3d0k1XEeekuqvl4T6tsg" base_Comment="_XZx-QU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ3d001XEeekuqvl4T6tsg" base_Comment="_XZx-Q01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ3d1E1XEeekuqvl4T6tsg" base_Comment="_XZylUU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E4E1XEeekuqvl4T6tsg" base_Comment="_XZylU01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E4U1XEeekuqvl4T6tsg" base_Comment="_XZylVU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E4k1XEeekuqvl4T6tsg" base_Comment="_XZylV01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E401XEeekuqvl4T6tsg" base_Comment="_XZzMYU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E5E1XEeekuqvl4T6tsg" base_Comment="_XZzMY01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E5U1XEeekuqvl4T6tsg" base_Comment="_XZzzcU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E5k1XEeekuqvl4T6tsg" base_Comment="_XZzzc01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E501XEeekuqvl4T6tsg" base_Comment="_XZ0agU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E6E1XEeekuqvl4T6tsg" base_Comment="_XZ0ag01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4E6U1XEeekuqvl4T6tsg" base_Comment="_XZ1BkE1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r8E1XEeekuqvl4T6tsg" base_Comment="_XZ1Bkk1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r8U1XEeekuqvl4T6tsg" base_Comment="_XZ1BlE1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r8k1XEeekuqvl4T6tsg" base_Comment="_XZ1Blk1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r801XEeekuqvl4T6tsg" base_Comment="_XZ1ooU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r9E1XEeekuqvl4T6tsg" base_Comment="_XZ1oo01XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r9U1XEeekuqvl4T6tsg" base_Comment="_XZ2PsU1XEeekuqvl4T6tsg"/>
-  <Default:Documentation xmi:id="_XZ4r9k1XEeekuqvl4T6tsg" base_Comment="_XZ2Ps01XEeekuqvl4T6tsg"/>
+  <Default:Documentation xmi:id="_7U7poE3pEeeKMIXalYEMgg" base_Comment="_7U50cE3pEeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_8G1AoE3pEeeKMIXalYEMgg" base_Comment="_8GykYE3pEeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_9D8wME3pEeeKMIXalYEMgg" base_Comment="_9D7iEE3pEeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_-B1UwE3pEeeKMIXalYEMgg" base_Comment="_-BzfkE3pEeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_-2fr4E3pEeeKMIXalYEMgg" base_Comment="_-2dPoE3pEeeKMIXalYEMgg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_CRU-kE3rEeeKMIXalYEMgg" collectionType="java.util.List" base_TypedElement="_yEUuQE1XEeekuqvl4T6tsg"/>
+  <Default:Documentation xmi:id="_0d6bkE32EeeKMIXalYEMgg" base_Comment="_0dxRoU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d6bkU32EeeKMIXalYEMgg" base_Comment="_0dxRo032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d6bkk32EeeKMIXalYEMgg" base_Comment="_0dyfwU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7CoE32EeeKMIXalYEMgg" base_Comment="_0dyfw032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7CoU32EeeKMIXalYEMgg" base_Comment="_0dzG0U32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7Cok32EeeKMIXalYEMgg" base_Comment="_0dzG0032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7Co032EeeKMIXalYEMgg" base_Comment="_0dzG1U32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7CpE32EeeKMIXalYEMgg" base_Comment="_0dzG1032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7psE32EeeKMIXalYEMgg" base_Comment="_0dzt4U32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7psU32EeeKMIXalYEMgg" base_Comment="_0dzt4032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7psk32EeeKMIXalYEMgg" base_Comment="_0d0U8U32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7ps032EeeKMIXalYEMgg" base_Comment="_0d0U8032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d7ptE32EeeKMIXalYEMgg" base_Comment="_0d08AU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8QwE32EeeKMIXalYEMgg" base_Comment="_0d08A032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8QwU32EeeKMIXalYEMgg" base_Comment="_0d1jEU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8Qwk32EeeKMIXalYEMgg" base_Comment="_0d1jE032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8Qw032EeeKMIXalYEMgg" base_Comment="_0d2KIU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8QxE32EeeKMIXalYEMgg" base_Comment="_0d2KI032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d8QxU32EeeKMIXalYEMgg" base_Comment="_0d2xMU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d830E32EeeKMIXalYEMgg" base_Comment="_0d2xM032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d830U32EeeKMIXalYEMgg" base_Comment="_0d3YQU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d830k32EeeKMIXalYEMgg" base_Comment="_0d3YQ032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d830032EeeKMIXalYEMgg" base_Comment="_0d3_UU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d831E32EeeKMIXalYEMgg" base_Comment="_0d3_U032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d831U32EeeKMIXalYEMgg" base_Comment="_0d4mYU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d9e4E32EeeKMIXalYEMgg" base_Comment="_0d4mY032EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d9e4U32EeeKMIXalYEMgg" base_Comment="_0d5NcU32EeeKMIXalYEMgg"/>
+  <Default:Documentation xmi:id="_0d9e4k32EeeKMIXalYEMgg" base_Comment="_0d5Nc032EeeKMIXalYEMgg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_pj7A8E37EeeKMIXalYEMgg" collectionType="java.util.List" base_TypedElement="_LptP8E37EeeKMIXalYEMgg"/>
 </xmi:XMI>
