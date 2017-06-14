@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+  <uml:Package xmi:id="_UXLqYEquEeeJsdrfgQXeQw" name="util">
+    <eAnnotations xmi:id="_AZmp4FEKEeefZJp_ndvc2g" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="commons.efx#_UXLDUEquEeeJsdrfgQXeQw?budget-extractor/commons?"/>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_UXNfkEquEeeJsdrfgQXeQw" name="Downloader">
+      <ownedComment xmi:id="_UXOGoEquEeeJsdrfgQXeQw" annotatedElement="_UXNfkEquEeeJsdrfgQXeQw">
+        <body>Las&amp;nbsp;clases&amp;nbsp;que&amp;nbsp;implementan&amp;nbsp;la&amp;nbsp;interfaz&amp;nbsp;Downloader&amp;nbsp;tienen&amp;nbsp;la&amp;nbsp;capacidad&amp;nbsp;de&lt;br>descargar&amp;nbsp;archivos&amp;nbsp;desde&amp;nbsp;una&amp;nbsp;URL.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
+      </ownedComment>
+      <ownedOperation xmi:id="_UeKcIEquEeeJsdrfgQXeQw" name="download" visibility="public">
+        <ownedParameter xmi:id="_UeLDMEquEeeJsdrfgQXeQw" name="source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UeLqQEquEeeJsdrfgQXeQw" name="destination">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.IOException%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UZsy4EquEeeJsdrfgQXeQw" name="SimpleFileDownloader" clientDependency="_Uet1wEquEeeJsdrfgQXeQw">
+      <ownedComment xmi:id="_UZtZ8EquEeeJsdrfgQXeQw" annotatedElement="_UZsy4EquEeeJsdrfgQXeQw">
+        <body>Esta&amp;nbsp;clase&amp;nbsp;permite&amp;nbsp;la&amp;nbsp;descarga&amp;nbsp;de&amp;nbsp;un&amp;nbsp;archivo&amp;nbsp;desde&amp;nbsp;un&amp;nbsp;sitio&amp;nbsp;Web.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_UemhAEquEeeJsdrfgQXeQw" name="BUFFER_SIZE" visibility="private" isLeaf="true" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Cj64wErdEeeJsdrfgQXeQw">
+          <language></language>
+          <body>new Integer(4096)</body>
+        </defaultValue>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_Uet1wEquEeeJsdrfgQXeQw" supplier="_UXNfkEquEeeJsdrfgQXeQw" client="_UZsy4EquEeeJsdrfgQXeQw" contract="_UXNfkEquEeeJsdrfgQXeQw"/>
+      <ownedOperation xmi:id="_UenvIEquEeeJsdrfgQXeQw" name="SimpleFileDownloader" visibility="public">
+        <ownedComment xmi:id="_UeoWMEquEeeJsdrfgQXeQw" annotatedElement="_UenvIEquEeeJsdrfgQXeQw">
+          <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&amp;nbsp;SimpleFileDownloader.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UeqLYEquEeeJsdrfgQXeQw" name="download" visibility="public">
+        <ownedParameter xmi:id="_UerZgEquEeeJsdrfgQXeQw" name="source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UesAkEquEeeJsdrfgQXeQw" name="destination">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.IOException%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UaNwQEquEeeJsdrfgQXeQw" name="FormattedWebPageDownloader">
+      <ownedComment xmi:id="_UaOXUEquEeeJsdrfgQXeQw" annotatedElement="_UaNwQEquEeeJsdrfgQXeQw">
+        <body>Clase&amp;nbsp;que&amp;nbsp;descarga&amp;nbsp;una&amp;nbsp;página&amp;nbsp;web,&amp;nbsp;intentando&amp;nbsp;corregir&amp;nbsp;automáticamente&lt;br>cualquier&amp;nbsp;error&amp;nbsp;de&amp;nbsp;tags&amp;nbsp;HTML&amp;nbsp;mal&amp;nbsp;cerrados.&lt;br>&lt;br>La&amp;nbsp;descarga&amp;nbsp;es&amp;nbsp;sólo&amp;nbsp;del&amp;nbsp;texto&amp;nbsp;html,&amp;nbsp;no&amp;nbsp;de&amp;nbsp;sus&amp;nbsp;imágenes&amp;nbsp;ni&amp;nbsp;de&amp;nbsp;sus&amp;nbsp;recursos&lt;br>enlazados.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_UgsywEquEeeJsdrfgQXeQw" name="source" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UguA4EquEeeJsdrfgQXeQw" name="destination" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_UgvPAEquEeeJsdrfgQXeQw" name="FormattedWebPageDownloader" visibility="public">
+        <ownedComment xmi:id="_Ugv2EEquEeeJsdrfgQXeQw" annotatedElement="_UgvPAEquEeeJsdrfgQXeQw">
+          <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;FormattedWebPageDownloader.</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UgxEMEquEeeJsdrfgQXeQw" name="FormattedWebPageDownloader" visibility="public">
+        <ownedComment xmi:id="_UgxEMUquEeeJsdrfgQXeQw" annotatedElement="_UgxEMEquEeeJsdrfgQXeQw">
+          <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;FormattedWebPageDownloader.&lt;br>&lt;br>@param&amp;nbsp;source&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;la&amp;nbsp;URL&amp;nbsp;de&amp;nbsp;donde&amp;nbsp;se&amp;nbsp;obtendrá&amp;nbsp;el&amp;nbsp;archivo&lt;br>@param&amp;nbsp;destination&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;la&amp;nbsp;URL&amp;nbsp;de&amp;nbsp;donde&amp;nbsp;se&amp;nbsp;almacenará&amp;nbsp;el&amp;nbsp;archivo</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_UgxrQEquEeeJsdrfgQXeQw" name="source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_UgySUEquEeeJsdrfgQXeQw" name="destination">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ugy5YEquEeeJsdrfgQXeQw" name="download" visibility="public"/>
+      <ownedOperation xmi:id="_Ug0ukEquEeeJsdrfgQXeQw" name="download" visibility="public">
+        <ownedComment xmi:id="_Ug0ukUquEeeJsdrfgQXeQw" annotatedElement="_Ug0ukEquEeeJsdrfgQXeQw">
+          <body>Descarga&amp;nbsp;el&amp;nbsp;archivo&amp;nbsp;desde&amp;nbsp;la&amp;nbsp;fuente&amp;nbsp;especificada&amp;nbsp;al&amp;nbsp;destino&amp;nbsp;especificado.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ug1VoEquEeeJsdrfgQXeQw" name="source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Ug18sEquEeeJsdrfgQXeQw" name="destination">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ug2jwEquEeeJsdrfgQXeQw" name="getDestination" visibility="public">
+        <ownedComment xmi:id="_Ug3K0EquEeeJsdrfgQXeQw" annotatedElement="_Ug2jwEquEeeJsdrfgQXeQw">
+          <body>Devuelve&amp;nbsp;el&amp;nbsp;directorio&amp;nbsp;y&amp;nbsp;el&amp;nbsp;nombre&amp;nbsp;con&amp;nbsp;el&amp;nbsp;que&amp;nbsp;se&amp;nbsp;guarda&amp;nbsp;el&amp;nbsp;archivo.&lt;br>&lt;br>@return&amp;nbsp;directorio&amp;nbsp;y&amp;nbsp;el&amp;nbsp;nombre&amp;nbsp;con&amp;nbsp;el&amp;nbsp;que&amp;nbsp;se&amp;nbsp;guarda&amp;nbsp;el&amp;nbsp;archivo</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ug3K0kquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ug4Y8EquEeeJsdrfgQXeQw" name="getSource" visibility="public">
+        <ownedComment xmi:id="_Ug5AAEquEeeJsdrfgQXeQw" annotatedElement="_Ug4Y8EquEeeJsdrfgQXeQw">
+          <body>Devuelve&amp;nbsp;la&amp;nbsp;URL&amp;nbsp;de&amp;nbsp;donde&amp;nbsp;se&amp;nbsp;obtendrá&amp;nbsp;el&amp;nbsp;archivo.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;source</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ug5AAkquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ug61MEquEeeJsdrfgQXeQw" name="setDestination" visibility="public">
+        <ownedComment xmi:id="_Ug61MUquEeeJsdrfgQXeQw" annotatedElement="_Ug61MEquEeeJsdrfgQXeQw">
+          <body>Establece&amp;nbsp;el&amp;nbsp;directorio&amp;nbsp;y&amp;nbsp;el&amp;nbsp;nombre&amp;nbsp;con&amp;nbsp;el&amp;nbsp;que&amp;nbsp;se&amp;nbsp;guarda&amp;nbsp;el&amp;nbsp;archivo.&lt;br>&lt;br>@param&amp;nbsp;destination&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;destination&amp;nbsp;to&amp;nbsp;set</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ug7cQEquEeeJsdrfgQXeQw" name="destination">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ug8qYEquEeeJsdrfgQXeQw" name="setSource" visibility="public">
+        <ownedComment xmi:id="_Ug8qYUquEeeJsdrfgQXeQw" annotatedElement="_Ug8qYEquEeeJsdrfgQXeQw">
+          <body>Establece&amp;nbsp;la&amp;nbsp;URL&amp;nbsp;de&amp;nbsp;donde&amp;nbsp;se&amp;nbsp;obtendrá&amp;nbsp;el&amp;nbsp;archivo.&lt;br>&lt;br>@param&amp;nbsp;source&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;la&amp;nbsp;URL&amp;nbsp;de&amp;nbsp;donde&amp;nbsp;se&amp;nbsp;obtendrá&amp;nbsp;el&amp;nbsp;archivo</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_Ug9RcEquEeeJsdrfgQXeQw" name="source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </uml:Package>
+  <Default:Documentation xmi:id="_WCDQwEquEeeJsdrfgQXeQw" base_Comment="_Ug5AAEquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCNBwEquEeeJsdrfgQXeQw" base_Comment="_UZtZ8EquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCOP4EquEeeJsdrfgQXeQw" base_Comment="_Ug0ukUquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCPeAEquEeeJsdrfgQXeQw" base_Comment="_Ug8qYUquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCQsIEquEeeJsdrfgQXeQw" base_Comment="_UeoWMEquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCR6QEquEeeJsdrfgQXeQw" base_Comment="_UXOGoEquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCTIYEquEeeJsdrfgQXeQw" base_Comment="_Ugv2EEquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCUWgEquEeeJsdrfgQXeQw" base_Comment="_Ug3K0EquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCU9kEquEeeJsdrfgQXeQw" base_Comment="_UgxEMUquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCWLsEquEeeJsdrfgQXeQw" base_Comment="_Ug61MUquEeeJsdrfgQXeQw"/>
+  <Default:Documentation xmi:id="_WCXZ0EquEeeJsdrfgQXeQw" base_Comment="_UaOXUEquEeeJsdrfgQXeQw"/>
+</xmi:XMI>

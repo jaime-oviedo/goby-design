@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_US_t8EquEeeJsdrfgQXeQw" name="goby">
+  <eAnnotations xmi:id="_AkUFEVEKEeefZJp_ndvc2g" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="uml:Package" href="extractors.efx#_US_t8UquEeeJsdrfgQXeQw?budget-extractor/goby/extractors?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_AkUFEFEKEeefZJp_ndvc2g" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Model" href="goby-classifier-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Package" href="extractors.efx#_US_t8UquEeeJsdrfgQXeQw?budget-extractor/goby/extractors?"/>
+</uml:Package>
