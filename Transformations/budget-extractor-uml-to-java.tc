@@ -12,7 +12,7 @@
 <Property id="TRANSFORM_REVERSE_SILENT" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
 <Property id="com.ibm.websphere.jaxrs.GenerateApplicationPath" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
 <Property id="com.ibm.websphere.jaxrs.TargetServlet" value="@45,=@com.ibm.xtools.transform.core.metatype.stringcom.ibm.websphere.jaxrs.server.IBMRestServlet"/>
-<Property id="com.ibm.xtools.transform.java.uml.GenerateAssociations" value="@45,=@com.ibm.xtools.transform.core.metatype.stringfalse"/>
+<Property id="com.ibm.xtools.transform.java.uml.GenerateAssociations" value="@45,=@com.ibm.xtools.transform.core.metatype.stringtrue"/>
 <Property id="com.ibm.xtools.transform.java.uml.GeneratePrimitiveAssociations" value="@45,=@com.ibm.xtools.transform.core.metatype.stringfalse"/>
 <Property id="com.ibm.xtools.transform.java.uml.GenerateVizAssociations" value="@45,=@com.ibm.xtools.transform.core.metatype.stringfalse"/>
 <Property id="com.ibm.xtools.transform.uml2.java5.FileDeleteChoice" value="@45,=@com.ibm.xtools.transform.core.metatype.string0"/>
