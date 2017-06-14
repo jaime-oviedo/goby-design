@@ -24,7 +24,7 @@
           <ownedComment xmi:id="_R_9VcEuMEeeV1tNCHYSKhw" annotatedElement="_36wgcEuGEeeV1tNCHYSKhw">
             <body>&lt;p>the new location of the destination file&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_cFJrgEuGEeeV1tNCHYSKhw" name="setSource">
@@ -35,7 +35,7 @@
           <ownedComment xmi:id="_UHtsIEuMEeeV1tNCHYSKhw" annotatedElement="_dpelAEuGEeeV1tNCHYSKhw">
             <body>&lt;p>the new location of the source file&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_UfdcoEquEeeJsdrfgQXeQw" name="extract" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw">
@@ -97,13 +97,14 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_REJYAEuNEeeV1tNCHYSKhw" name="ExtractorImpl" clientDependency="_WygpAEuNEeeV1tNCHYSKhw" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_REJYAEuNEeeV1tNCHYSKhw" name="ExtractorImpl" clientDependency="_sKNmIFEOEeefZJp_ndvc2g" isAbstract="true">
       <ownedAttribute xmi:id="_ez4ecEuNEeeV1tNCHYSKhw" name="source" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_f-tS0EuNEeeV1tNCHYSKhw" name="destination" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <interfaceRealization xmi:id="_sKNmIFEOEeefZJp_ndvc2g" supplier="_UZ180EquEeeJsdrfgQXeQw" client="_REJYAEuNEeeV1tNCHYSKhw" contract="_UZ180EquEeeJsdrfgQXeQw"/>
       <ownedOperation xmi:id="_h5u1EEuNEeeV1tNCHYSKhw" name="setDestination">
         <ownedComment xmi:id="_h5u1EUuNEeeV1tNCHYSKhw" annotatedElement="_h5u1EEuNEeeV1tNCHYSKhw">
           <body>&lt;p>Sets the location of the destination file.&lt;/p></body>
@@ -112,7 +113,7 @@
           <ownedComment xmi:id="_h5u1E0uNEeeV1tNCHYSKhw" annotatedElement="_h5u1EkuNEeeV1tNCHYSKhw">
             <body>&lt;p>the new location of the destination file&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_h5vcIEuNEeeV1tNCHYSKhw" name="setSource">
@@ -123,7 +124,7 @@
           <ownedComment xmi:id="_h5vcI0uNEeeV1tNCHYSKhw" annotatedElement="_h5vcIkuNEeeV1tNCHYSKhw">
             <body>&lt;p>the new location of the source file&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_h5vcJEuNEeeV1tNCHYSKhw" name="getDestination" visibility="public">
@@ -149,7 +150,6 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Realization" xmi:id="_WygpAEuNEeeV1tNCHYSKhw" supplier="_UZ180EquEeeJsdrfgQXeQw" client="_REJYAEuNEeeV1tNCHYSKhw"/>
   </uml:Package>
   <Default:Documentation xmi:id="_WCIwUEquEeeJsdrfgQXeQw" base_Comment="_Ugn6QEquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WCadIEquEeeJsdrfgQXeQw" base_Comment="_UgmFEUquEeeJsdrfgQXeQw"/>

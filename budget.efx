@@ -40,7 +40,7 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_4hVkIEyKEeekuqvl4T6tsg" type="OperationCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_4hVkIUyKEeekuqvl4T6tsg" visible="false" type="SignalCompartment"/>
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4hWLMEyKEeekuqvl4T6tsg" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4hRSsUyKEeekuqvl4T6tsg" x="5544" y="4356"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4hRSsUyKEeekuqvl4T6tsg" x="2904" y="924"/>
         </children>
         <element xsi:nil="true"/>
       </contents>
@@ -194,25 +194,45 @@
           <body>Logger.getLogger(&quot;com.ingenium.goby.extractors.BudgetElementsFileMerger&quot;)</body>
         </defaultValue>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_caJBMEyQEeekuqvl4T6tsg" name="mergedFiles" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      <ownedAttribute xmi:id="_caJBMEyQEeekuqvl4T6tsg" name="mergedFiles" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sSKoQVEOEeefZJp_ndvc2g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSKoQlEOEeefZJp_ndvc2g"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_gcrCgEyQEeekuqvl4T6tsg" name="notMergedFiles" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+      <ownedAttribute xmi:id="_gcrCgEyQEeekuqvl4T6tsg" name="notMergedFiles" visibility="private" isUnique="false">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sSNrkVEOEeefZJp_ndvc2g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSNrklEOEeefZJp_ndvc2g"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_xAZhQEyVEeekuqvl4T6tsg" name="mergedElementsType" visibility="private">
+      <ownedAttribute xmi:id="_xAZhQEyVEeekuqvl4T6tsg" name="mergedElementsType" visibility="private" isLeaf="true">
         <type xmi:type="uml:Enumeration" href="elements.efx#_qoIVMEq0EeeJsdrfgQXeQw?budget-extractor/goby/extractors/budget/elements/BudgetElementType?"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_g8otQEyWEeekuqvl4T6tsg" name="budgetElementRoot" visibility="private">
         <type xmi:type="uml:Class" href="elements.efx#_UaAU4EquEeeJsdrfgQXeQw?budget-extractor/goby/extractors/budget/elements/CompositeBudgetElement?"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_-Y8QsEyKEeekuqvl4T6tsg" name="BudgetElementFileMerger"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_6n5lcFETEeeJofrcP_B-sg" name="BudgetLine">
+        <ownedAttribute xmi:id="_8XGSMFETEeeJofrcP_B-sg" name="lineContents" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AiacEVEUEeeJofrcP_B-sg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AiacEFEUEeeJofrcP_B-sg"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_NV3gcFEUEeeJofrcP_B-sg" name="getLineContents">
+          <ownedParameter xmi:id="_Oy5fIFEUEeeJofrcP_B-sg" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TIPuwFEUEeeJofrcP_B-sg" name="BudgetLine">
+          <ownedParameter xmi:id="_VQU1kFEUEeeJofrcP_B-sg" name="lineContents">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </nestedClassifier>
       <ownedOperation xmi:id="_PGKRYEyKEeekuqvl4T6tsg" name="BudgetElementsFileMerger">
         <ownedParameter xmi:id="_Qq1JIEyKEeekuqvl4T6tsg" name="sourceDirectory">
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <ownedParameter xmi:id="_TAO6QEyKEeekuqvl4T6tsg" name="outputFile">
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <ownedParameter xmi:id="_nlw9YEyWEeekuqvl4T6tsg" name="mergedElementsType">
           <type xmi:type="uml:Enumeration" href="elements.efx#_qoIVMEq0EeeJsdrfgQXeQw?budget-extractor/goby/extractors/budget/elements/BudgetElementType?"/>
@@ -221,32 +241,22 @@
       <ownedOperation xmi:id="_BRcu4EyLEeekuqvl4T6tsg" name="merge">
         <raisedException xmi:type="uml:Class" href="extractors.efx#_UaL7EEquEeeJsdrfgQXeQw?budget-extractor/goby/extractors/ExtractionException?"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_upPpYEylEeekuqvl4T6tsg" name="extractBudgetExecution" visibility="private">
-        <ownedParameter xmi:id="_upQQcEylEeekuqvl4T6tsg" name="lines" isOrdered="true" isUnique="false">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_upQQcUylEeekuqvl4T6tsg" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_upQQckylEeekuqvl4T6tsg"/>
-        </ownedParameter>
-      </ownedOperation>
       <ownedOperation xmi:id="_updEwEylEeekuqvl4T6tsg" name="extractBudgetLaw" visibility="private">
-        <ownedParameter xmi:id="_updEwUylEeekuqvl4T6tsg" name="lines" isOrdered="true" isUnique="false">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedParameter xmi:id="_updEwUylEeekuqvl4T6tsg" name="lines" type="_6n5lcFETEeeJofrcP_B-sg" isOrdered="true" isUnique="false">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_updr0EylEeekuqvl4T6tsg" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_updr0UylEeekuqvl4T6tsg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_updr0UylEeekuqvl4T6tsg" value="1"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_uprHMEylEeekuqvl4T6tsg" name="extractInstitutionalClassifiers" visibility="private">
-        <ownedParameter xmi:id="_upruQEylEeekuqvl4T6tsg" name="lines" isOrdered="true" isUnique="false">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedParameter xmi:id="_upruQEylEeekuqvl4T6tsg" name="lines" type="_6n5lcFETEeeJofrcP_B-sg" isOrdered="true" isUnique="false">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_upsVUEylEeekuqvl4T6tsg" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_upsVUUylEeekuqvl4T6tsg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_upsVUUylEeekuqvl4T6tsg" value="1"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_up5wsEylEeekuqvl4T6tsg" name="extractBudgetaryClassifiers" visibility="private">
-        <ownedParameter xmi:id="_up6XwEylEeekuqvl4T6tsg" name="lines" isOrdered="true" isUnique="false">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <ownedParameter xmi:id="_up6XwEylEeekuqvl4T6tsg" name="lines" type="_6n5lcFETEeeJofrcP_B-sg" isOrdered="true" isUnique="false">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_up6-0EylEeekuqvl4T6tsg" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_up6-0UylEeekuqvl4T6tsg"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_up6-0UylEeekuqvl4T6tsg" value="1"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_uqIaMEylEeekuqvl4T6tsg" name="getReader" visibility="private">
@@ -258,13 +268,17 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_j-QS4EyQEeekuqvl4T6tsg" name="getMergedFiles">
-        <ownedParameter xmi:id="_loLeEEyQEeekuqvl4T6tsg" name="Parameter1" direction="return">
+        <ownedParameter xmi:id="_loLeEEyQEeekuqvl4T6tsg" name="Parameter1" isUnique="false" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sSxsQFEOEeefZJp_ndvc2g" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sSxsQVEOEeefZJp_ndvc2g"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_mJ0ykEyQEeekuqvl4T6tsg" name="getNotMergedFiles">
-        <ownedParameter xmi:id="_ogXzMEyQEeekuqvl4T6tsg" name="Parameter1" direction="return">
+        <ownedParameter xmi:id="_ogXzMEyQEeekuqvl4T6tsg" name="Parameter1" isUnique="false" direction="return">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sS1WoFEOEeefZJp_ndvc2g" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sS1WoVEOEeefZJp_ndvc2g"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_2sUiQEyVEeekuqvl4T6tsg" name="getMergedElementsType">
@@ -272,9 +286,13 @@
           <type xmi:type="uml:Enumeration" href="elements.efx#_qoIVMEq0EeeJsdrfgQXeQw?budget-extractor/goby/extractors/budget/elements/BudgetElementType?"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_71Fy4EyVEeekuqvl4T6tsg" name="setMergedElementsType">
-        <ownedParameter xmi:id="__DZh8EyVEeekuqvl4T6tsg" name="type">
-          <type xmi:type="uml:Enumeration" href="elements.efx#_qoIVMEq0EeeJsdrfgQXeQw?budget-extractor/goby/extractors/budget/elements/BudgetElementType?"/>
+      <ownedOperation xmi:id="_sS95gFEOEeefZJp_ndvc2g" name="extract" visibility="public">
+        <raisedException xmi:type="uml:Class" href="extractors.efx#_UaL7EEquEeeJsdrfgQXeQw?budget-extractor/goby/extractors/ExtractionException?"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_rqSTcFEPEeefZJp_ndvc2g" name="extractBudgetExecution" visibility="private">
+        <ownedParameter xmi:id="_xujjAFEPEeefZJp_ndvc2g" name="lines" type="_6n5lcFETEeeJofrcP_B-sg" isOrdered="true" isUnique="false">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yWwygFEPEeefZJp_ndvc2g" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yWwLcFEPEeefZJp_ndvc2g"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -311,27 +329,29 @@
           <body>&lt;p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.&lt;/p></body>
         </ownedComment>
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_dCQ4IExDEeeo2IEzB8X7BA" value="true">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-        </defaultValue>
+        <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_dCQ4IExDEeeo2IEzB8X7BA" value="true"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_yNL2YExGEeeo2IEzB8X7BA" name="tstamp" visibility="private">
         <ownedComment xmi:id="_iBgQ8ExREeeo2IEzB8X7BA" annotatedElement="_yNL2YExGEeeo2IEzB8X7BA">
           <body>&lt;p>A time stamp used to create the destination directory for the downloaded files.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_qxM7EExIEeeo2IEzB8X7BA" name="downloadedFiles" visibility="private">
+      <ownedAttribute xmi:id="_qxM7EExIEeeo2IEzB8X7BA" name="downloadedFiles" visibility="private" isUnique="false">
         <ownedComment xmi:id="_cTYQgExREeeo2IEzB8X7BA" annotatedElement="_qxM7EExIEeeo2IEzB8X7BA">
           <body>&lt;p>A list of files that were successfully downloaded by the extraction.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sRPbMVEOEeefZJp_ndvc2g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sRPbMlEOEeefZJp_ndvc2g"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_CGN5sExJEeeo2IEzB8X7BA" name="failedFiles" visibility="private">
+      <ownedAttribute xmi:id="_CGN5sExJEeeo2IEzB8X7BA" name="failedFiles" visibility="private" isUnique="false">
         <ownedComment xmi:id="_eOn1MExREeeo2IEzB8X7BA" annotatedElement="_CGN5sExJEeeo2IEzB8X7BA">
           <body>&lt;p>A list of files that could not be downloaded.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sRTsoFEOEeefZJp_ndvc2g" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sRTsoVEOEeefZJp_ndvc2g"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_X82S8ExCEeeo2IEzB8X7BA" name="BudgetFileExtractor">
         <ownedComment xmi:id="_mAw5oExCEeeo2IEzB8X7BA" annotatedElement="_X82S8ExCEeeo2IEzB8X7BA">
@@ -346,19 +366,19 @@
           <ownedComment xmi:id="_ophroExCEeeo2IEzB8X7BA" annotatedElement="_qvPQYExBEeeo2IEzB8X7BA">
             <body>&lt;p>The location of the file that contains the list of CSVs to be downoladed.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <ownedParameter xmi:id="_e4dIQExEEeeo2IEzB8X7BA" name="documentsSource">
           <ownedComment xmi:id="_sWCb0ExREeeo2IEzB8X7BA" annotatedElement="_e4dIQExEEeeo2IEzB8X7BA">
             <body>&lt;p>The URL of the files to be downloaded&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <ownedParameter xmi:id="_tdipsExBEeeo2IEzB8X7BA" name="destinationFolder">
           <ownedComment xmi:id="_vqSa0ExREeeo2IEzB8X7BA" annotatedElement="_tdipsExBEeeo2IEzB8X7BA">
             <body>&lt;p>the destination folder for the downloaded files&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
         <ownedParameter xmi:id="_Xh9w8ExGEeeo2IEzB8X7BA" name="useTimestamp">
           <ownedComment xmi:id="_ybZQgExREeeo2IEzB8X7BA" annotatedElement="_Xh9w8ExGEeeo2IEzB8X7BA">
@@ -403,7 +423,7 @@
           <ownedComment xmi:id="_KcD0MExSEeeo2IEzB8X7BA" annotatedElement="_DCaikExREeeo2IEzB8X7BA">
             <body>&lt;p>the URL of the files to be downloaded&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_lpoPMExGEeeo2IEzB8X7BA" name="setDocumentsSource">
@@ -414,7 +434,7 @@
           <ownedComment xmi:id="_VUFRMExTEeeo2IEzB8X7BA" annotatedElement="_op7XcExGEeeo2IEzB8X7BA">
             <body>&lt;p>the URL where the files will be stored.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_1ZJcEExGEeeo2IEzB8X7BA" name="getTimestamp">
@@ -425,29 +445,33 @@
           <ownedComment xmi:id="_Qry3cExTEeeo2IEzB8X7BA" annotatedElement="_T-SHcExJEeeo2IEzB8X7BA">
             <body>&lt;p>time stamp used to create the destination directory for the downloaded files.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_Hw49gExJEeeo2IEzB8X7BA" name="getDownloadedFiles">
         <ownedComment xmi:id="_PXvrEExSEeeo2IEzB8X7BA" annotatedElement="_Hw49gExJEeeo2IEzB8X7BA">
           <body>&lt;p>Returns the list of files that were successfully downloaded by the extraction.&lt;/p></body>
         </ownedComment>
-        <ownedParameter xmi:id="_XN3o4ExJEeeo2IEzB8X7BA" name="fileList" direction="return">
+        <ownedParameter xmi:id="_XN3o4ExJEeeo2IEzB8X7BA" name="fileList" isUnique="false" direction="return">
           <ownedComment xmi:id="_TXLVEExSEeeo2IEzB8X7BA" annotatedElement="_XN3o4ExJEeeo2IEzB8X7BA">
             <body>&lt;p>the list of files that were successfully downloaded by the extraction.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sR47cFEOEeefZJp_ndvc2g" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sR47cVEOEeefZJp_ndvc2g"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_JUnaEExJEeeo2IEzB8X7BA" name="getFailedFiles">
         <ownedComment xmi:id="_WKxeEExSEeeo2IEzB8X7BA" annotatedElement="_JUnaEExJEeeo2IEzB8X7BA">
           <body>&lt;p>Returns the list of files that could not be downloaded.&lt;/p></body>
         </ownedComment>
-        <ownedParameter xmi:id="_No7H4ExJEeeo2IEzB8X7BA" name="fileList" direction="return">
+        <ownedParameter xmi:id="_No7H4ExJEeeo2IEzB8X7BA" name="fileList" isUnique="false" direction="return">
           <ownedComment xmi:id="_W8vGgExSEeeo2IEzB8X7BA" annotatedElement="_No7H4ExJEeeo2IEzB8X7BA">
             <body>&lt;p>the list of files that could not be downloaded&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H0UgddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/String?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sR9M4FEOEeefZJp_ndvc2g" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sR9M4VEOEeefZJp_ndvc2g"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -598,8 +622,11 @@
   <JavaTransformation50:JavaCollection2 xmi:id="_iFbwEEyQEeekuqvl4T6tsg" base_TypedElement="_gcrCgEyQEeekuqvl4T6tsg"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_qEi7sEyQEeekuqvl4T6tsg" base_TypedElement="_loLeEEyQEeekuqvl4T6tsg"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_r4CSkEyQEeekuqvl4T6tsg" base_TypedElement="_ogXzMEyQEeekuqvl4T6tsg"/>
-  <JavaTransformation50:JavaCollection2 xmi:id="_6SF70EylEeekuqvl4T6tsg" collectionType="java.util.List" base_TypedElement="_up6XwEylEeekuqvl4T6tsg"/>
-  <JavaTransformation50:JavaCollection2 xmi:id="_6SHJ8EylEeekuqvl4T6tsg" collectionType="java.util.List" base_TypedElement="_upruQEylEeekuqvl4T6tsg"/>
-  <JavaTransformation50:JavaCollection2 xmi:id="_6SIYEEylEeekuqvl4T6tsg" collectionType="java.util.List" base_TypedElement="_upQQcEylEeekuqvl4T6tsg"/>
-  <JavaTransformation50:JavaCollection2 xmi:id="_6SJmMEylEeekuqvl4T6tsg" collectionType="java.util.List" base_TypedElement="_updEwUylEeekuqvl4T6tsg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_FMi3oFEOEeefZJp_ndvc2g" collectionType="java.util.List" base_TypedElement="_up6XwEylEeekuqvl4T6tsg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_FMkFwFEOEeefZJp_ndvc2g" collectionType="java.util.List" base_TypedElement="_updEwUylEeekuqvl4T6tsg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_FMkFwVEOEeefZJp_ndvc2g" collectionType="java.util.List" base_TypedElement="_upruQEylEeekuqvl4T6tsg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_QOyq0FETEeeJofrcP_B-sg" collectionType="java.util.List" base_TypedElement="_xujjAFEPEeefZJp_ndvc2g"/>
+  <JavaTransformation50:JavaArray xmi:id="_LSsu0FEUEeeJofrcP_B-sg" base_TypedElement="_8XGSMFETEeeJofrcP_B-sg"/>
+  <JavaTransformation50:JavaArray xmi:id="_Wjz2sFEUEeeJofrcP_B-sg" base_TypedElement="_VQU1kFEUEeeJofrcP_B-sg"/>
+  <JavaTransformation50:JavaArray xmi:id="_YOFnMFEUEeeJofrcP_B-sg" base_TypedElement="_Oy5fIFEUEeeJofrcP_B-sg"/>
 </xmi:XMI>

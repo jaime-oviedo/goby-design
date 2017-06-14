@@ -73,7 +73,7 @@
       <ownedComment xmi:id="_UexXsEuAEeeC6_ZX80x4yQ" annotatedElement="_UXJ1MEquEeeJsdrfgQXeQw">
         <body>&lt;p>Represents a hierarchical catalog of budget elements.&lt;/p></body>
       </ownedComment>
-      <ownedAttribute xmi:id="_Ud4vUEquEeeJsdrfgQXeQw" name="program" visibility="private" type="_UasRYEquEeeJsdrfgQXeQw">
+      <ownedAttribute xmi:id="_Ud4vUEquEeeJsdrfgQXeQw" name="root" visibility="private" type="_UasRYEquEeeJsdrfgQXeQw">
         <ownedComment xmi:id="_3TArgEuoEeeV1tNCHYSKhw" annotatedElement="_Ud4vUEquEeeJsdrfgQXeQw">
           <body>&lt;p>Program element used to hold the elements of the catalog.&lt;/p></body>
         </ownedComment>
@@ -210,6 +210,11 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_COlZUE37EeeKMIXalYEMgg" name="BudgetElementChangeListener">
+      <ownedOperation xmi:id="_EmcokE37EeeKMIXalYEMgg" name="elementChanged" visibility="public">
+        <ownedParameter xmi:id="_sKq5IFEOEeefZJp_ndvc2g" name="element" type="_UZ4ZEEquEeeJsdrfgQXeQw"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_UZ4ZEEquEeeJsdrfgQXeQw" name="BudgetElement">
       <ownedComment xmi:id="_UZ4ZEUquEeeJsdrfgQXeQw" annotatedElement="_UZ4ZEEquEeeJsdrfgQXeQw">
         <body>&lt;p>Base element for the budget classifier's hierarchy.&lt;/p>&lt;p>@author JaimeOviedo&lt;/p></body>
@@ -246,18 +251,13 @@
         <ownedComment xmi:id="_zxLAsE1OEeekuqvl4T6tsg" annotatedElement="_Gg-6kEymEeekuqvl4T6tsg">
           <body>&lt;p>The element's budget as was established in the budgetary law.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
-        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_ZbNv8EymEeekuqvl4T6tsg">
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
-          <language></language>
-          <body>BigInteger.ZERO</body>
-        </defaultValue>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_uEqDcE1GEeekuqvl4T6tsg" name="actualBudget" visibility="private">
         <ownedComment xmi:id="_A2ya0E1JEeekuqvl4T6tsg" annotatedElement="_uEqDcE1GEeekuqvl4T6tsg">
           <body>&lt;p>The current budget for the element.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_xndb0E1GEeekuqvl4T6tsg" name="currency" visibility="private" type="_pXE6AE1GEeekuqvl4T6tsg">
         <ownedComment xmi:id="_NyRZ0E1JEeekuqvl4T6tsg" annotatedElement="_xndb0E1GEeekuqvl4T6tsg">
@@ -268,22 +268,22 @@
         <ownedComment xmi:id="_MTE38E1JEeekuqvl4T6tsg" annotatedElement="_ym_UQE1IEeekuqvl4T6tsg">
           <body>&lt;p>The amount of the element's budget that has been spent.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_fUkVcE1VEeekuqvl4T6tsg" name="actualDollarBudget" visibility="private">
         <ownedComment xmi:id="_hyH9AE1VEeekuqvl4T6tsg" annotatedElement="_fUkVcE1VEeekuqvl4T6tsg">
           <body>&lt;p>The current dollar budget for the element.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_jKbzwE1VEeekuqvl4T6tsg" name="cummulativeDollarExecution" visibility="private">
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_sdc3QE1VEeekuqvl4T6tsg" name="initialDollarBudget" visibility="private">
         <ownedComment xmi:id="_v0r40E1VEeekuqvl4T6tsg" annotatedElement="_sdc3QE1VEeekuqvl4T6tsg">
           <body>&lt;p>The element's dollar budget as was established in the budgetary law.&lt;/p></body>
         </ownedComment>
-        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+        <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_UfqQ8EquEeeJsdrfgQXeQw" name="BudgetElement" visibility="public">
         <ownedComment xmi:id="_UfqQ8UquEeeJsdrfgQXeQw" annotatedElement="_UfqQ8EquEeeJsdrfgQXeQw">
@@ -412,7 +412,7 @@
           <ownedComment xmi:id="_Bh7TcE1SEeekuqvl4T6tsg" annotatedElement="_QrgN0EymEeekuqvl4T6tsg">
             <body>&lt;p>the element's budget as was established in the budgetary law&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_SESI8E1GEeekuqvl4T6tsg" name="getActualBudget">
@@ -423,7 +423,7 @@
           <ownedComment xmi:id="_njOVwE1REeekuqvl4T6tsg" annotatedElement="_eX6y4E1IEeekuqvl4T6tsg">
             <body>&lt;p>the current budget for the element&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_ZeWGwE1GEeekuqvl4T6tsg" name="setInitialBudget">
@@ -434,7 +434,7 @@
           <ownedComment xmi:id="_GY_JAE1SEeekuqvl4T6tsg" annotatedElement="_igrC4E1GEeekuqvl4T6tsg">
             <body>&lt;p>the element's budget as was established in the budgetary law&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_y2sPEE1GEeekuqvl4T6tsg" name="setCurrency">
@@ -465,7 +465,7 @@
           <ownedComment xmi:id="_qWEQ0E1REeekuqvl4T6tsg" annotatedElement="_Z9o_8E1IEeekuqvl4T6tsg">
             <body>&lt;p>the new current budget for the element&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_2TUcEE1IEeekuqvl4T6tsg" name="getCumulativeExecution">
@@ -476,7 +476,7 @@
           <ownedComment xmi:id="_zknEAE1REeekuqvl4T6tsg" annotatedElement="_3i0VEE1IEeekuqvl4T6tsg">
             <body>&lt;p>the amount of the element's budget that has been spent&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_4It3cE1IEeekuqvl4T6tsg" name="setCumulativeExecution">
@@ -487,7 +487,7 @@
           <ownedComment xmi:id="_3BGZAE1REeekuqvl4T6tsg" annotatedElement="_6M6j0E1IEeekuqvl4T6tsg">
             <body>&lt;p>the new amount of the element's budget that has been spent&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_2Fsj4E1VEeekuqvl4T6tsg" name="getActualDollarBudget">
@@ -498,7 +498,7 @@
           <ownedComment xmi:id="_8Byu4E1VEeekuqvl4T6tsg" annotatedElement="_38BzYE1VEeekuqvl4T6tsg">
             <body>&lt;p>the current dollar budget for the element.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_JOpxwE1WEeekuqvl4T6tsg" name="setActualDollarBudget">
@@ -509,7 +509,7 @@
           <ownedComment xmi:id="_ixeEsE1WEeekuqvl4T6tsg" annotatedElement="_Leg7kE1WEeekuqvl4T6tsg">
             <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_PC2lAE1WEeekuqvl4T6tsg" name="getInitialDollarBudget">
@@ -520,7 +520,7 @@
           <ownedComment xmi:id="_d0bi8E1WEeekuqvl4T6tsg" annotatedElement="_QO79oE1WEeekuqvl4T6tsg">
             <body>&lt;p>Returns the element's dollar budget as was established in the budgetary law&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_R7HyoE1WEeekuqvl4T6tsg" name="setInitialDollarBudget">
@@ -531,7 +531,7 @@
           <ownedComment xmi:id="_ZjNlYE1WEeekuqvl4T6tsg" annotatedElement="_TwagUE1WEeekuqvl4T6tsg">
             <body>&lt;p>the element's dollar budget as was established in the budgetary law.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_kKAlcFD6EeeDDreW7cLBoA" name="getCumulativeDollarExecution">
@@ -620,7 +620,7 @@
           <ownedComment xmi:id="_XZylU01XEeekuqvl4T6tsg" annotatedElement="_XZylUk1XEeekuqvl4T6tsg">
             <body>&lt;p>the element's budget as was established in the budgetary law&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_XZzMYE1XEeekuqvl4T6tsg" name="setActualBudget">
@@ -631,7 +631,7 @@
           <ownedComment xmi:id="_XZzMY01XEeekuqvl4T6tsg" annotatedElement="_XZzMYk1XEeekuqvl4T6tsg">
             <body>&lt;p>the new current budget for the element&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_XZ0agE1XEeekuqvl4T6tsg" name="setCumulativeExecution">
@@ -642,7 +642,7 @@
           <ownedComment xmi:id="_XZ0ag01XEeekuqvl4T6tsg" annotatedElement="_XZ0agk1XEeekuqvl4T6tsg">
             <body>&lt;p>the new amount of the element's budget that has been spent&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_XZ1Bk01XEeekuqvl4T6tsg" name="setActualDollarBudget">
@@ -653,7 +653,7 @@
           <ownedComment xmi:id="_XZ1Blk1XEeekuqvl4T6tsg" annotatedElement="_XZ1BlU1XEeekuqvl4T6tsg">
             <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_XZ2PsE1XEeekuqvl4T6tsg" name="setInitialDollarBudget">
@@ -664,7 +664,7 @@
           <ownedComment xmi:id="_XZ2Ps01XEeekuqvl4T6tsg" annotatedElement="_XZ2Psk1XEeekuqvl4T6tsg">
             <body>&lt;p>the element's dollar budget as was established in the budgetary law.&lt;/p></body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6H2JwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/math/BigInteger?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_YIBkUE1XEeekuqvl4T6tsg" name="recalculate" visibility="private"/>
