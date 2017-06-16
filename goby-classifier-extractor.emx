@@ -14,7 +14,63 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_US_t8EquEeeJsdrfgQXeQw" name="goby">
       <packagedElement xmi:type="uml:Package" xmi:id="_US_t8kquEeeJsdrfgQXeQw" name="budget">
-        <eAnnotations xmi:id="_qrBM0ExDEeeo2IEzB8X7BA" source="uml2.diagrams"/>
+        <eAnnotations xmi:id="_qrBM0ExDEeeo2IEzB8X7BA" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_YtQpIVFZEeeK-J0N4T-kxQ" type="Freeform" name="Main">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_nfAiwFH0Eee-AoOzRlyylA" element="_N4VqkFH0Eee-AoOzRlyylA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_nfC_AFH0Eee-AoOzRlyylA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_nfC_AVH0Eee-AoOzRlyylA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nfDmEFH0Eee-AoOzRlyylA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nfDmEVH0Eee-AoOzRlyylA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nfDmElH0Eee-AoOzRlyylA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nfE0MFH0Eee-AoOzRlyylA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nfFbQFH0Eee-AoOzRlyylA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nfGpYFH0Eee-AoOzRlyylA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_nfH3gFH0Eee-AoOzRlyylA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nfAiwVH0Eee-AoOzRlyylA" x="3439" y="1825"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_nzQUcFH0Eee-AoOzRlyylA" element="_KP91sFH0Eee-AoOzRlyylA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_nzQ7gFH0Eee-AoOzRlyylA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_nzQ7gVH0Eee-AoOzRlyylA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nzQ7glH0Eee-AoOzRlyylA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nzQ7g1H0Eee-AoOzRlyylA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nzQ7hFH0Eee-AoOzRlyylA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nzRikFH0Eee-AoOzRlyylA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nzSJoFH0Eee-AoOzRlyylA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_nzSJoVH0Eee-AoOzRlyylA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_nzSJolH0Eee-AoOzRlyylA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nzQUcVH0Eee-AoOzRlyylA" x="9260" y="5132"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_oAeREFH0Eee-AoOzRlyylA" element="_A8MkQFH0Eee-AoOzRlyylA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_oAe4IFH0Eee-AoOzRlyylA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_oAe4IVH0Eee-AoOzRlyylA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oAe4IlH0Eee-AoOzRlyylA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oAe4I1H0Eee-AoOzRlyylA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oAe4JFH0Eee-AoOzRlyylA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oAe4JVH0Eee-AoOzRlyylA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oAffMFH0Eee-AoOzRlyylA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oAffMVH0Eee-AoOzRlyylA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_oAffMlH0Eee-AoOzRlyylA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oAeREVH0Eee-AoOzRlyylA" x="6270" y="10239"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_oRdTYFH0Eee-AoOzRlyylA" element="_I5RIgFH0Eee-AoOzRlyylA" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_oRdTYlH0Eee-AoOzRlyylA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_oRdTY1H0Eee-AoOzRlyylA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRd6cFH0Eee-AoOzRlyylA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRd6cVH0Eee-AoOzRlyylA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_oRd6clH0Eee-AoOzRlyylA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRd6c1H0Eee-AoOzRlyylA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRehgFH0Eee-AoOzRlyylA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_oRehgVH0Eee-AoOzRlyylA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_oRehglH0Eee-AoOzRlyylA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oRdTYVH0Eee-AoOzRlyylA" x="16271" y="9101"/>
+            </children>
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
         <packagedElement xmi:type="uml:Package" xmi:id="_UXDukEquEeeJsdrfgQXeQw" name="elements">
           <eAnnotations xmi:id="_FoE1EFFmEeeK-J0N4T-kxQ" source="uml2.diagrams">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FoE1EVFmEeeK-J0N4T-kxQ" type="Class" name="elements">
@@ -1280,11 +1336,7 @@
           <ownedOperation xmi:id="_UiGg8EquEeeJsdrfgQXeQw" name="Messages" visibility="private"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_Ys75AFFZEeeK-J0N4T-kxQ" name="classifier">
-          <eAnnotations xmi:id="_YtQpIFFZEeeK-J0N4T-kxQ" source="uml2.diagrams" references="_YtQpIVFZEeeK-J0N4T-kxQ">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_YtQpIVFZEeeK-J0N4T-kxQ" type="Freeform" name="Main">
-              <element xsi:nil="true"/>
-            </contents>
-          </eAnnotations>
+          <eAnnotations xmi:id="_YtQpIFFZEeeK-J0N4T-kxQ" source="uml2.diagrams"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_UXJ1MEquEeeJsdrfgQXeQw" name="ClassifiersCatalog">
             <ownedComment xmi:id="_UexXsEuAEeeC6_ZX80x4yQ" annotatedElement="_UXJ1MEquEeeJsdrfgQXeQw">
               <body>&lt;p>Represents a hierarchical catalog of budget elements.&lt;/p></body>
@@ -1761,7 +1813,7 @@
                 <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
                 <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_UhpN8EquEeeJsdrfgQXeQw">
                   <language></language>
-                  <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extraction.BudgetLawCsvFilesDownloader&quot;)</body>
+                  <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extraction.download.BudgetLawCsvFilesDownloader&quot;)</body>
                 </defaultValue>
               </ownedAttribute>
               <ownedAttribute xmi:id="_UhrqMEquEeeJsdrfgQXeQw" name="documentsSource" visibility="private">
@@ -1944,6 +1996,18 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_8Uj0kFFgEeeK-J0N4T-kxQ" name="BudgetExecutionWebPageDownloader"/>
           </packagedElement>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_A8MkQFH0Eee-AoOzRlyylA" name="ClassifiersCatalogFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_I5RIgFH0Eee-AoOzRlyylA" name="InstitutionsCatalogFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KP91sFH0Eee-AoOzRlyylA" name="BudgetLawFactory">
+          <ownedAttribute xmi:id="_jfJa8FH0Eee-AoOzRlyylA" name="instance" visibility="private" type="_KP91sFH0Eee-AoOzRlyylA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_N4VqkFH0Eee-AoOzRlyylA" name="BudgetExecutionFactory">
+          <ownedAttribute xmi:id="_gukwwFH0Eee-AoOzRlyylA" name="instance" visibility="private" type="_N4VqkFH0Eee-AoOzRlyylA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UcsIYFH0Eee-AoOzRlyylA" name="ClassifiersCatalog"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_XSi7MFH0Eee-AoOzRlyylA" name="InstitutionsCatalog"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_bm8IkFH0Eee-AoOzRlyylA" name="BudgetLaw"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_c9tuQFH0Eee-AoOzRlyylA" name="BudgetExecution"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_US_t8UquEeeJsdrfgQXeQw" name="extractors">
         <packagedElement xmi:type="uml:Interface" xmi:id="_UZ180EquEeeJsdrfgQXeQw" name="Extractor">
