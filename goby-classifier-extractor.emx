@@ -2480,6 +2480,19 @@
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_gsMO4FdJEee4ttLK_7FK1A" name="BulkFileMerger">
+          <ownedOperation xmi:id="_mSfTkFdKEee4ttLK_7FK1A" name="merge" isStatic="true">
+            <ownedParameter xmi:id="_q3fIwFdKEee4ttLK_7FK1A" name="souceDirectory">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_q3fv0FdKEee4ttLK_7FK1A" name="destinationDirectory">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_q3fv0VdKEee4ttLK_7FK1A" name="destinationFileName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_kNO9g0o0EeelLY1XmWdHYg">
