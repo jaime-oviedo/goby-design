@@ -1284,9 +1284,6 @@
           </ownedOperation>
           <ownedOperation xmi:id="_UiGg8EquEeeJsdrfgQXeQw" name="Messages" visibility="private"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Package" xmi:id="_Y_W80FhLEeeLhanfOp3nJA" name="execution">
-          <packagedElement xmi:type="uml:Class" xmi:id="_RRtysFFbEeeK-J0N4T-kxQ" name="BudgetExecution"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_fIKlIFFbEeeK-J0N4T-kxQ" name="extraction">
           <eAnnotations xmi:id="_fILMMFFbEeeK-J0N4T-kxQ" source="uml2.diagrams" references="_fILMMVFbEeeK-J0N4T-kxQ">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fILMMVFbEeeK-J0N4T-kxQ" type="Freeform" name="Main">
@@ -1365,177 +1362,19 @@
                 <body>Logger.getLogger(&quot;com.ingenium.goby.extractors.BudgetElementsExtractor&quot;)</body>
               </defaultValue>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_4kcKEFLuEeeyIrnvp3X3kA" name="classifiersCatalog" visibility="private" type="_UcsIYFH0Eee-AoOzRlyylA"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_UaQMgEquEeeJsdrfgQXeQw" name="PlainBudgetElement" visibility="protected" isLeaf="true">
-              <ownedAttribute xmi:id="_UhA70EquEeeJsdrfgQXeQw" name="subtitle" visibility="private" isLeaf="true">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-              </ownedAttribute>
-              <ownedAttribute xmi:id="_UhCJ8EquEeeJsdrfgQXeQw" name="item" visibility="private" isLeaf="true">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-              </ownedAttribute>
-              <ownedAttribute xmi:id="_UhDYEEquEeeJsdrfgQXeQw" name="assignment" visibility="private" isLeaf="true">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-              </ownedAttribute>
-              <ownedAttribute xmi:id="_UhEmMEquEeeJsdrfgQXeQw" name="name" visibility="private" isLeaf="true">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </ownedAttribute>
-              <ownedAttribute xmi:id="_UhF0UEquEeeJsdrfgQXeQw" name="description" visibility="private" isLeaf="true">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </ownedAttribute>
-              <ownedOperation xmi:id="_UhHpgEquEeeJsdrfgQXeQw" name="PlainBudgetElement" visibility="public">
-                <ownedComment xmi:id="_UhHpgUquEeeJsdrfgQXeQw" annotatedElement="_UhHpgEquEeeJsdrfgQXeQw">
-                  <body>&lt;p>Creates a new instance of PlainBudgetClassifier.&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_CYvFAEr0EeeJsdrfgQXeQw" name="subtitle">
-                  <ownedComment xmi:id="_0-4pYEt_EeeC6_ZX80x4yQ" annotatedElement="_CYvFAEr0EeeJsdrfgQXeQw">
-                    <body>&lt;p>the value of the subtitle field.&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_UhI3oEquEeeJsdrfgQXeQw" name="item">
-                  <ownedComment xmi:id="_1yhs0Et_EeeC6_ZX80x4yQ" annotatedElement="_UhI3oEquEeeJsdrfgQXeQw">
-                    <body>&lt;p>the value of the item field.&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_CYvsEEr0EeeJsdrfgQXeQw" name="assignment">
-                  <ownedComment xmi:id="_2xpAcEt_EeeC6_ZX80x4yQ" annotatedElement="_CYvsEEr0EeeJsdrfgQXeQw">
-                    <body>&lt;p>the value of the assignment field.&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_CYvsEUr0EeeJsdrfgQXeQw" name="name">
-                  <ownedComment xmi:id="_4AMeQEt_EeeC6_ZX80x4yQ" annotatedElement="_CYvsEUr0EeeJsdrfgQXeQw">
-                    <body>&lt;p>the value of the name field.&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_CYvsEkr0EeeJsdrfgQXeQw" name="description">
-                  <ownedComment xmi:id="_4-7-cEt_EeeC6_ZX80x4yQ" annotatedElement="_CYvsEkr0EeeJsdrfgQXeQw">
-                    <body>&lt;p>the value of the description field.&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhKFwEquEeeJsdrfgQXeQw" name="toString" visibility="public">
-                <ownedParameter xmi:id="_UhKFwUquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhT2wEquEeeJsdrfgQXeQw" name="getSubtitle" visibility="public">
-                <ownedParameter xmi:id="_UhUd0EquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhVr8EquEeeJsdrfgQXeQw" name="getItem" visibility="public">
-                <ownedParameter xmi:id="_UhVr8UquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhW6EEquEeeJsdrfgQXeQw" name="getAssignment" visibility="public">
-                <ownedParameter xmi:id="_UhXhIEquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhYvQEquEeeJsdrfgQXeQw" name="getName" visibility="public">
-                <ownedParameter xmi:id="_UhYvQUquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UhZ9YEquEeeJsdrfgQXeQw" name="getDescription" visibility="public">
-                <ownedParameter xmi:id="_UhakcEquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                </ownedParameter>
-              </ownedOperation>
-            </nestedClassifier>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_UagrMEquEeeJsdrfgQXeQw" name="BudgetClassifiersMapper" visibility="protected">
-              <eAnnotations xmi:id="_Uah5UEquEeeJsdrfgQXeQw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
-              <ownedOperation xmi:id="_UiMnkEquEeeJsdrfgQXeQw" name="map" visibility="public" isLeaf="true">
-                <ownedParameter xmi:id="_UiMnkUquEeeJsdrfgQXeQw" name="ReturnParameter" type="_UXJ1MEquEeeJsdrfgQXeQw" direction="return"/>
-                <ownedParameter xmi:id="_CHMpEEr0EeeJsdrfgQXeQw" name="classifiers" type="_UaQMgEquEeeJsdrfgQXeQw" isUnique="false">
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CHMpEUr0EeeJsdrfgQXeQw" value="*"/>
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CHMpEkr0EeeJsdrfgQXeQw"/>
-                </ownedParameter>
-              </ownedOperation>
-            </nestedClassifier>
+            <ownedAttribute xmi:id="_LzWOoFk0EeeTxfHpmbMLyQ" name="source" visibility="private" isLeaf="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
             <nestedClassifier xmi:type="uml:Class" xmi:id="_UXJ1MEquEeeJsdrfgQXeQw" name="ClassifiersCatalogImpl" visibility="protected" clientDependency="_hXo_MFLhEeeyIrnvp3X3kA">
               <ownedComment xmi:id="_UexXsEuAEeeC6_ZX80x4yQ" annotatedElement="_UXJ1MEquEeeJsdrfgQXeQw">
                 <body>&lt;p>Represents a hierarchical catalog of budget elements.&lt;/p></body>
               </ownedComment>
-              <ownedAttribute xmi:id="_Ud4vUEquEeeJsdrfgQXeQw" name="root" visibility="private" type="_UasRYEquEeeJsdrfgQXeQw">
-                <ownedComment xmi:id="_3TArgEuoEeeV1tNCHYSKhw" annotatedElement="_Ud4vUEquEeeJsdrfgQXeQw">
-                  <body>&lt;p>Program element used to hold the elements of the catalog.&lt;/p></body>
-                </ownedComment>
-              </ownedAttribute>
+              <generalization xmi:id="_BR2l0Fk0EeeTxfHpmbMLyQ" general="_UaAU4EquEeeJsdrfgQXeQw"/>
               <interfaceRealization xmi:id="_hXo_MFLhEeeyIrnvp3X3kA" supplier="_UcsIYFH0Eee-AoOzRlyylA" client="_UXJ1MEquEeeJsdrfgQXeQw" contract="_UcsIYFH0Eee-AoOzRlyylA"/>
-              <ownedOperation xmi:id="_Ud6kgEquEeeJsdrfgQXeQw" name="ClassifiersCatalog" visibility="public">
+              <ownedOperation xmi:id="_Ud6kgEquEeeJsdrfgQXeQw" name="ClassifiersCatalogImpl" visibility="public">
                 <ownedComment xmi:id="_Rz6XUEupEeeV1tNCHYSKhw" annotatedElement="_Ud6kgEquEeeJsdrfgQXeQw">
                   <body>&lt;p>Creates a new BudgetElementsCatalog.&lt;/p></body>
                 </ownedComment>
-              </ownedOperation>
-              <ownedOperation xmi:id="_Ud7yoEquEeeJsdrfgQXeQw" name="addSubtitle" visibility="public">
-                <ownedComment xmi:id="_Ktd5EEupEeeV1tNCHYSKhw" annotatedElement="_Ud7yoEquEeeJsdrfgQXeQw">
-                  <body>&lt;p>Adds a subtitle to the catalog.&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_dIsdUErwEeeJsdrfgQXeQw" name="subtitle" type="_Uawi0EquEeeJsdrfgQXeQw">
-                  <ownedComment xmi:id="_MWtHwEupEeeV1tNCHYSKhw" annotatedElement="_dIsdUErwEeeJsdrfgQXeQw">
-                    <body>&lt;p>the subtitle id number&lt;/p></body>
-                  </ownedComment>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_Ud9AwEquEeeJsdrfgQXeQw" name="addItem" visibility="public">
-                <ownedComment xmi:id="_FfjCsEupEeeV1tNCHYSKhw" annotatedElement="_Ud9AwEquEeeJsdrfgQXeQw">
-                  <body>&lt;p>Adds an item to the catalog within the provided subtitle.&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_dI1AMErwEeeJsdrfgQXeQw" name="subtitleNumber">
-                  <ownedComment xmi:id="_GalHkEupEeeV1tNCHYSKhw" annotatedElement="_dI1AMErwEeeJsdrfgQXeQw">
-                    <body>&lt;p>the subtitle id number&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_Ud-18EquEeeJsdrfgQXeQw" name="item" type="_UXEVoEquEeeJsdrfgQXeQw">
-                  <ownedComment xmi:id="_ISY9wEupEeeV1tNCHYSKhw" annotatedElement="_Ud-18EquEeeJsdrfgQXeQw">
-                    <body>&lt;p>the item id number&lt;/p></body>
-                  </ownedComment>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UeAEEEquEeeJsdrfgQXeQw" name="addAssignment" visibility="public">
-                <ownedComment xmi:id="_UeAEEUquEeeJsdrfgQXeQw" annotatedElement="_UeAEEEquEeeJsdrfgQXeQw">
-                  <body>&lt;p>Adds an assignment to the catalog within the provided subtitle and item.&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_dI9jEErwEeeJsdrfgQXeQw" name="subtitleNumber">
-                  <ownedComment xmi:id="_-hmZIEuoEeeV1tNCHYSKhw" annotatedElement="_dI9jEErwEeeJsdrfgQXeQw">
-                    <body>&lt;p>the subtitle id number&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_dI-KIErwEeeJsdrfgQXeQw" name="itemNumber">
-                  <ownedComment xmi:id="__lLWAEuoEeeV1tNCHYSKhw" annotatedElement="_dI-KIErwEeeJsdrfgQXeQw">
-                    <body>&lt;p>the item id number&lt;/p></body>
-                  </ownedComment>
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-                </ownedParameter>
-                <ownedParameter xmi:id="_dI-KIUrwEeeJsdrfgQXeQw" name="assignment" type="_UZvPIEquEeeJsdrfgQXeQw">
-                  <ownedComment xmi:id="_A5NJsEupEeeV1tNCHYSKhw" annotatedElement="_dI-KIUrwEeeJsdrfgQXeQw">
-                    <body>&lt;p>the assignment id number&lt;/p></body>
-                  </ownedComment>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_tThVoEt-EeeC6_ZX80x4yQ" name="getProgram" visibility="public">
-                <ownedComment xmi:id="_tThVoUt-EeeC6_ZX80x4yQ" annotatedElement="_tThVoEt-EeeC6_ZX80x4yQ">
-                  <body>&lt;p>Returns the special program that holds the catalog's elements.&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_tTh8sUt-EeeC6_ZX80x4yQ" name="ReturnParameter" type="_UasRYEquEeeJsdrfgQXeQw" direction="return">
-                  <ownedComment xmi:id="_Xz9OMEupEeeV1tNCHYSKhw" annotatedElement="_tTh8sUt-EeeC6_ZX80x4yQ">
-                    <body>&lt;p>the special program that holds the catalog's elements&lt;/p></body>
-                  </ownedComment>
-                </ownedParameter>
-              </ownedOperation>
-              <ownedOperation xmi:id="_tTjK0Et-EeeC6_ZX80x4yQ" name="setProgram" visibility="public">
-                <ownedComment xmi:id="_tTjK0Ut-EeeC6_ZX80x4yQ" annotatedElement="_tTjK0Et-EeeC6_ZX80x4yQ">
-                  <body>&lt;p>Sets the special program&lt;/p></body>
-                </ownedComment>
-                <ownedParameter xmi:id="_tTkY8Et-EeeC6_ZX80x4yQ" name="program" type="_UasRYEquEeeJsdrfgQXeQw"/>
               </ownedOperation>
               <ownedOperation xmi:id="_UeEVgEquEeeJsdrfgQXeQw" name="getSubtitles" visibility="public">
                 <ownedComment xmi:id="_kVKE8EupEeeV1tNCHYSKhw" annotatedElement="_UeEVgEquEeeJsdrfgQXeQw">
@@ -1560,24 +1399,12 @@
               <ownedComment xmi:id="_UdnpkUquEeeJsdrfgQXeQw" annotatedElement="_UdnpkEquEeeJsdrfgQXeQw">
                 <body>&lt;p>Creates a new instance of a BudgetElementExtractor.&lt;/p></body>
               </ownedComment>
-            </ownedOperation>
-            <ownedOperation xmi:id="_UdpewEquEeeJsdrfgQXeQw" name="extract" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw"/>
-            <ownedOperation xmi:id="_UdrT8EquEeeJsdrfgQXeQw" name="extractClassifierCatalog" visibility="private" raisedException="_UaL7EEquEeeJsdrfgQXeQw">
-              <ownedComment xmi:id="_Udr7AEquEeeJsdrfgQXeQw" annotatedElement="_UdrT8EquEeeJsdrfgQXeQw">
-                <body>&lt;p>Extracts the budget elements in a collection of plain objects.&lt;/p></body>
-              </ownedComment>
-              <ownedParameter xmi:id="_UdsiEUquEeeJsdrfgQXeQw" name="ReturnParameter" type="_UXJ1MEquEeeJsdrfgQXeQw" direction="return"/>
-            </ownedOperation>
-            <ownedOperation xmi:id="_Udz20EquEeeJsdrfgQXeQw" name="getReader" visibility="private" raisedException="_UaL7EEquEeeJsdrfgQXeQw">
-              <ownedComment xmi:id="_Udz20UquEeeJsdrfgQXeQw" annotatedElement="_Udz20EquEeeJsdrfgQXeQw">
-                <body>&lt;p>Gets a CSV reader pointing to the source file specified in a the properties file.&lt;/p></body>
-              </ownedComment>
-              <ownedParameter xmi:id="_Ud0d4UquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
-                <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.opencsv.CSVReader%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+              <ownedParameter xmi:id="_SgS84Fk2EeeTxfHpmbMLyQ" name="source">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
             </ownedOperation>
-            <ownedOperation xmi:id="_8frQkFLuEeeyIrnvp3X3kA" name="getExtractedCatalog">
-              <ownedParameter xmi:id="_-6SR0FLuEeeyIrnvp3X3kA" name="Parameter1" type="_UcsIYFH0Eee-AoOzRlyylA" direction="return"/>
+            <ownedOperation xmi:id="_UdpewEquEeeJsdrfgQXeQw" name="extract" visibility="public" raisedException="_-xYvEFYQEeeKVoBZn1AqUw">
+              <ownedParameter xmi:id="_x3yPEFk0EeeTxfHpmbMLyQ" name="Parameter1" type="_UcsIYFH0Eee-AoOzRlyylA" direction="return"/>
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_UXFjwEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesListExtractor">
@@ -1925,7 +1752,7 @@
                 <body>Logger.getLogger(&quot;com.ingenium.goby.extractors.InstitutionsCatalogExtractor&quot;)</body>
               </defaultValue>
             </ownedAttribute>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_J2HjoFYYEeeKVoBZn1AqUw" name="InstitutionsCatalogImpl" clientDependency="_S0qzAFYYEeeKVoBZn1AqUw">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_J2HjoFYYEeeKVoBZn1AqUw" name="InstitutionsCatalogImpl" visibility="package" clientDependency="_S0qzAFYYEeeKVoBZn1AqUw">
               <generalization xmi:id="_Ud1QgFbZEeeJ1LOQolUiwg" general="_UaAU4EquEeeJsdrfgQXeQw"/>
               <interfaceRealization xmi:id="_S0qzAFYYEeeKVoBZn1AqUw" supplier="_XSi7MFH0Eee-AoOzRlyylA" client="_J2HjoFYYEeeKVoBZn1AqUw" contract="_XSi7MFH0Eee-AoOzRlyylA"/>
               <ownedOperation xmi:id="_N3jYwFYYEeeKVoBZn1AqUw" name="InstitutionsCatalogImpl"/>
@@ -2564,7 +2391,6 @@
   <Default:Documentation xmi:id="_h5wqRUuNEeeV1tNCHYSKhw" base_Comment="_h5wDM0uNEeeV1tNCHYSKhw"/>
   <Default:Documentation xmi:id="_WB_mYEquEeeJsdrfgQXeQw" base_Comment="_UhyX4EquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WCANcEquEeeJsdrfgQXeQw" base_Comment="_UdnpkUquEeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_WCCpsEquEeeJsdrfgQXeQw" base_Comment="_Udz20UquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WCKlgEquEeeJsdrfgQXeQw" base_Comment="_UTQMoEquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WChK0EquEeeJsdrfgQXeQw" base_Comment="_UbF6AUquEeeJsdrfgQXeQw"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_WCkOIEquEeeJsdrfgQXeQw" base_TypedElement="_Uhv7oEquEeeJsdrfgQXeQw"/>
@@ -2575,16 +2401,8 @@
   <Default:Documentation xmi:id="_WC-d0EquEeeJsdrfgQXeQw" base_Comment="_UdK9oUquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WDjFkEquEeeJsdrfgQXeQw" base_Comment="_UaXhQEquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WDjsoEquEeeJsdrfgQXeQw" base_Comment="_UautoUquEeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_WDn-EEquEeeJsdrfgQXeQw" base_Comment="_Udr7AEquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WDpzQEquEeeJsdrfgQXeQw" base_Comment="_UXGK0EquEeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_WDyWIEquEeeJsdrfgQXeQw" base_Comment="_UhHpgUquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WD0LUEquEeeJsdrfgQXeQw" base_Comment="_UjF_cEquEeeJsdrfgQXeQw"/>
-  <JavaTransformation50:JavaCollection2 xmi:id="_Gb6mkEr0EeeJsdrfgQXeQw" base_TypedElement="_CHMpEEr0EeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_0-5QcEt_EeeC6_ZX80x4yQ" base_Comment="_0-4pYEt_EeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_1yi68Et_EeeC6_ZX80x4yQ" base_Comment="_1yhs0Et_EeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_2xqOkEt_EeeC6_ZX80x4yQ" base_Comment="_2xpAcEt_EeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_4ANsYEt_EeeC6_ZX80x4yQ" base_Comment="_4AMeQEt_EeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_4-9MkEt_EeeC6_ZX80x4yQ" base_Comment="_4-7-cEt_EeeC6_ZX80x4yQ"/>
   <Default:Documentation xmi:id="_mAzV4ExCEeeo2IEzB8X7BA" base_Comment="_mAw5oExCEeeo2IEzB8X7BA"/>
   <Default:Documentation xmi:id="_opi5wExCEeeo2IEzB8X7BA" base_Comment="_ophroExCEeeo2IEzB8X7BA"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_zG-TMExIEeeo2IEzB8X7BA" base_TypedElement="_qxM7EExIEeeo2IEzB8X7BA"/>
@@ -2616,21 +2434,8 @@
   <Default:Documentation xmi:id="_j34R0ExTEeeo2IEzB8X7BA" base_Comment="_j33DsExTEeeo2IEzB8X7BA"/>
   <Default:Documentation xmi:id="_ltvAMExTEeeo2IEzB8X7BA" base_Comment="_ltuZIExTEeeo2IEzB8X7BA"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_WC6MYEquEeeJsdrfgQXeQw" base_TypedElement="_UeE8kEquEeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_WDxvEEquEeeJsdrfgQXeQw" base_Comment="_UeAEEUquEeeJsdrfgQXeQw"/>
-  <Default:Documentation xmi:id="_zIrLIEt-EeeC6_ZX80x4yQ" base_Comment="_tTjK0Ut-EeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_zItAUEt-EeeC6_ZX80x4yQ" base_Comment="_tThVoUt-EeeC6_ZX80x4yQ"/>
   <Default:Documentation xmi:id="_Ueyl0EuAEeeC6_ZX80x4yQ" base_Comment="_UexXsEuAEeeC6_ZX80x4yQ"/>
-  <Default:Documentation xmi:id="_3TCgsEuoEeeV1tNCHYSKhw" base_Comment="_3TArgEuoEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_-hnAMEuoEeeV1tNCHYSKhw" base_Comment="_-hmZIEuoEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="__lMkIEuoEeeV1tNCHYSKhw" base_Comment="__lLWAEuoEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_A5OX0EupEeeV1tNCHYSKhw" base_Comment="_A5NJsEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_FfkQ0EupEeeV1tNCHYSKhw" base_Comment="_FfjCsEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_GamVsEupEeeV1tNCHYSKhw" base_Comment="_GalHkEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_ISaL4EupEeeV1tNCHYSKhw" base_Comment="_ISY9wEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_KtfHMEupEeeV1tNCHYSKhw" base_Comment="_Ktd5EEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_MWuV4EupEeeV1tNCHYSKhw" base_Comment="_MWtHwEupEeeV1tNCHYSKhw"/>
   <Default:Documentation xmi:id="_Rz7lcEupEeeV1tNCHYSKhw" base_Comment="_Rz6XUEupEeeV1tNCHYSKhw"/>
-  <Default:Documentation xmi:id="_Xz-cUEupEeeV1tNCHYSKhw" base_Comment="_Xz9OMEupEeeV1tNCHYSKhw"/>
   <Default:Documentation xmi:id="_kVLTEEupEeeV1tNCHYSKhw" base_Comment="_kVKE8EupEeeV1tNCHYSKhw"/>
   <Default:Documentation xmi:id="_krIU8EupEeeV1tNCHYSKhw" base_Comment="_krHG0EupEeeV1tNCHYSKhw"/>
   <Default:Documentation xmi:id="_WB78AEquEeeJsdrfgQXeQw" base_Comment="_UXEVoUquEeeJsdrfgQXeQw"/>
