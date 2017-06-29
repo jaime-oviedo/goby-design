@@ -411,7 +411,7 @@
               </ownedComment>
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_jKbzwE1VEeekuqvl4T6tsg" name="cummulativeDollarExecution" visibility="private">
+            <ownedAttribute xmi:id="_jKbzwE1VEeekuqvl4T6tsg" name="cumulativeDollarExecution" visibility="private">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_sdc3QE1VEeekuqvl4T6tsg" name="initialDollarBudget" visibility="private">
@@ -679,6 +679,9 @@
                 <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
               </ownedParameter>
             </ownedOperation>
+            <ownedOperation xmi:id="_ZHA9sFxhEee8GZGMCONk9w" name="BudgetElement">
+              <ownedParameter xmi:id="_aXqGMFxhEee8GZGMCONk9w" name="element" type="_UZ4ZEEquEeeJsdrfgQXeQw"/>
+            </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_UaAU4EquEeeJsdrfgQXeQw" name="CompositeBudgetElement">
             <ownedComment xmi:id="_UaAU4UquEeeJsdrfgQXeQw" annotatedElement="_UaAU4EquEeeJsdrfgQXeQw">
@@ -812,6 +815,28 @@
             <ownedOperation xmi:id="_0K-RMFEGEeeDDreW7cLBoA" name="setCumulativeDollarExecution">
               <ownedParameter xmi:id="_0K-RMVEGEeeDDreW7cLBoA" name="execution">
                 <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_iRcs8FxhEee8GZGMCONk9w" name="CompositeBudgetElement">
+              <ownedParameter xmi:id="_lEwiEFxhEee8GZGMCONk9w" name="element" type="_UaAU4EquEeeJsdrfgQXeQw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_mG6ioFxhEee8GZGMCONk9w" name="CompositeBudgetElement">
+              <ownedParameter xmi:id="_piKhgFxhEee8GZGMCONk9w" name="element" type="_UaAU4EquEeeJsdrfgQXeQw"/>
+              <ownedParameter xmi:id="_piLIkFxhEee8GZGMCONk9w" name="deepClone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_piLvoFxhEee8GZGMCONk9w"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_yI_3oFxlEee8GZGMCONk9w" name="setSubelements" visibility="public">
+              <ownedComment xmi:id="_yI_3oVxlEee8GZGMCONk9w" annotatedElement="_yI_3oFxlEee8GZGMCONk9w">
+                <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>@param&amp;nbsp;clasificadores&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_yI_3olxlEee8GZGMCONk9w" name="budgetElements" type="_TxJzsFHWEeelKfiaecC7iA" isUnique="false">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yI_3o1xlEee8GZGMCONk9w" value="*"/>
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yI_3pFxlEee8GZGMCONk9w"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_zPdwcFxlEee8GZGMCONk9w" name="deepClone">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
               </ownedParameter>
             </ownedOperation>
           </packagedElement>
@@ -1258,6 +1283,7 @@
             </ownedOperation>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_TxJzsFHWEeelKfiaecC7iA" name="? extends BudgetElement"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_fEUs0FxlEee8GZGMCONk9w" name="? extends CompositeBudgetElement"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_UacZwEquEeeJsdrfgQXeQw" name="Messages">
           <ownedAttribute xmi:id="_Uh_zQEquEeeJsdrfgQXeQw" name="BUNDLE_NAME" visibility="private" isLeaf="true" isStatic="true">
@@ -1573,10 +1599,6 @@
                   <body>&lt;p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.&lt;/p></body>
                 </ownedComment>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-                <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_fFeM8FtgEeeOSrmjy2R3PA">
-                  <language></language>
-                  <body>new Boolean(true)</body>
-                </defaultValue>
               </ownedAttribute>
               <ownedAttribute xmi:id="_yNL2YExGEeeo2IEzB8X7BA" name="tstamp" visibility="private">
                 <ownedComment xmi:id="_iBgQ8ExREeeo2IEzB8X7BA" annotatedElement="_yNL2YExGEeeo2IEzB8X7BA">
@@ -1639,7 +1661,7 @@
                   <body>&lt;p>Perform the extraction of the budget files.&lt;/p></body>
                 </ownedComment>
               </ownedOperation>
-              <ownedOperation xmi:id="_d_3v4ExDEeeo2IEzB8X7BA" name="useTimestamp">
+              <ownedOperation xmi:id="_d_3v4ExDEeeo2IEzB8X7BA" name="getUseTimestamp">
                 <ownedComment xmi:id="_dLAxMExTEeeo2IEzB8X7BA" annotatedElement="_d_3v4ExDEeeo2IEzB8X7BA">
                   <body>&lt;p>Returns the value of the timestamp usage flag.&lt;/p></body>
                 </ownedComment>
@@ -1650,7 +1672,7 @@
                   <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
                 </ownedParameter>
               </ownedOperation>
-              <ownedOperation xmi:id="_i_kkEExDEeeo2IEzB8X7BA" name="useTimestamp">
+              <ownedOperation xmi:id="_i_kkEExDEeeo2IEzB8X7BA" name="setUseTimestamp">
                 <ownedComment xmi:id="_j33DsExTEeeo2IEzB8X7BA" annotatedElement="_i_kkEExDEeeo2IEzB8X7BA">
                   <body>&lt;p>Sets the value of the timestamp usage flag.&lt;/p></body>
                 </ownedComment>
@@ -1802,11 +1824,12 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_ZBiuIFhLEeeLhanfOp3nJA" name="? extends BudgetElement"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_A8MkQFH0Eee-AoOzRlyylA" name="ClassifiersCatalogFactory">
-          <ownedAttribute xmi:id="_3r-EQFLeEeeyIrnvp3X3kA" name="instance" visibility="private" isStatic="true" type="_A8MkQFH0Eee-AoOzRlyylA"/>
+          <ownedAttribute xmi:id="_3r-EQFLeEeeyIrnvp3X3kA" name="instance" visibility="private" isStatic="true" type="_A8MkQFH0Eee-AoOzRlyylA">
+            <defaultValue xmi:type="uml:LiteralNull" xmi:id="_rXaDgFxvEee8GZGMCONk9w"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_meeoEFLfEeeyIrnvp3X3kA" name="classifiersCatalog" visibility="private" type="_UcsIYFH0Eee-AoOzRlyylA"/>
           <ownedAttribute xmi:id="_EhlrYFNZEeeyIrnvp3X3kA" name="extract" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-            <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_L6Os4FNZEeeyIrnvp3X3kA" value="true"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_iPj4oFalEeen0bP8VRV_UQ" name="source" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1836,11 +1859,12 @@
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_I5RIgFH0Eee-AoOzRlyylA" name="InstitutionsCatalogFactory">
-          <ownedAttribute xmi:id="_6YiYMFLeEeeyIrnvp3X3kA" name="instance" visibility="private" isStatic="true" type="_I5RIgFH0Eee-AoOzRlyylA"/>
+          <ownedAttribute xmi:id="_6YiYMFLeEeeyIrnvp3X3kA" name="instance" visibility="private" isStatic="true" type="_I5RIgFH0Eee-AoOzRlyylA">
+            <defaultValue xmi:type="uml:LiteralNull" xmi:id="_r8NZsFxvEee8GZGMCONk9w"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_neproFLfEeeyIrnvp3X3kA" name="institutionsCatalog" visibility="private" type="_XSi7MFH0Eee-AoOzRlyylA"/>
           <ownedAttribute xmi:id="_yYKl0FajEeen0bP8VRV_UQ" name="extract" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-            <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_yYKl0VajEeen0bP8VRV_UQ" value="true"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_KqcogFalEeen0bP8VRV_UQ" name="source" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1870,11 +1894,12 @@
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_KP91sFH0Eee-AoOzRlyylA" name="BudgetLawFactory">
-          <ownedAttribute xmi:id="_jfJa8FH0Eee-AoOzRlyylA" name="instance" visibility="private" isStatic="true" type="_KP91sFH0Eee-AoOzRlyylA"/>
+          <ownedAttribute xmi:id="_jfJa8FH0Eee-AoOzRlyylA" name="instance" visibility="private" isStatic="true" type="_KP91sFH0Eee-AoOzRlyylA">
+            <defaultValue xmi:type="uml:LiteralNull" xmi:id="_qafIQFxvEee8GZGMCONk9w"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_hwZvYFLfEeeyIrnvp3X3kA" name="budgetLaw" visibility="private" type="_bm8IkFH0Eee-AoOzRlyylA"/>
           <ownedAttribute xmi:id="_lUUvoFehEeeJT_eFoT-0rA" name="extract" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
-            <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_lUUvoVehEeeJT_eFoT-0rA" value="true"/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_nndP4FehEeeJT_eFoT-0rA" name="source" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1904,7 +1929,9 @@
           </ownedOperation>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_N4VqkFH0Eee-AoOzRlyylA" name="BudgetExecutionFactory">
-          <ownedAttribute xmi:id="_gukwwFH0Eee-AoOzRlyylA" name="instance" visibility="private" type="_N4VqkFH0Eee-AoOzRlyylA"/>
+          <ownedAttribute xmi:id="_gukwwFH0Eee-AoOzRlyylA" name="instance" visibility="private" type="_N4VqkFH0Eee-AoOzRlyylA">
+            <defaultValue xmi:type="uml:LiteralNull" xmi:id="_qGiRgFxvEee8GZGMCONk9w"/>
+          </ownedAttribute>
           <ownedAttribute xmi:id="_gVyykFLfEeeyIrnvp3X3kA" name="budgetExecution" visibility="private" type="_c9tuQFH0Eee-AoOzRlyylA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_Y_mNYFhLEeeLhanfOp3nJA" name="institution">
@@ -2089,7 +2116,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UXLDUEquEeeJsdrfgQXeQw" name="commons">
       <packagedElement xmi:type="uml:Package" xmi:id="_UXLqYEquEeeJsdrfgQXeQw" name="util">
-        <packagedElement xmi:type="uml:Class" xmi:id="_REJYAEuNEeeV1tNCHYSKhw" name="DownloaderImpl" clientDependency="_sKNmIFEOEeefZJp_ndvc2g" isAbstract="true">
+        <packagedElement xmi:type="uml:Class" xmi:id="_REJYAEuNEeeV1tNCHYSKhw" name="AbstractDownloader" clientDependency="_sKNmIFEOEeefZJp_ndvc2g" isAbstract="true">
           <ownedAttribute xmi:id="_ez4ecEuNEeeV1tNCHYSKhw" name="source" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
@@ -2233,9 +2260,8 @@
           </ownedComment>
           <ownedAttribute xmi:id="_UemhAEquEeeJsdrfgQXeQw" name="BUFFER_SIZE" visibility="private" isLeaf="true" isStatic="true">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-            <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_Cj64wErdEeeJsdrfgQXeQw">
-              <language></language>
-              <body>new Integer(4096)</body>
+            <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_IKYGUFx1Eee8GZGMCONk9w" value="4096">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
             </defaultValue>
           </ownedAttribute>
           <ownedOperation xmi:id="_UenvIEquEeeJsdrfgQXeQw" name="SimpleFileDownloader" visibility="public">
@@ -2600,4 +2626,7 @@
   <JavaTransformation50:JavaCollection2 xmi:id="_wkPIMleiEeeJT_eFoT-0rA" base_TypedElement="_wkPIMVeiEeeJT_eFoT-0rA"/>
   <JavaTransformation50:JavaWildcard xmi:id="_0T_ysFhLEeeLhanfOp3nJA" extends="_UZ4ZEEquEeeJsdrfgQXeQw" base_Type="_ZBiuIFhLEeeLhanfOp3nJA"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_CXELMFhUEeeLhanfOp3nJA" base_TypedElement="_CXBH4VhUEeeLhanfOp3nJA"/>
+  <JavaTransformation50:JavaWildcard xmi:id="_hKNbQFxlEee8GZGMCONk9w" extends="_UaAU4EquEeeJsdrfgQXeQw" base_Type="_fEUs0FxlEee8GZGMCONk9w"/>
+  <Default:Documentation xmi:id="_yJAesFxlEee8GZGMCONk9w" base_Comment="_yI_3oVxlEee8GZGMCONk9w"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_yJAesVxlEee8GZGMCONk9w" base_TypedElement="_yI_3olxlEee8GZGMCONk9w"/>
 </xmi:XMI>
