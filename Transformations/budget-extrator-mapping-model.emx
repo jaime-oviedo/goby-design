@@ -6,8 +6,8 @@
 <uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_I4Ph4EquEeeJsdrfgQXeQw" name="budget-extractor-mapping-model">
   <packagedElement xmi:type="uml:Artifact" xmi:id="_Np5TAEquEeeJsdrfgQXeQw" name="budget-extractor" clientDependency="_NqZpUEquEeeJsdrfgQXeQw" fileName="com.ingenium">
     <manifestation xmi:id="_NqZpUEquEeeJsdrfgQXeQw" client="_Np5TAEquEeeJsdrfgQXeQw">
-      <supplier xmi:type="uml:Model" href="../goby-classifier-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
-      <utilizedElement xmi:type="uml:Model" href="../goby-classifier-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
+      <supplier xmi:type="uml:Model" href="../budget-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
+      <utilizedElement xmi:type="uml:Model" href="../budget-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
     </manifestation>
   </packagedElement>
   <profileApplication xmi:id="_I4QwAEquEeeJsdrfgQXeQw">
