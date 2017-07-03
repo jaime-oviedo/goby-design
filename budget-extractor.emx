@@ -21,6 +21,41 @@
               <element xsi:nil="true"/>
             </contents>
           </eAnnotations>
+          <packagedElement xmi:type="uml:Class" xmi:id="_asLE8F0iEeez8bHvvwz5bA" name="BudgetExecutionFactory">
+            <ownedAttribute xmi:id="_asLE8V0iEeez8bHvvwz5bA" name="instance" visibility="private" isStatic="true" type="_asLE8F0iEeez8bHvvwz5bA">
+              <defaultValue xmi:type="uml:LiteralNull" xmi:id="_FwnooV5BEeeguv5GRmiMJw"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_asLE810iEeez8bHvvwz5bA" name="budgetExecution" visibility="private" type="_c9tuQFH0Eee-AoOzRlyylA"/>
+            <ownedAttribute xmi:id="_asLE9F0iEeez8bHvvwz5bA" name="extract" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_asLE9V0iEeez8bHvvwz5bA" name="source" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedOperation xmi:id="_asLE9l0iEeez8bHvvwz5bA" name="BudgetExecutionFactory" visibility="private"/>
+            <ownedOperation xmi:id="_asLE910iEeez8bHvvwz5bA" name="getInstance" visibility="public" isStatic="true" concurrency="guarded">
+              <ownedParameter xmi:id="_FwshIF5BEeeguv5GRmiMJw" name="ReturnParameter" type="_asLE8F0iEeez8bHvvwz5bA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_asLE-V0iEeez8bHvvwz5bA" name="getSource" visibility="package">
+              <ownedParameter xmi:id="_FwtIMF5BEeeguv5GRmiMJw" name="ReturnParameter" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_asLE-10iEeez8bHvvwz5bA" name="setSource" visibility="package">
+              <ownedParameter xmi:id="_FwtvQV5BEeeguv5GRmiMJw" name="newSource">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_asLE_V0iEeez8bHvvwz5bA" name="getBudgetExecution" visibility="public">
+              <ownedParameter xmi:id="_FwuWUV5BEeeguv5GRmiMJw" name="ReturnParameter" type="_c9tuQFH0Eee-AoOzRlyylA" direction="return"/>
+              <ownedParameter xmi:id="_Fwu9YF5BEeeguv5GRmiMJw" name="forceExtraction">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_asLFAF0iEeez8bHvvwz5bA" name="getBudgetExecution" visibility="public">
+              <ownedParameter xmi:id="_FwvkcF5BEeeguv5GRmiMJw" name="ReturnParameter" type="_c9tuQFH0Eee-AoOzRlyylA" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_gZP-YFdBEee4ttLK_7FK1A" name="injection">
             <eAnnotations xmi:id="_gaetcFdBEee4ttLK_7FK1A" source="uml2.diagrams" references="_gaetcVdBEee4ttLK_7FK1A">
               <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gaetcVdBEee4ttLK_7FK1A" type="Freeform" name="Main">
@@ -140,12 +175,6 @@
           <packagedElement xmi:type="uml:Package" xmi:id="_Y_mNYFhLEeeLhanfOp3nJA" name="institution">
             <packagedElement xmi:type="uml:Class" xmi:id="_SxVLUFFbEeeK-J0N4T-kxQ" name="InstitutionalCatalog"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_N4VqkFH0Eee-AoOzRlyylA" name="BudgetExecutionFactory">
-            <ownedAttribute xmi:id="_gukwwFH0Eee-AoOzRlyylA" name="instance" visibility="private" type="_N4VqkFH0Eee-AoOzRlyylA">
-              <defaultValue xmi:type="uml:LiteralNull" xmi:id="_qGiRgFxvEee8GZGMCONk9w"/>
-            </ownedAttribute>
-            <ownedAttribute xmi:id="_gVyykFLfEeeyIrnvp3X3kA" name="budgetExecution" visibility="private" type="_c9tuQFH0Eee-AoOzRlyylA"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_KP91sFH0Eee-AoOzRlyylA" name="BudgetLawFactory">
             <ownedAttribute xmi:id="_jfJa8FH0Eee-AoOzRlyylA" name="instance" visibility="private" isStatic="true" type="_KP91sFH0Eee-AoOzRlyylA">
               <defaultValue xmi:type="uml:LiteralNull" xmi:id="_qafIQFxvEee8GZGMCONk9w"/>
@@ -254,7 +283,7 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_UacZwEquEeeJsdrfgQXeQw" name="Messages">
             <ownedAttribute xmi:id="_Uh_zQEquEeeJsdrfgQXeQw" name="BUNDLE_NAME" visibility="private" isLeaf="true" isStatic="true">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              <defaultValue xmi:type="uml:LiteralString" xmi:id="_UiBBYEquEeeJsdrfgQXeQw" value="com.ingenium.goby.budget.extractor.extraction.extractor"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_UiBBYEquEeeJsdrfgQXeQw" value="com.ingenium.goby.budget.extractor.extractor"/>
             </ownedAttribute>
             <ownedAttribute xmi:id="_UiCPgEquEeeJsdrfgQXeQw" name="RESOURCE_BUNDLE" visibility="private" isLeaf="true" isStatic="true">
               <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.ResourceBundle%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
@@ -1605,9 +1634,6 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_TxJzsFHWEeelKfiaecC7iA" name="? extends BudgetElement"/>
             <packagedElement xmi:type="uml:Class" xmi:id="_fEUs0FxlEee8GZGMCONk9w" name="? extends CompositeBudgetElement"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_fAJBAFtgEeeOSrmjy2R3PA" name="execution">
-            <packagedElement xmi:type="uml:Class" xmi:id="_RRtysFFbEeeK-J0N4T-kxQ" name="BudgetExecution"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_fIKlIFFbEeeK-J0N4T-kxQ" name="extraction">
             <eAnnotations xmi:id="_fILMMFFbEeeK-J0N4T-kxQ" source="uml2.diagrams" references="_fILMMVFbEeeK-J0N4T-kxQ">
               <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_fILMMVFbEeeK-J0N4T-kxQ" type="Freeform" name="Main">
@@ -1672,6 +1698,49 @@
                 <element xsi:nil="true"/>
               </contents>
             </eAnnotations>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Fe6LEF0kEeez8bHvvwz5bA" name="BudgetExecutionExtractor">
+              <ownedComment xmi:id="_Fq5bIF5BEeeguv5GRmiMJw" annotatedElement="_Fe6LEF0kEeez8bHvvwz5bA">
+                <body>Esta&amp;nbsp;clase&amp;nbsp;extrae&amp;nbsp;toda&amp;nbsp;la&amp;nbsp;Ley&amp;nbsp;de&amp;nbsp;Presupuestos&amp;nbsp;desde&amp;nbsp;el&amp;nbsp;sitio&amp;nbsp;de&amp;nbsp;la&amp;nbsp;DIPRES.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrig</body>
+              </ownedComment>
+              <ownedAttribute xmi:id="_Fe6LEl0kEeez8bHvvwz5bA" name="log" visibility="private" isLeaf="true" isStatic="true">
+                <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+                <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_FxhnkF5BEeeguv5GRmiMJw">
+                  <language></language>
+                  <body>Logger.getLogger(&quot;com.ingenium.goby.extractors.BudgetExecutionExtractor&quot;)</body>
+                </defaultValue>
+              </ownedAttribute>
+              <ownedAttribute xmi:id="_Fe6LFF0kEeez8bHvvwz5bA" name="source" visibility="private" isLeaf="true">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedAttribute>
+              <nestedClassifier xmi:type="uml:Class" xmi:id="_Fe6LFV0kEeez8bHvvwz5bA" name="BudgetExecutionImpl" clientDependency="_FsNpwF5BEeeguv5GRmiMJw">
+                <generalization xmi:id="_FsNpwV5BEeeguv5GRmiMJw" general="_UaAU4EquEeeJsdrfgQXeQw"/>
+                <interfaceRealization xmi:id="_FsNpwF5BEeeguv5GRmiMJw" supplier="_c9tuQFH0Eee-AoOzRlyylA" client="_Fe6LFV0kEeez8bHvvwz5bA" contract="_c9tuQFH0Eee-AoOzRlyylA"/>
+                <ownedOperation xmi:id="_Fe6LGF0kEeez8bHvvwz5bA" name="getBatches" visibility="public">
+                  <ownedParameter xmi:id="_FsGVAV5BEeeguv5GRmiMJw" name="ReturnParameter" type="_0uoWQFFmEeeK-J0N4T-kxQ" isUnique="false" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FsG8EF5BEeeguv5GRmiMJw" value="*"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FsG8EV5BEeeguv5GRmiMJw"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Fe6LHF0kEeez8bHvvwz5bA" name="getBatch" visibility="public">
+                  <ownedParameter xmi:id="_FsKmcV5BEeeguv5GRmiMJw" name="ReturnParameter" type="_0uoWQFFmEeeK-J0N4T-kxQ" direction="return"/>
+                  <ownedParameter xmi:id="_FsLNgF5BEeeguv5GRmiMJw" name="batchNumber">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Fe6LH10kEeez8bHvvwz5bA" name="BudgetExecutionImpl" visibility="public"/>
+              </nestedClassifier>
+              <ownedOperation xmi:id="_Fe6LIF0kEeez8bHvvwz5bA" name="BudgetExecutionExtractor" visibility="public">
+                <ownedComment xmi:id="_FxjcwV5BEeeguv5GRmiMJw" annotatedElement="_Fe6LIF0kEeez8bHvvwz5bA">
+                  <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&amp;nbsp;BudgetExecutionExtractor.</body>
+                </ownedComment>
+                <ownedParameter xmi:id="_FxkD0F5BEeeguv5GRmiMJw" name="newSource">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_Fe6LI10kEeez8bHvvwz5bA" name="extract" visibility="public" raisedException="_-xYvEFYQEeeKVoBZn1AqUw">
+                <ownedParameter xmi:id="_FxkD0l5BEeeguv5GRmiMJw" name="ReturnParameter" type="_c9tuQFH0Eee-AoOzRlyylA" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_UXHY8EquEeeJsdrfgQXeQw" name="ClassifiersCatalogExtractor">
               <ownedComment xmi:id="_UXIAAEquEeeJsdrfgQXeQw" annotatedElement="_UXHY8EquEeeJsdrfgQXeQw">
                 <body>&lt;p>This class reads a csv file with the budget classifiers' information and generates an equivalent Json file.&lt;/p>&lt;p>@author JaimeRodrigo&lt;/p></body>
@@ -1726,30 +1795,6 @@
               </ownedOperation>
               <ownedOperation xmi:id="_UdpewEquEeeJsdrfgQXeQw" name="extract" visibility="public" raisedException="_-xYvEFYQEeeKVoBZn1AqUw">
                 <ownedParameter xmi:id="_x3yPEFk0EeeTxfHpmbMLyQ" name="Parameter1" type="_UcsIYFH0Eee-AoOzRlyylA" direction="return"/>
-              </ownedOperation>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_UXFjwEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesListExtractor">
-              <ownedComment xmi:id="_UXGK0EquEeeJsdrfgQXeQw" annotatedElement="_UXFjwEquEeeJsdrfgQXeQw">
-                <body>Clase&amp;nbsp;que&amp;nbsp;descarga&amp;nbsp;la&amp;nbsp;lista&amp;nbsp;de&amp;nbsp;archivos&amp;nbsp;que&amp;nbsp;contienen&amp;nbsp;información&amp;nbsp;de&amp;nbsp;la&amp;nbsp;Ley&lt;br>de&amp;nbsp;Presupuestos.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
-              </ownedComment>
-              <generalization xmi:id="_obEbIEuNEeeV1tNCHYSKhw" general="_REJYAEuNEeeV1tNCHYSKhw"/>
-              <ownedAttribute xmi:id="_UdIhYEquEeeJsdrfgQXeQw" name="budgetFileList" visibility="private" isUnique="false">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdJIcEquEeeJsdrfgQXeQw" value="*"/>
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdJIcUquEeeJsdrfgQXeQw"/>
-              </ownedAttribute>
-              <ownedOperation xmi:id="_UdK9oEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesListExtractor" visibility="public">
-                <ownedComment xmi:id="_UdK9oUquEeeJsdrfgQXeQw" annotatedElement="_UdK9oEquEeeJsdrfgQXeQw">
-                  <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;BudgetFileListExtractor.</body>
-                </ownedComment>
-              </ownedOperation>
-              <ownedOperation xmi:id="_UdMy0EquEeeJsdrfgQXeQw" name="download" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw"/>
-              <ownedOperation xmi:id="_UdQdMEquEeeJsdrfgQXeQw" name="getBudgetFileList" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw">
-                <ownedParameter xmi:id="_UdQdMUquEeeJsdrfgQXeQw" name="ReturnParameter" isUnique="false" direction="return">
-                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdREQEquEeeJsdrfgQXeQw" value="*"/>
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdREQUquEeeJsdrfgQXeQw"/>
-                </ownedParameter>
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_UautoEquEeeJsdrfgQXeQw" name="BudgetLawExtractor">
@@ -1863,6 +1908,30 @@
                   <element xsi:nil="true"/>
                 </contents>
               </eAnnotations>
+              <packagedElement xmi:type="uml:Class" xmi:id="_UXFjwEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesListDownloader">
+                <ownedComment xmi:id="_UXGK0EquEeeJsdrfgQXeQw" annotatedElement="_UXFjwEquEeeJsdrfgQXeQw">
+                  <body>Clase&amp;nbsp;que&amp;nbsp;descarga&amp;nbsp;la&amp;nbsp;lista&amp;nbsp;de&amp;nbsp;archivos&amp;nbsp;que&amp;nbsp;contienen&amp;nbsp;información&amp;nbsp;de&amp;nbsp;la&amp;nbsp;Ley&lt;br>de&amp;nbsp;Presupuestos.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
+                </ownedComment>
+                <generalization xmi:id="_obEbIEuNEeeV1tNCHYSKhw" general="_REJYAEuNEeeV1tNCHYSKhw"/>
+                <ownedAttribute xmi:id="_UdIhYEquEeeJsdrfgQXeQw" name="budgetFileList" visibility="private" isUnique="false">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdJIcEquEeeJsdrfgQXeQw" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdJIcUquEeeJsdrfgQXeQw"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_UdK9oEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesListDownloader" visibility="public">
+                  <ownedComment xmi:id="_UdK9oUquEeeJsdrfgQXeQw" annotatedElement="_UdK9oEquEeeJsdrfgQXeQw">
+                    <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;BudgetFileListExtractor.</body>
+                  </ownedComment>
+                </ownedOperation>
+                <ownedOperation xmi:id="_UdMy0EquEeeJsdrfgQXeQw" name="download" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw"/>
+                <ownedOperation xmi:id="_UdQdMEquEeeJsdrfgQXeQw" name="getBudgetFileList" visibility="public" raisedException="_UaL7EEquEeeJsdrfgQXeQw">
+                  <ownedParameter xmi:id="_UdQdMUquEeeJsdrfgQXeQw" name="ReturnParameter" isUnique="false" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UdREQEquEeeJsdrfgQXeQw" value="*"/>
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UdREQUquEeeJsdrfgQXeQw"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_UaW6MEquEeeJsdrfgQXeQw" name="BudgetLawCsvFilesDownloader">
                 <ownedComment xmi:id="_UaXhQEquEeeJsdrfgQXeQw" annotatedElement="_UaW6MEquEeeJsdrfgQXeQw">
                   <body>&lt;p>This class extracts budget-related files from the Chilean Budget Directorate's website.&lt;/p></body>
@@ -2117,6 +2186,64 @@
               </ownedOperation>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_ZBiuIFhLEeeLhanfOp3nJA" name="? extends BudgetElement"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_ZuLUgF5HEeeguv5GRmiMJw" name="crawl">
+              <eAnnotations xmi:id="_ZubzMF5HEeeguv5GRmiMJw" source="uml2.diagrams" references="_ZubzMV5HEeeguv5GRmiMJw">
+                <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ZubzMV5HEeeguv5GRmiMJw" type="Freeform" name="Main">
+                  <element xsi:nil="true"/>
+                </contents>
+              </eAnnotations>
+              <packagedElement xmi:type="uml:Class" xmi:id="_bPdhEF5HEeeguv5GRmiMJw" name="BudgetExecutionCrawler">
+                <ownedAttribute xmi:id="_vr2swF5HEeeguv5GRmiMJw" name="keywordsGroups" visibility="private" type="_RXhWIV5IEeeguv5GRmiMJw">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RXlAgl5IEeeguv5GRmiMJw" value="*"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RXlAg15IEeeguv5GRmiMJw"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_3sGrYF5IEeeguv5GRmiMJw" name="log" visibility="package" isLeaf="true" isStatic="true">
+                  <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+                  <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_3sGrYV5IEeeguv5GRmiMJw">
+                    <language></language>
+                    <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extractor.extraction.crawl.BudgetExecutionCrawler&quot;)</body>
+                  </defaultValue>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_GOL0wF5JEeeguv5GRmiMJw" name="budgetDirectorateWebsiteUrl" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_lWbfIF5JEeeguv5GRmiMJw" value="http://www.dipres.gob.cl">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </defaultValue>
+                </ownedAttribute>
+                <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_S4b_gF9qEeeRDb5hxZnsBw" name="ExecutionPeriod">
+                  <ownedLiteral xmi:id="_oyxI0F9qEeeRDb5hxZnsBw" name="JANUARY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_qb9UMF9qEeeRDb5hxZnsBw" name="FEBRUARY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_jw5U8F9rEeeRDb5hxZnsBw" name="FIRST_TRIMESTER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_lWKpoF9rEeeRDb5hxZnsBw" name="APRIL" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_mk5GkF9rEeeRDb5hxZnsBw" name="MAY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_nU5nMF9rEeeRDb5hxZnsBw" name="SECOND_TRIMESTER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_o0HXMF9rEeeRDb5hxZnsBw" name="JULY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_p7BU4F9rEeeRDb5hxZnsBw" name="AUGUST" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_qpkc8F9rEeeRDb5hxZnsBw" name="THIRD_TRIMESTER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_rnrD8F9rEeeRDb5hxZnsBw" name="OCTOBER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_tCLTEF9rEeeRDb5hxZnsBw" name="NOVEMBER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                  <ownedLiteral xmi:id="_uj6yoF9rEeeRDb5hxZnsBw" name="FOURTH_TRIMESTER" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
+                </nestedClassifier>
+                <ownedOperation xmi:id="_iI3o4F5HEeeguv5GRmiMJw" name="BudgetExecutionCrawler"/>
+                <ownedOperation xmi:id="_pCoWAF5HEeeguv5GRmiMJw" name="findExecutionFiles">
+                  <ownedParameter xmi:id="_rA1IEF5HEeeguv5GRmiMJw" name="Parameter1" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_AnOnEF9sEeeRDb5hxZnsBw" name="year">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_RXhWIV5IEeeguv5GRmiMJw" name="List&lt;String>">
+                <templateBinding xmi:id="_RXikQV5IEeeguv5GRmiMJw">
+                  <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=List%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-budget-extractor%5D%5D$uml.RedefinableTemplateSignature"/>
+                  <parameterSubstitution xmi:id="_RXjLUF5IEeeguv5GRmiMJw" actual="_RXjLUV5IEeeguv5GRmiMJw">
+                    <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-budget-extractor%5D%5D$uml.ClassifierTemplateParameter"/>
+                    <ownedActual xmi:type="uml:Class" xmi:id="_RXjLUV5IEeeguv5GRmiMJw" name="String"/>
+                  </parameterSubstitution>
+                </templateBinding>
+              </packagedElement>
+            </packagedElement>
           </packagedElement>
         </packagedElement>
       </packagedElement>
@@ -2636,4 +2763,12 @@
   <JavaTransformation50:JavaWildcard xmi:id="_hKNbQFxlEee8GZGMCONk9w" extends="_UaAU4EquEeeJsdrfgQXeQw" base_Type="_fEUs0FxlEee8GZGMCONk9w"/>
   <Default:Documentation xmi:id="_yJAesFxlEee8GZGMCONk9w" base_Comment="_yI_3oVxlEee8GZGMCONk9w"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_yJAesVxlEee8GZGMCONk9w" base_TypedElement="_yI_3olxlEee8GZGMCONk9w"/>
+  <Default:Documentation xmi:id="_VWz6YF5BEeeguv5GRmiMJw" base_Comment="_Fq5bIF5BEeeguv5GRmiMJw"/>
+  <Default:Documentation xmi:id="_VW1IgF5BEeeguv5GRmiMJw" base_Comment="_FxjcwV5BEeeguv5GRmiMJw"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_VW2WoF5BEeeguv5GRmiMJw" base_TypedElement="_FsGVAV5BEeeguv5GRmiMJw"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_DaNtwF5IEeeguv5GRmiMJw" collectionType="java.util.List" base_TypedElement="_vr2swF5HEeeguv5GRmiMJw"/>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_Uxil8F5IEeeguv5GRmiMJw" base_Interface="_RXhWIV5IEeeguv5GRmiMJw"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_UxkbIF5IEeeguv5GRmiMJw" base_Type="_RXjLUV5IEeeguv5GRmiMJw">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
 </xmi:XMI>
