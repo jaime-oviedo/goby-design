@@ -109,11 +109,9 @@
           <defaultValue xmi:type="uml:LiteralString" xmi:id="_lWbfIF5JEeeguv5GRmiMJw" value="http://www.dipres.gob.cl"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_3aiXoGEkEeeMhLKRNTgRlA" name="budgetExecutionFilesList" visibility="private" type="_RXhWIV5IEeeguv5GRmiMJw"/>
-        <ownedAttribute xmi:id="_5nW0gGEkEeeMhLKRNTgRlA" name="budgetExecutionFilesBaseUrl" visibility="private"/>
-        <ownedOperation xmi:id="_VbBvwGElEeeMhLKRNTgRlA" name="setExcutionFilesList">
-          <ownedParameter xmi:id="_ZhGNQGElEeeMhLKRNTgRlA" name="list" type="_RXhWIV5IEeeguv5GRmiMJw"/>
-        </ownedOperation>
-        <ownedOperation xmi:id="_iI3o4F5HEeeguv5GRmiMJw" name="BudgetExecutionCrawler"/>
+        <ownedAttribute xmi:id="_5nW0gGEkEeeMhLKRNTgRlA" name="budgetExecutionFilesBaseUrl" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_pCoWAF5HEeeguv5GRmiMJw" name="findExecutionFiles">
           <ownedParameter xmi:id="_rA1IEF5HEeeguv5GRmiMJw" name="Parameter1" isOrdered="true" isUnique="false" direction="return">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -125,6 +123,10 @@
           </ownedParameter>
           <ownedParameter xmi:id="_XC0igGCtEeeyf97XDVaBvw" name="executionPeriod" type="_S4b_gF9qEeeRDb5hxZnsBw"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_VbBvwGElEeeMhLKRNTgRlA" name="setBudgetExecutionFilesList">
+          <ownedParameter xmi:id="_ZhGNQGElEeeMhLKRNTgRlA" name="list" type="_RXhWIV5IEeeguv5GRmiMJw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_iI3o4F5HEeeguv5GRmiMJw" name="BudgetExecutionCrawler"/>
         <ownedOperation xmi:id="_mVqTUWAREeefXZqJOyM9_Q" name="extractExecutionCsvFilesUrls" visibility="package">
           <ownedComment xmi:id="_mVqTUmAREeefXZqJOyM9_Q" annotatedElement="_mVqTUWAREeefXZqJOyM9_Q">
             <body>@param&amp;nbsp;programLevelBudgetExecutionYearPage</body>
@@ -148,16 +150,10 @@
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.gargoylesoftware.htmlunit.html.HtmlElement%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
-        <ownedOperation xmi:id="_XC3l0WCtEeeyf97XDVaBvw" name="getCsvFileUrl" visibility="private">
-          <ownedParameter xmi:id="_XC4M4GCtEeeyf97XDVaBvw" name="ReturnParameter" direction="return">
+        <ownedOperation xmi:id="_OAjiQGElEeeMhLKRNTgRlA" name="setBudgetExecutionFilesBaseUrl">
+          <ownedParameter xmi:id="_RjT3UGElEeeMhLKRNTgRlA" name="url">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_XC4z8GCtEeeyf97XDVaBvw" name="recuadroDivTag">
-            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.gargoylesoftware.htmlunit.html.DomElement%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
-          </ownedParameter>
-        </ownedOperation>
-        <ownedOperation xmi:id="_OAjiQGElEeeMhLKRNTgRlA" name="setBudgetExecutionFilesBaseUrl">
-          <ownedParameter xmi:id="_RjT3UGElEeeMhLKRNTgRlA" name="String url"/>
         </ownedOperation>
         <ownedOperation xmi:id="_SzRDUGElEeeMhLKRNTgRlA" name="getBudgetExecutionFilesBaseUrl">
           <ownedParameter xmi:id="_UpwD0GElEeeMhLKRNTgRlA" name="Parameter1" direction="return">
@@ -166,6 +162,14 @@
         </ownedOperation>
         <ownedOperation xmi:id="_atThsGElEeeMhLKRNTgRlA" name="getExecutionFilesList">
           <ownedParameter xmi:id="_csYdgGElEeeMhLKRNTgRlA" name="Parameter1" type="_RXhWIV5IEeeguv5GRmiMJw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_XC3l0WCtEeeyf97XDVaBvw" name="getCsvFileUrl" visibility="private">
+          <ownedParameter xmi:id="_XC4M4GCtEeeyf97XDVaBvw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_XC4z8GCtEeeyf97XDVaBvw" name="recuadroDivTag">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.gargoylesoftware.htmlunit.html.DomElement%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_RXhWIV5IEeeguv5GRmiMJw" name="List&lt;String>">
@@ -2224,8 +2228,8 @@
         </defaultValue>
       </ownedAttribute>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Y1eMQGD3EeemUqxRur9fjQ" name="BudgetExtractorImpl" clientDependency="_jR8LIGD3EeemUqxRur9fjQ">
-        <ownedAttribute xmi:id="_Hd42kGEREeeMhLKRNTgRlA" name="budgetLaw" visibility="private" isLeaf="true" type="_bm8IkFH0Eee-AoOzRlyylA"/>
-        <ownedAttribute xmi:id="_XjRlwGEREeeMhLKRNTgRlA" name="budgetExecution" visibility="private" isLeaf="true" type="_c9tuQFH0Eee-AoOzRlyylA"/>
+        <ownedAttribute xmi:id="_Hd42kGEREeeMhLKRNTgRlA" name="budgetLaw" visibility="private" type="_bm8IkFH0Eee-AoOzRlyylA"/>
+        <ownedAttribute xmi:id="_XjRlwGEREeeMhLKRNTgRlA" name="budgetExecution" visibility="private" type="_c9tuQFH0Eee-AoOzRlyylA"/>
         <interfaceRealization xmi:id="_jR8LIGD3EeemUqxRur9fjQ" supplier="_bCSCEGD3EeemUqxRur9fjQ" client="_Y1eMQGD3EeemUqxRur9fjQ" contract="_bCSCEGD3EeemUqxRur9fjQ"/>
         <ownedOperation xmi:id="_kgCZIGD7EeemUqxRur9fjQ" name="extractBudgetLaw" visibility="public">
           <ownedParameter xmi:id="_398hUGEREeeMhLKRNTgRlA" name="Parameter1" type="_bm8IkFH0Eee-AoOzRlyylA" direction="return"/>
