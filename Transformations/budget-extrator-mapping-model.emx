@@ -4,10 +4,22 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_I4Ph4EquEeeJsdrfgQXeQw" name="budget-extractor-mapping-model">
-  <packagedElement xmi:type="uml:Artifact" xmi:id="_Np5TAEquEeeJsdrfgQXeQw" name="budget-extractor" clientDependency="_NqZpUEquEeeJsdrfgQXeQw" fileName="com.ingenium">
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_Np5TAEquEeeJsdrfgQXeQw" name="budget-extractor" clientDependency="_NqZpUEquEeeJsdrfgQXeQw" fileName="com.ingenium.goby.budget.extractor">
     <manifestation xmi:id="_NqZpUEquEeeJsdrfgQXeQw" client="_Np5TAEquEeeJsdrfgQXeQw">
       <supplier xmi:type="uml:Model" href="../budget-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
       <utilizedElement xmi:type="uml:Model" href="../budget-extractor.emx#_kNO9gEo0EeelLY1XmWdHYg?budget-extractor?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_ttq4QGD5EeemUqxRur9fjQ" name="commons" clientDependency="_ttrfUGD5EeemUqxRur9fjQ" fileName="com.ingenium.commons">
+    <manifestation xmi:id="_ttrfUGD5EeemUqxRur9fjQ" client="_ttq4QGD5EeemUqxRur9fjQ">
+      <supplier xmi:type="uml:Model" href="../commons.emx#_RVJjgmD5EeemUqxRur9fjQ?commons?"/>
+      <utilizedElement xmi:type="uml:Model" href="../commons.emx#_RVJjgmD5EeemUqxRur9fjQ?commons?"/>
+    </manifestation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_wy_qcGD5EeemUqxRur9fjQ" name="goby" clientDependency="_wy_qcWD5EeemUqxRur9fjQ" fileName="com.ingenium">
+    <manifestation xmi:id="_wy_qcWD5EeemUqxRur9fjQ" client="_wy_qcGD5EeemUqxRur9fjQ">
+      <supplier xmi:type="uml:Package" href="../budget-law-service.emx#_SdOdkF3SEee0YvTWGhHp9w?budget-law-service/goby?"/>
+      <utilizedElement xmi:type="uml:Package" href="../budget-law-service.emx#_SdOdkF3SEee0YvTWGhHp9w?budget-law-service/goby?"/>
     </manifestation>
   </packagedElement>
   <profileApplication xmi:id="_I4QwAEquEeeJsdrfgQXeQw">
