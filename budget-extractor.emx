@@ -425,6 +425,11 @@
           </ownedParameter>
           <raisedException xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=DownloadException%5Bjcu%5Ename=DownloadException.java%5Bjpack%5Ename=com.ingenium.commons.util%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=goby-commons%5D%5D%5D%5D$uml.Class"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_t7jPIGNdEeebmPnwD8r8OA" name="getTimestampedDestination">
+          <ownedParameter xmi:id="_u9qzcGNdEeebmPnwD8r8OA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_UTAVAEquEeeJsdrfgQXeQw" name="BudgetLawWebPageDownloader">
         <ownedComment xmi:id="_UTQMoEquEeeJsdrfgQXeQw" annotatedElement="_UTAVAEquEeeJsdrfgQXeQw">
@@ -2505,6 +2510,35 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZBx-sVhLEeeLhanfOp3nJA"/>
         </ownedParameter>
       </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_8GiwYGNsEeebmPnwD8r8OA" name="normalization">
+      <eAnnotations xmi:id="_8HM3sGNsEeebmPnwD8r8OA" source="uml2.diagrams" references="_8HNewGNsEeebmPnwD8r8OA">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8HNewGNsEeebmPnwD8r8OA" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_95O2AGNsEeebmPnwD8r8OA" name="BudgetExecutionCsvFileNormalizer">
+        <ownedOperation xmi:id="_CU6-MGNtEeebmPnwD8r8OA" name="BudgetExecutionCsvFileNormalizer" visibility="private"/>
+        <ownedOperation xmi:id="_FYutcGNtEeebmPnwD8r8OA" name="normalize" isStatic="true">
+          <ownedParameter xmi:id="_MhCz8GNtEeebmPnwD8r8OA" name="csvBudgetExecutionFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MhDbAGNtEeebmPnwD8r8OA" name="destination">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MhDbAWNtEeebmPnwD8r8OA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TBCWMGNtEeebmPnwD8r8OA" name="normalize" isStatic="true">
+          <ownedParameter xmi:id="_TBCWMWNtEeebmPnwD8r8OA" name="csvBudgetExecutionFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TBCWM2NtEeebmPnwD8r8OA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_kNO9g0o0EeelLY1XmWdHYg">
       <eAnnotations xmi:id="_kNO9hEo0EeelLY1XmWdHYg" source="http://www.eclipse.org/uml2/2.0.0/UML">

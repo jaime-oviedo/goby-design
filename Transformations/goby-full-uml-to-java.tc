@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><TransformationConfiguration forwardTransformation="com.ibm.xtools.transform.composite" version="8.0.0">
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<Property id="CONTEXT_SOURCE" value="@49,75@com.ibm.xtools.transform.core.metatype.Collectionbudget-extractor-uml-to-java.tc (Forward), commons-uml-to-java.tc (Forward)java.util.ArrayList,174,156&lt;ELEM_START&gt;@65,41@com.ibm.xtools.transform.composite.metatype.NestedTransformConfigbudget-extractor-uml-to-java.tc (Forward)F/goby-design/Transformations/budget-extractor-uml-to-java.tc,@65,32@com.ibm.xtools.transform.composite.metatype.NestedTransformConfigcommons-uml-to-java.tc (Forward)F/goby-design/Transformations/commons-uml-to-java.tc"/>
+<Property id="DCMP" value="@43,10@com.ibm.xtools.transform.core.metatype.DCMPConceptual1"/>
+<Property id="EnableReverseTransformation" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
+<Property id="FORWARD_TRANSFORMATION_EXTENSIONS_STATUS" value="@42,0@com.ibm.xtools.transform.core.metatype.Mapjava.util.HashMap&lt;ELEM_START&gt;"/>
+<Property id="PARENT_CONFIG_URIS" value="@49,0@com.ibm.xtools.transform.core.metatype.Collectionjava.util.ArrayList&lt;ELEM_START&gt;"/>
+<Property id="replaceUML" value="@46,=@com.ibm.xtools.transform.core.metatype.booleanfalse"/>
+</TransformationConfiguration>
