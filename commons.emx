@@ -3,7 +3,7 @@
 <!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
   <uml:Model xmi:id="_RVJjgmD5EeemUqxRur9fjQ" name="commons">
     <eAnnotations xmi:id="_RVJjg2D5EeemUqxRur9fjQ" source="uml2.diagrams"/>
     <packageImport xmi:id="_RVJjhGD5EeemUqxRur9fjQ">
@@ -181,6 +181,38 @@
           <raisedException xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.io.IOException%5Bproject%5Eid=goby-commons%5D$uml.Class"/>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rAWFEmzbEeeX3cBMD4xNqQ" name="StringArrayToCompositeCollectionMapper">
+        <ownedComment xmi:id="_rAWsIGzbEeeX3cBMD4xNqQ" annotatedElement="_rAWFEmzbEeeX3cBMD4xNqQ">
+          <body>@author&amp;nbsp;JaimeRodrigo</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_rBCBkGzbEeeX3cBMD4xNqQ" name="StringArrayToCompositeCollectionMapper" visibility="public">
+          <ownedComment xmi:id="_rBCooGzbEeeX3cBMD4xNqQ" annotatedElement="_rBCBkGzbEeeX3cBMD4xNqQ">
+            <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&lt;br>StringArrayToCompositeCollectionMapper.</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rBDPsGzbEeeX3cBMD4xNqQ" name="map" visibility="public" isStatic="true">
+          <ownedParameter xmi:id="_rBDPsWzbEeeX3cBMD4xNqQ" name="ReturnParameter" type="_rBdfYGzbEeeX3cBMD4xNqQ" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBhw0WzbEeeX3cBMD4xNqQ" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBiX4GzbEeeX3cBMD4xNqQ"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rBkNEGzbEeeX3cBMD4xNqQ" name="arrays" isOrdered="true" isUnique="false">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBkNEWzbEeeX3cBMD4xNqQ" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBkNEmzbEeeX3cBMD4xNqQ"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rBk0IWzbEeeX3cBMD4xNqQ" name="unMap" visibility="public" isStatic="true">
+          <ownedParameter xmi:id="_rBk0ImzbEeeX3cBMD4xNqQ" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBk0I2zbEeeX3cBMD4xNqQ" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBlbMGzbEeeX3cBMD4xNqQ"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_rBlbMmzbEeeX3cBMD4xNqQ" name="collections" type="_rBn3cGzbEeeX3cBMD4xNqQ" isOrdered="true" isUnique="false">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rBoegWzbEeeX3cBMD4xNqQ" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rBoegmzbEeeX3cBMD4xNqQ"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_UaNwQEquEeeJsdrfgQXeQw" name="FormattedWebPageDownloader">
         <ownedComment xmi:id="_UaOXUEquEeeJsdrfgQXeQw" annotatedElement="_UaNwQEquEeeJsdrfgQXeQw">
           <body>Clase&amp;nbsp;que&amp;nbsp;descarga&amp;nbsp;una&amp;nbsp;página&amp;nbsp;web,&amp;nbsp;intentando&amp;nbsp;corregir&amp;nbsp;automáticamente&lt;br>cualquier&amp;nbsp;error&amp;nbsp;de&amp;nbsp;tags&amp;nbsp;HTML&amp;nbsp;mal&amp;nbsp;cerrados.&lt;br>&lt;br>La&amp;nbsp;descarga&amp;nbsp;es&amp;nbsp;sólo&amp;nbsp;del&amp;nbsp;texto&amp;nbsp;html,&amp;nbsp;no&amp;nbsp;de&amp;nbsp;sus&amp;nbsp;imágenes&amp;nbsp;ni&amp;nbsp;de&amp;nbsp;sus&amp;nbsp;recursos&lt;br>enlazados.&lt;br>&lt;br>@author&amp;nbsp;JaimeRodrigo</body>
@@ -292,6 +324,24 @@
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rBdfYGzbEeeX3cBMD4xNqQ" name="ArrayList&lt;String>">
+        <templateBinding xmi:id="_rBf7oWzbEeeX3cBMD4xNqQ">
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=ArrayList%5Bjbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=goby-commons%5D%5D$uml.RedefinableTemplateSignature"/>
+          <parameterSubstitution xmi:id="_rBf7omzbEeeX3cBMD4xNqQ" actual="_rBgisGzbEeeX3cBMD4xNqQ">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.ArrayList%5Bproject%5Eid=goby-commons%5D%5D$uml.ClassifierTemplateParameter"/>
+            <ownedActual xmi:type="uml:Class" xmi:id="_rBgisGzbEeeX3cBMD4xNqQ" name="String"/>
+          </parameterSubstitution>
+        </templateBinding>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_rBn3cGzbEeeX3cBMD4xNqQ" name="List&lt;String>">
+        <templateBinding xmi:id="_rBn3cmzbEeeX3cBMD4xNqQ">
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=List%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-commons%5D%5D$uml.RedefinableTemplateSignature"/>
+          <parameterSubstitution xmi:id="_rBn3c2zbEeeX3cBMD4xNqQ" actual="_rBn3dGzbEeeX3cBMD4xNqQ">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-commons%5D%5D$uml.ClassifierTemplateParameter"/>
+            <ownedActual xmi:type="uml:Class" xmi:id="_rBn3dGzbEeeX3cBMD4xNqQ" name="String"/>
+          </parameterSubstitution>
+        </templateBinding>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_RVJjhWD5EeemUqxRur9fjQ">
       <eAnnotations xmi:id="_RVJjhmD5EeemUqxRur9fjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -350,4 +400,18 @@
   <Default:Documentation xmi:id="_WCU9kEquEeeJsdrfgQXeQw" base_Comment="_UgxEMUquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WCWLsEquEeeJsdrfgQXeQw" base_Comment="_Ug61MUquEeeJsdrfgQXeQw"/>
   <Default:Documentation xmi:id="_WCXZ0EquEeeJsdrfgQXeQw" base_Comment="_UaOXUEquEeeJsdrfgQXeQw"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_uBNOAGzbEeeX3cBMD4xNqQ" base_Type="_rBgisGzbEeeX3cBMD4xNqQ">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_uBPDMGzbEeeX3cBMD4xNqQ" base_Class="_rBdfYGzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaTypeRedirect xmi:id="_uBQRUGzbEeeX3cBMD4xNqQ" base_Type="_rBn3dGzbEeeX3cBMD4xNqQ">
+    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </JavaTransformation50:JavaTypeRedirect>
+  <Default:Documentation xmi:id="_uBSGgGzbEeeX3cBMD4xNqQ" base_Comment="_rAWsIGzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_uBTUoGzbEeeX3cBMD4xNqQ" collectionType="java.util.List" base_TypedElement="_rBlbMmzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_uBUiwGzbEeeX3cBMD4xNqQ" collectionType="java.util.List" base_TypedElement="_rBk0ImzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_uBWX8GzbEeeX3cBMD4xNqQ" collectionType="java.util.ArrayList" base_TypedElement="_rBDPsWzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_uBXmEGzbEeeX3cBMD4xNqQ" collectionType="java.util.List" base_TypedElement="_rBkNEGzbEeeX3cBMD4xNqQ"/>
+  <Default:Documentation xmi:id="_uBY0MGzbEeeX3cBMD4xNqQ" base_Comment="_rBCooGzbEeeX3cBMD4xNqQ"/>
+  <JavaTransformation50:JavaGenericInstance xmi:id="_uBaCUGzbEeeX3cBMD4xNqQ" base_Interface="_rBn3cGzbEeeX3cBMD4xNqQ"/>
 </xmi:XMI>
