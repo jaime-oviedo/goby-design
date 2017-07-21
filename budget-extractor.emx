@@ -2220,6 +2220,13 @@
         <generalization xmi:id="_PK0uEFdCEee4ttLK_7FK1A">
           <general xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Exception%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </generalization>
+        <ownedAttribute xmi:id="_g4Pm0G5TEeeI_ol49YjP3A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_g4QN4G5TEeeI_ol49YjP3A">
+            <language></language>
+            <body>5805509965917745553L</body>
+          </defaultValue>
+        </ownedAttribute>
         <ownedOperation xmi:id="_d6CCkFdEEee4ttLK_7FK1A" name="InjectionException">
           <ownedParameter xmi:id="_ftwC8FdEEee4ttLK_7FK1A" name="message">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
