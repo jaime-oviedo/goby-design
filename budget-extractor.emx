@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
+<!--Rational Software Architect Designer 9.6.1-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
@@ -46,6 +46,19 @@
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_22r9JmD3EeemUqxRur9fjQ" visible="false" type="StructureCompartment"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_22rWEWD3EeemUqxRur9fjQ" x="3360" y="6720"/>
         </children>
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_4PTEwJQOEeeyu_ZR04zubg" element="_4PRPkJQOEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_4PTEwpQOEeeyu_ZR04zubg" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_4PTEw5QOEeeyu_ZR04zubg" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_4PTExJQOEeeyu_ZR04zubg" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_4PTr0JQOEeeyu_ZR04zubg" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_4PTr0ZQOEeeyu_ZR04zubg" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_4PTr0pQOEeeyu_ZR04zubg" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_4PTr05QOEeeyu_ZR04zubg" type="OperationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_4PUS4JQOEeeyu_ZR04zubg" visible="false" type="SignalCompartment"/>
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4PUS4ZQOEeeyu_ZR04zubg" visible="false" type="StructureCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4PTEwZQOEeeyu_ZR04zubg" x="13043" y="15187"/>
+        </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_22tLQGD3EeemUqxRur9fjQ" type="OwnedElement" source="_zPudgGD3EeemUqxRur9fjQ" target="_22rWEGD3EeemUqxRur9fjQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <element xsi:nil="true"/>
@@ -70,12 +83,30 @@
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_S4b_gF9qEeeRDb5hxZnsBw" name="ExecutionPeriod">
       <ownedOperation xmi:id="_oGqIcGElEeeMhLKRNTgRlA" name="matchExecutionPeriod" isStatic="true">
         <ownedParameter xmi:id="_rDiwUGElEeeMhLKRNTgRlA" name="period">
+          <eAnnotations xmi:id="_uHmG8JW5EeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uHmG8ZW5EeevpubR7V73Yw" key="final"/>
+          </eAnnotations>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedParameter>
         <ownedParameter xmi:id="_rDjXYGElEeeMhLKRNTgRlA" name="Parameter1" type="_S4b_gF9qEeeRDb5hxZnsBw" direction="return"/>
       </ownedOperation>
       <ownedOperation xmi:id="_H-Y8wGErEeeMhLKRNTgRlA" name="getCurrentPeriod" isStatic="true">
         <ownedParameter xmi:id="_J7UjgGErEeeMhLKRNTgRlA" name="Parameter1" type="_S4b_gF9qEeeRDb5hxZnsBw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_uHmuAJW5EeevpubR7V73Yw" name="getCurrentYear" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_uHmuAZW5EeevpubR7V73Yw" name="ReturnParameter" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_uHnVEJW5EeevpubR7V73Yw" name="asInt" visibility="public" isStatic="true">
+        <ownedParameter xmi:id="_uHnVEZW5EeevpubR7V73Yw" name="ReturnParameter" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_uHn8IJW5EeevpubR7V73Yw" name="period" type="_S4b_gF9qEeeRDb5hxZnsBw">
+          <eAnnotations xmi:id="_uHn8IZW5EeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_uHn8IpW5EeevpubR7V73Yw" key="final"/>
+          </eAnnotations>
+        </ownedParameter>
       </ownedOperation>
       <ownedLiteral xmi:id="_oyxI0F9qEeeRDb5hxZnsBw" name="JANUARY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
       <ownedLiteral xmi:id="_qb9UMF9qEeeRDb5hxZnsBw" name="FEBRUARY" classifier="_S4b_gF9qEeeRDb5hxZnsBw"/>
@@ -2710,6 +2741,440 @@
         <ownedOperation xmi:id="_Hx6rkG2jEeeXYbujNKTijw" name="BulkBudgetExecutionCsvFilesNormalizer" visibility="private"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4PRPkJQOEeeyu_ZR04zubg" name="ExecutionExtractorBot">
+      <ownedOperation xmi:id="_6XkY0JQOEeeyu_ZR04zubg" name="main" isStatic="true">
+        <ownedParameter xmi:id="_8MhvUJQOEeeyu_ZR04zubg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8MiWYJQOEeeyu_ZR04zubg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8MhvUZQOEeeyu_ZR04zubg"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wueYUJVmEeevpubR7V73Yw" name="cli">
+      <eAnnotations xmi:id="_wu9ggJVmEeevpubR7V73Yw" source="uml2.diagrams" references="_wu9ggZVmEeevpubR7V73Yw">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wu9ggZVmEeevpubR7V73Yw" type="Freeform" name="Main">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_H-W_UJVnEeevpubR7V73Yw" element="_H-EEYJVnEeevpubR7V73Yw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_H-Y0gJVnEeevpubR7V73Yw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_H-Y0gZVnEeevpubR7V73Yw" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_H-Y0gpVnEeevpubR7V73Yw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_H-ZbkJVnEeevpubR7V73Yw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_H-ZbkZVnEeevpubR7V73Yw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_H-aCoJVnEeevpubR7V73Yw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_H-aCoZVnEeevpubR7V73Yw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_H-apsJVnEeevpubR7V73Yw" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_H-apsZVnEeevpubR7V73Yw" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H-W_UZVnEeevpubR7V73Yw" x="3432" y="10560"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_QAKSkJVnEeevpubR7V73Yw" element="_NpjAgJVnEeevpubR7V73Yw" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_QALgsJVnEeevpubR7V73Yw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_QALgsZVnEeevpubR7V73Yw" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QALgspVnEeevpubR7V73Yw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QALgs5VnEeevpubR7V73Yw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_QALgtJVnEeevpubR7V73Yw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QAMHwJVnEeevpubR7V73Yw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QAMHwZVnEeevpubR7V73Yw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_QAMHwpVnEeevpubR7V73Yw" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_QAMu0JVnEeevpubR7V73Yw" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QAKSkZVnEeevpubR7V73Yw" x="13068" y="8580"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ZpI_AJVnEeevpubR7V73Yw" element="_Zo5HYJVnEeevpubR7V73Yw" source="_H-W_UJVnEeevpubR7V73Yw" target="_QAKSkJVnEeevpubR7V73Yw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpK0MJVnEeevpubR7V73Yw" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpLbQJVnEeevpubR7V73Yw" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpLbQZVnEeevpubR7V73Yw" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZpK0MZVnEeevpubR7V73Yw" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpMCUJVnEeevpubR7V73Yw" type="ToMultiplicityLabel" element="_Zo-m8JVnEeevpubR7V73Yw">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpMCUpVnEeevpubR7V73Yw" type="ToMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpMCUZVnEeevpubR7V73Yw" y="396"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpMpYJVnEeevpubR7V73Yw" type="ToRoleLabel" element="_Zo-m8JVnEeevpubR7V73Yw">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpMpYpVnEeevpubR7V73Yw" type="ToRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpMpYZVnEeevpubR7V73Yw" y="-397"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpMpY5VnEeevpubR7V73Yw" type="FromMultiplicityLabel" element="_Zo8KsJVnEeevpubR7V73Yw">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpNQcJVnEeevpubR7V73Yw" type="FromMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpMpZJVnEeevpubR7V73Yw" y="396"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpNQcZVnEeevpubR7V73Yw" type="FromRoleLabel" element="_Zo8KsJVnEeevpubR7V73Yw">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZpNQc5VnEeevpubR7V73Yw" type="FromRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpNQcpVnEeevpubR7V73Yw" x="-996" y="-402"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpN3gJVnEeevpubR7V73Yw" type="ToQualifierLabel" element="_Zo-m8JVnEeevpubR7V73Yw">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZpN3gpVnEeevpubR7V73Yw" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpN3gZVnEeevpubR7V73Yw" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpOekJVnEeevpubR7V73Yw" type="FromQualifierLabel" element="_Zo8KsJVnEeevpubR7V73Yw">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZpOekpVnEeevpubR7V73Yw" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpOekZVnEeevpubR7V73Yw" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpOek5VnEeevpubR7V73Yw" type="ToConstraintLabel" element="_Zo-m8JVnEeevpubR7V73Yw">
+              <children xmi:type="notation:ListCompartment" xmi:id="_ZpPFoJVnEeevpubR7V73Yw" type="ToConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpOelJVnEeevpubR7V73Yw" y="1058"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_ZpPFoZVnEeevpubR7V73Yw" type="FromConstraintLabel" element="_Zo8KsJVnEeevpubR7V73Yw">
+              <children xmi:type="notation:ListCompartment" xmi:id="_ZpPFo5VnEeevpubR7V73Yw" type="FromConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpPFopVnEeevpubR7V73Yw" y="1058"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZpI_AZVnEeevpubR7V73Yw" points="[79, 3, -259, -2]$[266, 14, -72, 9]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_H-EEYJVnEeevpubR7V73Yw" name="BudgetExtractorBotCli">
+        <ownedAttribute xmi:id="_oqaSEJWkEeevpubR7V73Yw" name="EXTRACTION_TYPE_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqa5IJWkEeevpubR7V73Yw" value="type"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqa5IZWkEeevpubR7V73Yw" name="PRESERVE_DOWNLOADED_FILES" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqbgMJWkEeevpubR7V73Yw" value="preserve"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqbgMZWkEeevpubR7V73Yw" name="FORMAT_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqcHQJWkEeevpubR7V73Yw" value="format"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqcHQZWkEeevpubR7V73Yw" name="FILE_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqcuUJWkEeevpubR7V73Yw" value="file"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqcuUZWkEeevpubR7V73Yw" name="DIRECTORY_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqdVYJWkEeevpubR7V73Yw" value="dir"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqdVYZWkEeevpubR7V73Yw" name="VERBOSE_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqd8cJWkEeevpubR7V73Yw" value="verbose"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqd8cZWkEeevpubR7V73Yw" name="MONTH_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqejgJWkEeevpubR7V73Yw" value="month"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqejgZWkEeevpubR7V73Yw" name="YEAR_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqfKkJWkEeevpubR7V73Yw" value="year"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqfKkZWkEeevpubR7V73Yw" name="PROCESS_LOCAL_OPTION" visibility="private" isLeaf="true" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_oqfKkpWkEeevpubR7V73Yw" value="local"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqfxoJWkEeevpubR7V73Yw" name="log" visibility="private" isStatic="true">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_oqgYsJWkEeevpubR7V73Yw">
+            <language></language>
+            <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extractor.cli.BudgetExtractorBotCli&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Zo8KsJVnEeevpubR7V73Yw" name="budgetExtractorBot" visibility="private" type="_NpjAgJVnEeevpubR7V73Yw" association="_Zo5HYJVnEeevpubR7V73Yw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zo9_4ZVnEeevpubR7V73Yw" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zo9_4JVnEeevpubR7V73Yw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqg_wJWkEeevpubR7V73Yw" name="args" visibility="private" isLeaf="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oqg_wZWkEeevpubR7V73Yw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oqhm0JWkEeevpubR7V73Yw"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqiN4JWkEeevpubR7V73Yw" name="options" visibility="private" isLeaf="true">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.apache.commons.cli.Options%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_oqiN4ZWkEeevpubR7V73Yw" name="BudgetExtractorBotCli" visibility="private">
+          <ownedParameter xmi:id="_oqi08JWkEeevpubR7V73Yw" name="args">
+            <eAnnotations xmi:id="_oqjcAZWkEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_oqjcApWkEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oqi08ZWkEeevpubR7V73Yw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oqi08pWkEeevpubR7V73Yw"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oqjcA5WkEeevpubR7V73Yw" name="main" visibility="public" isStatic="true">
+          <ownedParameter xmi:id="_oqkDEJWkEeevpubR7V73Yw" name="args">
+            <eAnnotations xmi:id="_oqkDFJWkEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_oqkDFZWkEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oqkDEZWkEeevpubR7V73Yw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oqkDEpWkEeevpubR7V73Yw"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oqkqIJWkEeevpubR7V73Yw" name="extract" visibility="private"/>
+        <ownedOperation xmi:id="_oqkqIZWkEeevpubR7V73Yw" name="generateOptions" visibility="private">
+          <ownedComment xmi:id="_oqlRMJWkEeevpubR7V73Yw" annotatedElement="_oqkqIZWkEeevpubR7V73Yw">
+            <body>&lt;br>&quot;Definition&quot;&amp;nbsp;stage&amp;nbsp;of&amp;nbsp;command-line&amp;nbsp;parsing&amp;nbsp;with&amp;nbsp;Apache&amp;nbsp;Commons&amp;nbsp;CLI.&lt;br>&lt;br>@return&amp;nbsp;Definition&amp;nbsp;of&amp;nbsp;command-line&amp;nbsp;options.&lt;br></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oqlRMpWkEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.apache.commons.cli.Options%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oql4QJWkEeevpubR7V73Yw" name="parse" visibility="private">
+          <ownedComment xmi:id="_oql4QZWkEeevpubR7V73Yw" annotatedElement="_oql4QJWkEeevpubR7V73Yw">
+            <body>&lt;br>&quot;Parsing&quot;&amp;nbsp;stage&amp;nbsp;of&amp;nbsp;command-line&amp;nbsp;processing&amp;nbsp;demonstrated&amp;nbsp;with&amp;nbsp;Apache&amp;nbsp;Commons&amp;nbsp;CLI.&lt;br>&lt;br>@param&amp;nbsp;options&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Options&amp;nbsp;from&amp;nbsp;&quot;definition&quot;&amp;nbsp;stage.&lt;br>@param&amp;nbsp;args&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Command-line&amp;nbsp;arguments&amp;nbsp;provided&amp;nbsp;to&amp;nbsp;application.&lt;br>@return&amp;nbsp;Instance&amp;nbsp;of&amp;nbsp;CommandLine&amp;nbsp;as&amp;nbsp;parsed&amp;nbsp;from&amp;nbsp;the&amp;nbsp;provided&amp;nbsp;Options&amp;nbsp;and&amp;nbsp;command&amp;nbsp;line&amp;nbsp;arguments;&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;may&amp;nbsp;be&amp;nbsp;{@code&amp;nbsp;null}&amp;nbsp;if&amp;nbsp;there&amp;nbsp;is&amp;nbsp;an&amp;nbsp;exception&amp;nbsp;encountered&amp;nbsp;while&amp;nbsp;attempting&amp;nbsp;to&amp;nbsp;parse&amp;nbsp;the&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;command&amp;nbsp;line&amp;nbsp;options.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oqmfUZWkEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.apache.commons.cli.CommandLine%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oqnGYJWkEeevpubR7V73Yw" name="printUsage" visibility="private">
+          <ownedComment xmi:id="_oqnGYZWkEeevpubR7V73Yw" annotatedElement="_oqnGYJWkEeevpubR7V73Yw">
+            <body>&lt;br>Generate&amp;nbsp;usage&amp;nbsp;information&amp;nbsp;with&amp;nbsp;Apache&amp;nbsp;Commons&amp;nbsp;CLI.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;options&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Instance&amp;nbsp;of&amp;nbsp;Options&amp;nbsp;to&amp;nbsp;be&amp;nbsp;used&amp;nbsp;to&amp;nbsp;prepare&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;usage&amp;nbsp;formatter.&lt;br>&lt;br>@return&amp;nbsp;HelpFormatter&amp;nbsp;instance&amp;nbsp;that&amp;nbsp;can&amp;nbsp;be&amp;nbsp;used&amp;nbsp;to&amp;nbsp;print&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;usage&amp;nbsp;information.&lt;br></body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oqntcJWkEeevpubR7V73Yw" name="printHelp" visibility="private" isStatic="true">
+          <ownedComment xmi:id="_oqntcZWkEeevpubR7V73Yw" annotatedElement="_oqntcJWkEeevpubR7V73Yw">
+            <body>&lt;br>Generate&amp;nbsp;help&amp;nbsp;information&amp;nbsp;with&amp;nbsp;Apache&amp;nbsp;Commons&amp;nbsp;CLI.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;options&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Instance&amp;nbsp;of&amp;nbsp;Options&amp;nbsp;to&amp;nbsp;be&amp;nbsp;used&amp;nbsp;to&amp;nbsp;prepare&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;help&amp;nbsp;formatter.&lt;br>&lt;br>@return&amp;nbsp;HelpFormatter&amp;nbsp;instance&amp;nbsp;that&amp;nbsp;can&amp;nbsp;be&amp;nbsp;used&amp;nbsp;to&amp;nbsp;print&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;help&amp;nbsp;information.&lt;br></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oqoUgJWkEeevpubR7V73Yw" name="options">
+            <eAnnotations xmi:id="_oqoUgZWkEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_oqoUgpWkEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=org.apache.commons.cli.Options%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Zo5HYJVnEeevpubR7V73Yw" memberEnd="_Zo8KsJVnEeevpubR7V73Yw _Zo-m8JVnEeevpubR7V73Yw">
+        <ownedEnd xmi:id="_Zo-m8JVnEeevpubR7V73Yw" name="" visibility="private" type="_H-EEYJVnEeevpubR7V73Yw" association="_Zo5HYJVnEeevpubR7V73Yw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zo_1EZVnEeevpubR7V73Yw" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zo_1EJVnEeevpubR7V73Yw"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zRHUMJVmEeevpubR7V73Yw" name="bot">
+      <eAnnotations xmi:id="_zRH7QJVmEeevpubR7V73Yw" source="uml2.diagrams" references="_zRH7QZVmEeevpubR7V73Yw">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_zRH7QZVmEeevpubR7V73Yw" type="Freeform" name="Main">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_Npk1sJVnEeevpubR7V73Yw" element="_NpjAgJVnEeevpubR7V73Yw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_NpqVQJVnEeevpubR7V73Yw" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_NpqVQZVnEeevpubR7V73Yw" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Npq8UJVnEeevpubR7V73Yw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Npq8UZVnEeevpubR7V73Yw" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_Npq8UpVnEeevpubR7V73Yw" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_NprjYJVnEeevpubR7V73Yw" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_NprjYZVnEeevpubR7V73Yw" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_NpsKcJVnEeevpubR7V73Yw" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_NpsKcZVnEeevpubR7V73Yw" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Npk1sZVnEeevpubR7V73Yw" x="14419" y="5476"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_NpjAgJVnEeevpubR7V73Yw" name="BudgetExtractorBot">
+        <ownedAttribute xmi:id="_LJY4oJWuEeevpubR7V73Yw" name="extractionType" visibility="private" type="_kvFuMZWzEeevpubR7V73Yw"/>
+        <ownedAttribute xmi:id="_NVSIcJWuEeevpubR7V73Yw" name="preserveDownloaded" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Q29fcJWuEeevpubR7V73Yw" name="format" visibility="private" type="_ku1PgJWzEeevpubR7V73Yw"/>
+        <ownedAttribute xmi:id="_SSx9MJWuEeevpubR7V73Yw" name="fileName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_VwahsJWuEeevpubR7V73Yw" name="directory" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_X6d-cJWuEeevpubR7V73Yw" name="verbose" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aRuJsJWuEeevpubR7V73Yw" name="month" visibility="private" type="_S4b_gF9qEeeRDb5hxZnsBw"/>
+        <ownedAttribute xmi:id="_b_M_MJWuEeevpubR7V73Yw" name="year" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iTGmMJWuEeevpubR7V73Yw" name="processLocal" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_xI3gkJWuEeevpubR7V73Yw" name="log" visibility="private" isStatic="true">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_xI3gkZWuEeevpubR7V73Yw">
+            <language></language>
+            <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extractor.bot.BudgetExtractorBot&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_fyB6IJW6EeevpubR7V73Yw" name="out" visibility="private" isStatic="true">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_fyChMJW6EeevpubR7V73Yw">
+            <language></language>
+            <body>Logger.getLogger(&quot;com.ingenium.goby.budget.extractor.bot.BudgetExtractorBot&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ku1PgJWzEeevpubR7V73Yw" name="OuputFormat">
+          <ownedLiteral xmi:id="_kvhMAZWzEeevpubR7V73Yw" name="HUMAN" classifier="_ku1PgJWzEeevpubR7V73Yw"/>
+          <ownedLiteral xmi:id="_kvhzEJWzEeevpubR7V73Yw" name="CSV" classifier="_ku1PgJWzEeevpubR7V73Yw"/>
+          <ownedLiteral xmi:id="_kvhzEZWzEeevpubR7V73Yw" name="JSON" classifier="_ku1PgJWzEeevpubR7V73Yw"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_kvFuMZWzEeevpubR7V73Yw" name="ExtractionType">
+          <ownedLiteral xmi:id="_kzj-gJWzEeevpubR7V73Yw" name="BUDGETARY_CATALOG" classifier="_kvFuMZWzEeevpubR7V73Yw"/>
+          <ownedLiteral xmi:id="_kzj-gZWzEeevpubR7V73Yw" name="INSTITUTIONAL_CATALOG" classifier="_kvFuMZWzEeevpubR7V73Yw"/>
+          <ownedLiteral xmi:id="_kzklkJWzEeevpubR7V73Yw" name="LAW" classifier="_kvFuMZWzEeevpubR7V73Yw"/>
+          <ownedLiteral xmi:id="_kzklkZWzEeevpubR7V73Yw" name="EXECUTION" classifier="_kvFuMZWzEeevpubR7V73Yw"/>
+        </nestedClassifier>
+        <ownedOperation xmi:id="_k0UzgJWzEeevpubR7V73Yw" name="BudgetExtractorBot" visibility="public"/>
+        <ownedOperation xmi:id="_k0VakJWzEeevpubR7V73Yw" name="getExtractionType" visibility="public">
+          <ownedComment xmi:id="_k0VakZWzEeevpubR7V73Yw" annotatedElement="_k0VakJWzEeevpubR7V73Yw">
+            <body>&lt;p>Devuelve el valor del campo extractionType.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0Vak5WzEeevpubR7V73Yw" name="ReturnParameter" type="_kvFuMZWzEeevpubR7V73Yw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_09BoUJWmEeevpubR7V73Yw" name="setExtractionType">
+          <ownedComment xmi:id="_k0WBoZWzEeevpubR7V73Yw" annotatedElement="_09BoUJWmEeevpubR7V73Yw">
+            <body>&lt;p>Establece el valor del campo extractionType.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0WosZWzEeevpubR7V73Yw" name="extractionType" type="_kvFuMZWzEeevpubR7V73Yw">
+            <eAnnotations xmi:id="_k0WospWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0Wos5WzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0XPwJWzEeevpubR7V73Yw" name="isPreserveDownloaded" visibility="public">
+          <ownedComment xmi:id="_k0XPwZWzEeevpubR7V73Yw" annotatedElement="_k0XPwJWzEeevpubR7V73Yw">
+            <body>&lt;p>Devuelve el valor del campo preserveDownloaded.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0XPw5WzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0X20JWzEeevpubR7V73Yw" name="setPreserveDownloaded" visibility="public">
+          <ownedComment xmi:id="_k0X20ZWzEeevpubR7V73Yw" annotatedElement="_k0X20JWzEeevpubR7V73Yw">
+            <body>&lt;p>Establece el valor del campo preserveDownloaded.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0Yd4ZWzEeevpubR7V73Yw" name="preserveDownloaded">
+            <eAnnotations xmi:id="_k0ZE8JWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0ZE8ZWzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0ZE8pWzEeevpubR7V73Yw" name="getFormat" visibility="public">
+          <ownedComment xmi:id="_k0ZE85WzEeevpubR7V73Yw" annotatedElement="_k0ZE8pWzEeevpubR7V73Yw">
+            <body>&lt;p>Devuelve el valor del campo format.&lt;/p></body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0ZE9ZWzEeevpubR7V73Yw" name="ReturnParameter" type="_ku1PgJWzEeevpubR7V73Yw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3t3_UJWmEeevpubR7V73Yw" name="setFormat">
+          <ownedComment xmi:id="_k0ZsAZWzEeevpubR7V73Yw" annotatedElement="_3t3_UJWmEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;format.&lt;br>&lt;br>@param&amp;nbsp;format&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;format.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0aTEZWzEeevpubR7V73Yw" name="format" type="_ku1PgJWzEeevpubR7V73Yw">
+            <eAnnotations xmi:id="_k0aTEpWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0aTE5WzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0a6IJWzEeevpubR7V73Yw" name="getFileName" visibility="public">
+          <ownedComment xmi:id="_k0a6IZWzEeevpubR7V73Yw" annotatedElement="_k0a6IJWzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;fileName.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;fileName</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0a6I5WzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_6YtN4JWmEeevpubR7V73Yw" name="setFileName">
+          <ownedComment xmi:id="_k0bhMZWzEeevpubR7V73Yw" annotatedElement="_6YtN4JWmEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;fileName.&lt;br>&lt;br>@param&amp;nbsp;fileName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;fileName.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_OQ0ZEJWtEeevpubR7V73Yw" name="fileName">
+            <eAnnotations xmi:id="_k0cIQZWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0cIQpWzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0cIQ5WzEeevpubR7V73Yw" name="getDirectory" visibility="public">
+          <ownedComment xmi:id="_k0cvUJWzEeevpubR7V73Yw" annotatedElement="_k0cIQ5WzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;directory.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;directory</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0dWYJWzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0dWYZWzEeevpubR7V73Yw" name="setDirectory" visibility="public">
+          <ownedComment xmi:id="_k0d9cJWzEeevpubR7V73Yw" annotatedElement="_k0dWYZWzEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;directory.&lt;br>&lt;br>@param&amp;nbsp;directory&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;directory.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0d9cpWzEeevpubR7V73Yw" name="directory">
+            <eAnnotations xmi:id="_k0ekgJWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0ekgZWzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0ekgpWzEeevpubR7V73Yw" name="isVerbose" visibility="public">
+          <ownedComment xmi:id="_k0ekg5WzEeevpubR7V73Yw" annotatedElement="_k0ekgpWzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;verbose.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;verbose</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0fLkJWzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_AT4y4JWnEeevpubR7V73Yw" name="setVerbose">
+          <ownedComment xmi:id="_k0fLkpWzEeevpubR7V73Yw" annotatedElement="_AT4y4JWnEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;verbose.&lt;br>&lt;br>@param&amp;nbsp;verbose&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;verbose.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_CbDTsJWnEeevpubR7V73Yw" name="verbose">
+            <eAnnotations xmi:id="_k0fyopWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0fyo5WzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0gZsJWzEeevpubR7V73Yw" name="getMonth" visibility="public">
+          <ownedComment xmi:id="_k0gZsZWzEeevpubR7V73Yw" annotatedElement="_k0gZsJWzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;month.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;month</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0gZs5WzEeevpubR7V73Yw" name="ReturnParameter" type="_S4b_gF9qEeeRDb5hxZnsBw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DWDjYJWnEeevpubR7V73Yw" name="setMonth">
+          <ownedComment xmi:id="_k0hAwZWzEeevpubR7V73Yw" annotatedElement="_DWDjYJWnEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;month.&lt;br>&lt;br>@param&amp;nbsp;month&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;month.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_YhILQJWtEeevpubR7V73Yw" name="month" type="_S4b_gF9qEeeRDb5hxZnsBw">
+            <eAnnotations xmi:id="_k0hn0ZWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0hn0pWzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0hn05WzEeevpubR7V73Yw" name="getYear" visibility="public">
+          <ownedComment xmi:id="_k0iO4JWzEeevpubR7V73Yw" annotatedElement="_k0hn05WzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;year.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;year</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0iO4pWzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ECnHYJWnEeevpubR7V73Yw" name="setYear">
+          <ownedComment xmi:id="_k0i18ZWzEeevpubR7V73Yw" annotatedElement="_ECnHYJWnEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;year.&lt;br>&lt;br>@param&amp;nbsp;year&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;year.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_W39OAJWtEeevpubR7V73Yw" name="year">
+            <eAnnotations xmi:id="_k0jdAZWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0jdApWzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_k0jdA5WzEeevpubR7V73Yw" name="isProcessLocal" visibility="public">
+          <ownedComment xmi:id="_k0jdBJWzEeevpubR7V73Yw" annotatedElement="_k0jdA5WzEeevpubR7V73Yw">
+            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;processLocal.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;processLocal</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_k0kEEZWzEeevpubR7V73Yw" name="ReturnParameter" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Emsr4JWnEeevpubR7V73Yw" name="setProcessLocal">
+          <ownedComment xmi:id="_k0l5QJWzEeevpubR7V73Yw" annotatedElement="_Emsr4JWnEeevpubR7V73Yw">
+            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;processLocal.&lt;br>&lt;br>@param&amp;nbsp;processLocal&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;nuevo&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;processLocal.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_HlZ4sJWnEeevpubR7V73Yw" name="processLocal">
+            <eAnnotations xmi:id="_k0mgUpWzEeevpubR7V73Yw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_k0mgU5WzEeevpubR7V73Yw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_uME-U5W5EeevpubR7V73Yw" name="extract" visibility="public"/>
+        <ownedOperation xmi:id="_uME-VJW5EeevpubR7V73Yw" name="extractExecution" visibility="private"/>
+        <ownedOperation xmi:id="_uMFlYJW5EeevpubR7V73Yw" name="extractLaw" visibility="private"/>
+        <ownedOperation xmi:id="_uMFlYZW5EeevpubR7V73Yw" name="extractBudgetaryCatalog" visibility="private"/>
+        <ownedOperation xmi:id="_uMGMcJW5EeevpubR7V73Yw" name="extractInstitutionalCatalog" visibility="private"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:id="_kNO9g0o0EeelLY1XmWdHYg">
       <eAnnotations xmi:id="_kNO9hEo0EeelLY1XmWdHYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -2943,4 +3408,30 @@
   <JavaTransformation50:JavaCollection2 xmi:id="_PnQ0AG2fEeeXYbujNKTijw" collectionType="java.util.List" base_TypedElement="_PnPl5W2fEeeXYbujNKTijw"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_PnSCIG2fEeeXYbujNKTijw" collectionType="java.util.List" base_TypedElement="_PnQM8m2fEeeXYbujNKTijw"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_m0AVgG2hEeeXYbujNKTijw" collectionType="java.util.List" base_TypedElement="_mz_ucm2hEeeXYbujNKTijw"/>
+  <JavaTransformation50:JavaArray xmi:id="_ploQMJQPEeeyu_ZR04zubg" base_TypedElement="_8MhvUJQOEeeyu_ZR04zubg"/>
+  <JavaTransformation50:JavaArray xmi:id="_sb0uMJWkEeevpubR7V73Yw" base_TypedElement="_oqi08JWkEeevpubR7V73Yw"/>
+  <JavaTransformation50:JavaArray xmi:id="_sb2jYJWkEeevpubR7V73Yw" base_TypedElement="_oqg_wJWkEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_sb4YkJWkEeevpubR7V73Yw" base_Comment="_oqnGYZWkEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_sb5msJWkEeevpubR7V73Yw" base_Comment="_oql4QZWkEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_sb7b4JWkEeevpubR7V73Yw" base_Comment="_oqlRMJWkEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_sb9REJWkEeevpubR7V73Yw" base_Comment="_oqntcZWkEeevpubR7V73Yw"/>
+  <JavaTransformation50:JavaArray xmi:id="_sb_GQJWkEeevpubR7V73Yw" base_TypedElement="_oqkDEJWkEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUCx0JWzEeevpubR7V73Yw" base_Comment="_k0a6IZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUEnAJWzEeevpubR7V73Yw" base_Comment="_k0WBoZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUGcMJWzEeevpubR7V73Yw" base_Comment="_k0XPwZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUI4cJWzEeevpubR7V73Yw" base_Comment="_k0X20ZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUKtoJWzEeevpubR7V73Yw" base_Comment="_k0jdBJWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUMi0JWzEeevpubR7V73Yw" base_Comment="_k0VakZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUOYAJWzEeevpubR7V73Yw" base_Comment="_k0iO4JWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUQNMJWzEeevpubR7V73Yw" base_Comment="_k0hAwZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tURbUJWzEeevpubR7V73Yw" base_Comment="_k0l5QJWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUTQgJWzEeevpubR7V73Yw" base_Comment="_k0fLkpWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUUeoJWzEeevpubR7V73Yw" base_Comment="_k0ZE85WzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUWT0JWzEeevpubR7V73Yw" base_Comment="_k0i18ZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUYJAJWzEeevpubR7V73Yw" base_Comment="_k0ekg5WzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUZXIJWzEeevpubR7V73Yw" base_Comment="_k0bhMZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUbMUJWzEeevpubR7V73Yw" base_Comment="_k0cvUJWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUdBgJWzEeevpubR7V73Yw" base_Comment="_k0d9cJWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUePoJWzEeevpubR7V73Yw" base_Comment="_k0gZsZWzEeevpubR7V73Yw"/>
+  <Default:Documentation xmi:id="_tUgE0JWzEeevpubR7V73Yw" base_Comment="_k0ZsAZWzEeevpubR7V73Yw"/>
 </xmi:XMI>
