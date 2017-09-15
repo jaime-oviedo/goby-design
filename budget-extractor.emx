@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6.1-->
+<!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
@@ -186,15 +186,6 @@
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=com.gargoylesoftware.htmlunit.html.DomElement%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
           </ownedParameter>
         </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_RXhWIV5IEeeguv5GRmiMJw" name="List&lt;String>">
-        <templateBinding xmi:id="_RXikQV5IEeeguv5GRmiMJw">
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=List%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-budget-extractor%5D%5D$uml.RedefinableTemplateSignature"/>
-          <parameterSubstitution xmi:id="_RXjLUF5IEeeguv5GRmiMJw" actual="_RXjLUV5IEeeguv5GRmiMJw">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="mmi:///#jtp%5Ename=E%5Bjbintype%5Ename=java.util.List%5Bproject%5Eid=goby-budget-extractor%5D%5D$uml.ClassifierTemplateParameter"/>
-            <ownedActual xmi:type="uml:Class" xmi:id="_RXjLUV5IEeeguv5GRmiMJw" name="String"/>
-          </parameterSubstitution>
-        </templateBinding>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_XBJasFFbEeeK-J0N4T-kxQ" name="download">
@@ -496,7 +487,7 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_pBt2UZmrEeeAWKInz3apng" name="ListStringToExecutionMapper">
         <ownedComment xmi:id="_pBt2UpmrEeeAWKInz3apng" annotatedElement="_pBt2UZmrEeeAWKInz3apng">
-          <body>@author&amp;nbsp;Jaime&amp;nbsp;Oviedo&lt;br></body>
+          <body>@author&amp;nbsp;Jaime&amp;nbsp;Oviedo&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
         </ownedComment>
         <ownedAttribute xmi:id="_pE_Mw5mrEeeAWKInz3apng" name="log" visibility="private" isStatic="true">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
@@ -505,10 +496,7 @@
             <body>Logger.getLogger(ListStringToExecutionMapper.class.getCanonicalName())</body>
           </defaultValue>
         </ownedAttribute>
-        <ownedOperation xmi:id="_pFAa4JmrEeeAWKInz3apng" name="map" visibility="public" isStatic="true" raisedException="_-xYvEFYQEeeKVoBZn1AqUw">
-          <ownedComment xmi:id="_pFAa4ZmrEeeAWKInz3apng" annotatedElement="_pFAa4JmrEeeAWKInz3apng">
-            <body>@param&amp;nbsp;lines&lt;br>@return&lt;br>@throws&amp;nbsp;ExtractionException</body>
-          </ownedComment>
+        <ownedOperation xmi:id="_pFAa4JmrEeeAWKInz3apng" name="map" visibility="public" isStatic="true">
           <ownedParameter xmi:id="_pFBpAJmrEeeAWKInz3apng" name="lines" type="_zpEvMZmuEeeAWKInz3apng" isOrdered="true" isUnique="false">
             <eAnnotations xmi:id="_pFC3IJmrEeeAWKInz3apng" source="http://www.eclipse.org/uml2/2.0.0/UML">
               <details xmi:id="_pFC3IZmrEeeAWKInz3apng" key="final"/>
@@ -521,7 +509,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_f3DKEZlJEeeN7K_s3Iv6cQ" name="ExecutionToListStringMapper">
         <ownedComment xmi:id="_f3DxIJlJEeeN7K_s3Iv6cQ" annotatedElement="_f3DKEZlJEeeN7K_s3Iv6cQ">
-          <body>@author&amp;nbsp;Jaime&amp;nbsp;Oviedo&lt;br></body>
+          <body>@author&amp;nbsp;Jaime&amp;nbsp;Oviedo&lt;br>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
         </ownedComment>
         <ownedAttribute xmi:id="_f7-GUJlJEeeN7K_s3Iv6cQ" name="log" visibility="private" isStatic="true">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
@@ -533,70 +521,91 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_f3f2AZlJEeeN7K_s3Iv6cQ" name="MappedElement" visibility="private">
           <ownedAttribute xmi:id="_f_9OcJlJEeeN7K_s3Iv6cQ" name="batchNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAsOEJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f_9OcZlJEeeN7K_s3Iv6cQ" name="batchName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAtcMJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f_91gJlJEeeN7K_s3Iv6cQ" name="chapterNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAuqUJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f_-ckJlJEeeN7K_s3Iv6cQ" name="chapterName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAv4cJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f__DoJlJEeeN7K_s3Iv6cQ" name="programNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAxGkJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f__DoZlJEeeN7K_s3Iv6cQ" name="programName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAyUsJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_f__qsJlJEeeN7K_s3Iv6cQ" name="subtitleNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PAzi0JpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAARwJlJEeeN7K_s3Iv6cQ" name="subtitleName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA0w8JpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAA40JlJEeeN7K_s3Iv6cQ" name="itemNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA1_EJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAA40ZlJEeeN7K_s3Iv6cQ" name="itemName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA2mIZpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gABf4JlJEeeN7K_s3Iv6cQ" name="assignmentNumber" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA30QJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gACG8JlJEeeN7K_s3Iv6cQ" name="assignmentName" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA4bUZpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gACuAJlJEeeN7K_s3Iv6cQ" name="initialBudget" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA6QgJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gACuAZlJEeeN7K_s3Iv6cQ" name="actualBudget" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA63kJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gADVEJlJEeeN7K_s3Iv6cQ" name="currency" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA8FsJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAD8IJlJEeeN7K_s3Iv6cQ" name="cumulativeExecution" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA9T0JpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAEjMJlJEeeN7K_s3Iv6cQ" name="actualDollarBudget" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA-h8JpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAFKQJlJEeeN7K_s3Iv6cQ" name="cumulativeDollarExecution" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PA_wEJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAFxUJlJEeeN7K_s3Iv6cQ" name="initialDollarBudget" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PBAXIJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAGYYJlJEeeN7K_s3Iv6cQ" name="executionPercentage" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PBBlQJpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedAttribute xmi:id="_gAG_cJlJEeeN7K_s3Iv6cQ" name="dollarExecutionPercentage" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PBCMUZpTEee9SelJ6GNJZw" value=""/>
           </ownedAttribute>
           <ownedOperation xmi:id="_gAHmgJlJEeeN7K_s3Iv6cQ" name="getActualBudget" visibility="public">
             <ownedComment xmi:id="_gAHmgZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAHmgJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;actualBudget</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;actualBudge</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAINkZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -604,7 +613,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAI0oJlJEeeN7K_s3Iv6cQ" name="getActualDollarBudget" visibility="public">
             <ownedComment xmi:id="_gAI0oZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAI0oJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;actualDollarBudget</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;actualDollarBudge</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAJbsZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -612,7 +621,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAKCwJlJEeeN7K_s3Iv6cQ" name="getAssignmentName" visibility="public">
             <ownedComment xmi:id="_gAKCwZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAKCwJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;assignmentName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;assignmentNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAKCw5lJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -620,7 +629,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAKp0JlJEeeN7K_s3Iv6cQ" name="getAssignmentNumber" visibility="public">
             <ownedComment xmi:id="_gAKp0ZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAKp0JlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;assignmentNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;assignmentNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gALQ4ZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -628,7 +637,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gALQ4plJEeeN7K_s3Iv6cQ" name="getBatchName" visibility="public">
             <ownedComment xmi:id="_gAL38JlJEeeN7K_s3Iv6cQ" annotatedElement="_gALQ4plJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;batchName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;batchNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAL38plJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -636,7 +645,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAMfAJlJEeeN7K_s3Iv6cQ" name="getBatchNumber" visibility="public">
             <ownedComment xmi:id="_gAMfAZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAMfAJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;batchNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;batchNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gANGEZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -644,7 +653,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gANtIJlJEeeN7K_s3Iv6cQ" name="getChapterName" visibility="public">
             <ownedComment xmi:id="_gANtIZlJEeeN7K_s3Iv6cQ" annotatedElement="_gANtIJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;chapterName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;chapterNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAOUMZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -652,23 +661,20 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAO7QJlJEeeN7K_s3Iv6cQ" name="getChapterNumber" visibility="public">
             <ownedComment xmi:id="_gAO7QZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAO7QJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;chapterNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;chapterNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAPiUJlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_gAPiUZlJEeeN7K_s3Iv6cQ" name="getCumulativeDollarExecution" visibility="public">
-            <ownedComment xmi:id="_gAQJYJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAPiUZlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution</body>
-            </ownedComment>
             <ownedParameter xmi:id="_gAQJYplJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_gAQwcJlJEeeN7K_s3Iv6cQ" name="getCumulativeExecution" visibility="public">
             <ownedComment xmi:id="_gAQwcZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAQwcJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;cumulativeExecution</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;cumulativeExecutio</body>
             </ownedComment>
             <ownedParameter xmi:id="_gARXgZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -676,7 +682,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gARXgplJEeeN7K_s3Iv6cQ" name="getCurrency" visibility="public">
             <ownedComment xmi:id="_gAR-kJlJEeeN7K_s3Iv6cQ" annotatedElement="_gARXgplJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;currency</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;currenc</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAR-kplJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -684,7 +690,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gASloJlJEeeN7K_s3Iv6cQ" name="getDollarExecutionPercentage" visibility="public" isLeaf="true">
             <ownedComment xmi:id="_gATMsJlJEeeN7K_s3Iv6cQ" annotatedElement="_gASloJlJEeeN7K_s3Iv6cQ">
-              <body>@return&amp;nbsp;the&amp;nbsp;dollarExecutionPercentage</body>
+              <body>&lt;br>@return&amp;nbsp;the&amp;nbsp;dollarExecutionPercentag</body>
             </ownedComment>
             <ownedParameter xmi:id="_gATMsplJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -692,7 +698,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gATzwJlJEeeN7K_s3Iv6cQ" name="getExecutionPercentage" visibility="public" isLeaf="true">
             <ownedComment xmi:id="_gATzwZlJEeeN7K_s3Iv6cQ" annotatedElement="_gATzwJlJEeeN7K_s3Iv6cQ">
-              <body>@return&amp;nbsp;the&amp;nbsp;executionPercentage</body>
+              <body>&lt;br>@return&amp;nbsp;the&amp;nbsp;executionPercentag</body>
             </ownedComment>
             <ownedParameter xmi:id="_gATzw5lJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -700,7 +706,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAUa0JlJEeeN7K_s3Iv6cQ" name="getInitialBudget" visibility="public">
             <ownedComment xmi:id="_gAUa0ZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAUa0JlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;initialBudget</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;initialBudge</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAVB4JlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -708,23 +714,23 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAVB4ZlJEeeN7K_s3Iv6cQ" name="getInitialDollarBudget" visibility="public">
             <ownedComment xmi:id="_gAVo8JlJEeeN7K_s3Iv6cQ" annotatedElement="_gAVB4ZlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;initialDollarBudget</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;initialDollarBudge</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAVo8plJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAWQAJlJEeeN7K_s3Iv6cQ" name="getItemName" visibility="public">
+          <ownedOperation xmi:id="_gAWQAJlJEeeN7K_s3Iv6cQ" name="getSubtitleName" visibility="public">
             <ownedComment xmi:id="_gAWQAZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAWQAJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;itemName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;itemNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAWQA5lJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAW3EJlJEeeN7K_s3Iv6cQ" name="getItemNumber" visibility="public">
+          <ownedOperation xmi:id="_gAW3EJlJEeeN7K_s3Iv6cQ" name="getSubtitleNumber" visibility="public">
             <ownedComment xmi:id="_gAW3EZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAW3EJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;itemNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;itemNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAXeIJlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -732,7 +738,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAXeIZlJEeeN7K_s3Iv6cQ" name="getProgramName" visibility="public">
             <ownedComment xmi:id="_gAYFMJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAXeIZlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;programName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;programNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAYFMplJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -740,23 +746,23 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAYsQJlJEeeN7K_s3Iv6cQ" name="getProgramNumber" visibility="public">
             <ownedComment xmi:id="_gAYsQZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAYsQJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;programNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;programNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAYsQ5lJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAZTUJlJEeeN7K_s3Iv6cQ" name="getSubtitleName" visibility="public">
+          <ownedOperation xmi:id="_gAZTUJlJEeeN7K_s3Iv6cQ" name="getItemName" visibility="public">
             <ownedComment xmi:id="_gAZTUZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAZTUJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;subtitleName</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;subtitleNam</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAZ6YZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAahcJlJEeeN7K_s3Iv6cQ" name="getSubtitleNumber" visibility="public">
+          <ownedOperation xmi:id="_gAahcJlJEeeN7K_s3Iv6cQ" name="getItemNumber" visibility="public">
             <ownedComment xmi:id="_gAahcZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAahcJlJEeeN7K_s3Iv6cQ">
-              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;subtitleNumber</body>
+              <body>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;field&amp;nbsp;subtitleNumbe</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAbIgZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -764,7 +770,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAbvkJlJEeeN7K_s3Iv6cQ" name="setActualBudget" visibility="public">
             <ownedComment xmi:id="_gAbvkZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAbvkJlJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.&lt;br>&lt;br>@param&amp;nbsp;actualBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;actualBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualBudget.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAcWoJlJEeeN7K_s3Iv6cQ" name="actualBudget">
               <eAnnotations xmi:id="_gAcWoZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -775,7 +781,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAcWo5lJEeeN7K_s3Iv6cQ" name="setActualDollarBudget" visibility="public">
             <ownedComment xmi:id="_gAc9sJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAcWo5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.&lt;br>&lt;br>@param&amp;nbsp;actualDollarBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;actualDollarBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;actualDollarBudget.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAdkwJlJEeeN7K_s3Iv6cQ" name="actualDollarBudget">
               <eAnnotations xmi:id="_gAdkwZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -786,7 +792,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAdkw5lJEeeN7K_s3Iv6cQ" name="setAssignmentName" visibility="public">
             <ownedComment xmi:id="_gAdkxJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAdkw5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.&lt;br>&lt;br>@param&amp;nbsp;assignmentName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;assignmentName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAeL0ZlJEeeN7K_s3Iv6cQ" name="assignmentName">
               <eAnnotations xmi:id="_gAey4JlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -797,7 +803,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAey4plJEeeN7K_s3Iv6cQ" name="setAssignmentNumber" visibility="public">
             <ownedComment xmi:id="_gAey45lJEeeN7K_s3Iv6cQ" annotatedElement="_gAey4plJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.&lt;br>&lt;br>@param&amp;nbsp;assignmentNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;assignmentNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;assignmentNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAfZ8ZlJEeeN7K_s3Iv6cQ" name="assignmentNumber">
               <eAnnotations xmi:id="_gAgBAJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -808,7 +814,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAgBAplJEeeN7K_s3Iv6cQ" name="setBatchName" visibility="public">
             <ownedComment xmi:id="_gAgBA5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAgBAplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.&lt;br>&lt;br>@param&amp;nbsp;batchName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;batchName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAgoEJlJEeeN7K_s3Iv6cQ" name="batchName">
               <eAnnotations xmi:id="_gAgoEZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -819,7 +825,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAgoE5lJEeeN7K_s3Iv6cQ" name="setBatchNumber" visibility="public">
             <ownedComment xmi:id="_gAgoFJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAgoE5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.&lt;br>&lt;br>@param&amp;nbsp;batchNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;batchNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;batchNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAhPIZlJEeeN7K_s3Iv6cQ" name="batchNumber">
               <eAnnotations xmi:id="_gAh2MJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -830,7 +836,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAh2MplJEeeN7K_s3Iv6cQ" name="setChapterName" visibility="public">
             <ownedComment xmi:id="_gAh2M5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAh2MplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.&lt;br>&lt;br>@param&amp;nbsp;chapterName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;chapterName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAidQZlJEeeN7K_s3Iv6cQ" name="chapterName">
               <eAnnotations xmi:id="_gAidQplJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -841,7 +847,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAjEUZlJEeeN7K_s3Iv6cQ" name="setChapterNumber" visibility="public">
             <ownedComment xmi:id="_gAjEUplJEeeN7K_s3Iv6cQ" annotatedElement="_gAjEUZlJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.&lt;br>&lt;br>@param&amp;nbsp;chapterNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;chapterNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;chapterNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAjrYJlJEeeN7K_s3Iv6cQ" name="chapterNumber">
               <eAnnotations xmi:id="_gAjrYZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -852,7 +858,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAjrY5lJEeeN7K_s3Iv6cQ" name="setCumulativeDollarExecution" visibility="public">
             <ownedComment xmi:id="_gAkScJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAjrY5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution.&lt;br>&lt;br>@param&amp;nbsp;cumulativeDollarExecution&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;cumulativeDollarExecution&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeDollarExecution.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAkScplJEeeN7K_s3Iv6cQ" name="cumulativeDollarExecution">
               <eAnnotations xmi:id="_gAk5gJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -863,7 +869,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAk5gplJEeeN7K_s3Iv6cQ" name="setCumulativeExecution" visibility="public">
             <ownedComment xmi:id="_gAk5g5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAk5gplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.&lt;br>&lt;br>@param&amp;nbsp;cumulativeExecution&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;cumulativeExecution&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;cumulativeExecution.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAlgkJlJEeeN7K_s3Iv6cQ" name="cumulativeExecution">
               <eAnnotations xmi:id="_gAlgkZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -874,7 +880,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAmHoJlJEeeN7K_s3Iv6cQ" name="setCurrency" visibility="public">
             <ownedComment xmi:id="_gAmHoZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAmHoJlJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.&lt;br>&lt;br>@param&amp;nbsp;currency&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;currency&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;currency.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAmusJlJEeeN7K_s3Iv6cQ" name="currency">
               <eAnnotations xmi:id="_gAmusZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -884,9 +890,6 @@
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_gAmus5lJEeeN7K_s3Iv6cQ" name="setDollarExecutionPercentage" visibility="public" isLeaf="true">
-            <ownedComment xmi:id="_gAmutJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAmus5lJEeeN7K_s3Iv6cQ">
-              <body>@param&amp;nbsp;dollarExecutionPercentage&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;dollarExecutionPercentage&amp;nbsp;to&amp;nbsp;set</body>
-            </ownedComment>
             <ownedParameter xmi:id="_gAnVwZlJEeeN7K_s3Iv6cQ" name="dollarExecutionPercentage">
               <eAnnotations xmi:id="_pH0eUJmrEeeAWKInz3apng" source="http://www.eclipse.org/uml2/2.0.0/UML">
                 <details xmi:id="_pH0eUZmrEeeAWKInz3apng" key="final"/>
@@ -895,9 +898,6 @@
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_gAn80JlJEeeN7K_s3Iv6cQ" name="setExecutionPercentage" visibility="public" isLeaf="true">
-            <ownedComment xmi:id="_gAn80ZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAn80JlJEeeN7K_s3Iv6cQ">
-              <body>@param&amp;nbsp;executionPercentage&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;executionPercentage&amp;nbsp;to&amp;nbsp;set</body>
-            </ownedComment>
             <ownedParameter xmi:id="_gAoj4JlJEeeN7K_s3Iv6cQ" name="executionPercentage">
               <eAnnotations xmi:id="_pH1FYZmrEeeAWKInz3apng" source="http://www.eclipse.org/uml2/2.0.0/UML">
                 <details xmi:id="_pH1FYpmrEeeAWKInz3apng" key="final"/>
@@ -907,7 +907,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAoj4ZlJEeeN7K_s3Iv6cQ" name="setInitialBudget" visibility="public">
             <ownedComment xmi:id="_gAoj4plJEeeN7K_s3Iv6cQ" annotatedElement="_gAoj4ZlJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.&lt;br>&lt;br>@param&amp;nbsp;initialBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;initialBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialBudget.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gApK8JlJEeeN7K_s3Iv6cQ" name="initialBudget">
               <eAnnotations xmi:id="_gApK8ZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -918,7 +918,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gApK85lJEeeN7K_s3Iv6cQ" name="setInitialDollarBudget" visibility="public">
             <ownedComment xmi:id="_gApyAJlJEeeN7K_s3Iv6cQ" annotatedElement="_gApK85lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.&lt;br>&lt;br>@param&amp;nbsp;initialDollarBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;initialDollarBudget&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;initialDollarBudget.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gApyAplJEeeN7K_s3Iv6cQ" name="initialDollarBudget">
               <eAnnotations xmi:id="_gAqZEJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -927,31 +927,31 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAqZEplJEeeN7K_s3Iv6cQ" name="setItemName" visibility="public">
+          <ownedOperation xmi:id="_gAqZEplJEeeN7K_s3Iv6cQ" name="setSubtitleName" visibility="public">
             <ownedComment xmi:id="_gAqZE5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAqZEplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.&lt;br>&lt;br>@param&amp;nbsp;itemName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;itemName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
-            <ownedParameter xmi:id="_gArAIJlJEeeN7K_s3Iv6cQ" name="itemName">
-              <eAnnotations xmi:id="_gArAIZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-                <details xmi:id="_gArAIplJEeeN7K_s3Iv6cQ" key="final"/>
+            <ownedParameter xmi:id="_PByaQJpTEee9SelJ6GNJZw" name="subtitleName">
+              <eAnnotations xmi:id="_PByaQZpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_PByaQppTEee9SelJ6GNJZw" key="final"/>
               </eAnnotations>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gArAI5lJEeeN7K_s3Iv6cQ" name="setItemNumber" visibility="public">
+          <ownedOperation xmi:id="_gArAI5lJEeeN7K_s3Iv6cQ" name="setSubtitleNumber" visibility="public">
             <ownedComment xmi:id="_gArAJJlJEeeN7K_s3Iv6cQ" annotatedElement="_gArAI5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.&lt;br>&lt;br>@param&amp;nbsp;itemNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;itemNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;itemNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
-            <ownedParameter xmi:id="_gArnMZlJEeeN7K_s3Iv6cQ" name="itemNumber">
-              <eAnnotations xmi:id="_gArnMplJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-                <details xmi:id="_gArnM5lJEeeN7K_s3Iv6cQ" key="final"/>
+            <ownedParameter xmi:id="_PBzBUZpTEee9SelJ6GNJZw" name="subtitleNumber">
+              <eAnnotations xmi:id="_PBzoYJpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_PBzoYZpTEee9SelJ6GNJZw" key="final"/>
               </eAnnotations>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
           <ownedOperation xmi:id="_gAsOQJlJEeeN7K_s3Iv6cQ" name="setProgramName" visibility="public">
             <ownedComment xmi:id="_gAsOQZlJEeeN7K_s3Iv6cQ" annotatedElement="_gAsOQJlJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.&lt;br>&lt;br>@param&amp;nbsp;programName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;programName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAs1UJlJEeeN7K_s3Iv6cQ" name="programName">
               <eAnnotations xmi:id="_gAs1UZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -962,7 +962,7 @@
           </ownedOperation>
           <ownedOperation xmi:id="_gAs1U5lJEeeN7K_s3Iv6cQ" name="setProgramNumber" visibility="public">
             <ownedComment xmi:id="_gAs1VJlJEeeN7K_s3Iv6cQ" annotatedElement="_gAs1U5lJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.&lt;br>&lt;br>@param&amp;nbsp;programNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;programNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;programNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
             <ownedParameter xmi:id="_gAtcYZlJEeeN7K_s3Iv6cQ" name="programNumber">
               <eAnnotations xmi:id="_gAuDcJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -971,29 +971,45 @@
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAuDcplJEeeN7K_s3Iv6cQ" name="setSubtitleName" visibility="public">
+          <ownedOperation xmi:id="_gAuDcplJEeeN7K_s3Iv6cQ" name="setItemName" visibility="public">
             <ownedComment xmi:id="_gAuDc5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAuDcplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.&lt;br>&lt;br>@param&amp;nbsp;subtitleName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;subtitleName&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleName.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
-            <ownedParameter xmi:id="_gAuqgZlJEeeN7K_s3Iv6cQ" name="subtitleName">
-              <eAnnotations xmi:id="_gAvRkJlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-                <details xmi:id="_gAvRkZlJEeeN7K_s3Iv6cQ" key="final"/>
+            <ownedParameter xmi:id="_PBs6sJpTEee9SelJ6GNJZw" name="xxxName">
+              <eAnnotations xmi:id="_PBthwJpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_PBthwZpTEee9SelJ6GNJZw" key="final"/>
               </eAnnotations>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
-          <ownedOperation xmi:id="_gAvRkplJEeeN7K_s3Iv6cQ" name="setSubtitleNumber" visibility="public">
+          <ownedOperation xmi:id="_gAvRkplJEeeN7K_s3Iv6cQ" name="setItemNumber" visibility="public">
             <ownedComment xmi:id="_gAvRk5lJEeeN7K_s3Iv6cQ" annotatedElement="_gAvRkplJEeeN7K_s3Iv6cQ">
-              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.&lt;br>&lt;br>@param&amp;nbsp;subtitleNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.</body>
+              <body>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;subtitleNumber&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;the&amp;nbsp;new&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;subtitleNumber.&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
             </ownedComment>
-            <ownedParameter xmi:id="_gAv4oJlJEeeN7K_s3Iv6cQ" name="subtitleNumber">
-              <eAnnotations xmi:id="_gAv4oZlJEeeN7K_s3Iv6cQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
-                <details xmi:id="_gAv4oplJEeeN7K_s3Iv6cQ" key="final"/>
+            <ownedParameter xmi:id="_PBuI0ZpTEee9SelJ6GNJZw" name="xxxNumber">
+              <eAnnotations xmi:id="_PBuv4JpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_PBuv4ZpTEee9SelJ6GNJZw" key="final"/>
               </eAnnotations>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
             </ownedParameter>
           </ownedOperation>
         </nestedClassifier>
+        <ownedOperation xmi:id="_PAbvYJpTEee9SelJ6GNJZw" name="getHeaderLine" visibility="private" isStatic="true">
+          <ownedComment xmi:id="_PAcWcJpTEee9SelJ6GNJZw" annotatedElement="_PAbvYJpTEee9SelJ6GNJZw">
+            <body>@param&amp;nbsp;extended&lt;br>@return</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_PAcWcppTEee9SelJ6GNJZw" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PAcWc5pTEee9SelJ6GNJZw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PAc9gJpTEee9SelJ6GNJZw"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PAc9gppTEee9SelJ6GNJZw" name="extended">
+            <eAnnotations xmi:id="_PAdkkJpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_PAdkkZpTEee9SelJ6GNJZw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
         <ownedOperation xmi:id="_f7_7gJlJEeeN7K_s3Iv6cQ" name="map" visibility="private" isStatic="true">
           <ownedParameter xmi:id="_f7_7gZlJEeeN7K_s3Iv6cQ" name="ReturnParameter" type="_f3f2AZlJEeeN7K_s3Iv6cQ" isUnique="false" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_f7_7gplJEeeN7K_s3Iv6cQ" value="*"/>
@@ -1006,8 +1022,8 @@
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_f8BJo5lJEeeN7K_s3Iv6cQ" name="map" visibility="public" isStatic="true">
-          <ownedParameter xmi:id="_f8BwsJlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <ownedParameter xmi:id="_f8BwsJlJEeeN7K_s3Iv6cQ" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:Interface" href="file:/C:/Users/joviedo/workspace/RSA/Otros/.metadata/.plugins/com.ibm.xtools.transform.java.uml/.tempModels/budget-extractor1505510390780.emx#_O-MTsJpTEee9SelJ6GNJZw"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OjmxEJmxEeeAWKInz3apng" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OjmxEZmxEeeAWKInz3apng"/>
           </ownedParameter>
@@ -1016,9 +1032,36 @@
               <details xmi:id="_f8CXwZlJEeeN7K_s3Iv6cQ" key="final"/>
             </eAnnotations>
           </ownedParameter>
+          <ownedParameter xmi:id="_PAhO85pTEee9SelJ6GNJZw" name="useHeader">
+            <eAnnotations xmi:id="_PAhO9JpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_PAhO9ZpTEee9SelJ6GNJZw" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
           <ownedParameter xmi:id="_aWs985msEeeAWKInz3apng" name="extended">
             <eAnnotations xmi:id="_aWtlAJmsEeeAWKInz3apng" source="http://www.eclipse.org/uml2/2.0.0/UML">
               <details xmi:id="_aWtlAZmsEeeAWKInz3apng" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PAh2AppTEee9SelJ6GNJZw" name="mapElementToLine" visibility="private" isStatic="true">
+          <ownedComment xmi:id="_PAh2A5pTEee9SelJ6GNJZw" annotatedElement="_PAh2AppTEee9SelJ6GNJZw">
+            <body>@param&amp;nbsp;mappedElement&lt;br>@param&amp;nbsp;extended&lt;br>@return</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_PAh2BZpTEee9SelJ6GNJZw" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PAidEJpTEee9SelJ6GNJZw" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PAidEZpTEee9SelJ6GNJZw"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PAjEIJpTEee9SelJ6GNJZw" name="mappedElement" type="_f3f2AZlJEeeN7K_s3Iv6cQ">
+            <eAnnotations xmi:id="_PAjEIZpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_PAjEIppTEee9SelJ6GNJZw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <ownedParameter xmi:id="_PAjEI5pTEee9SelJ6GNJZw" name="extended">
+            <eAnnotations xmi:id="_PAjEJJpTEee9SelJ6GNJZw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_PAjEJZpTEee9SelJ6GNJZw" key="final"/>
             </eAnnotations>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
           </ownedParameter>
@@ -1557,62 +1600,62 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_UZ4ZEEquEeeJsdrfgQXeQw" name="BudgetElement">
         <ownedComment xmi:id="_UZ4ZEUquEeeJsdrfgQXeQw" annotatedElement="_UZ4ZEEquEeeJsdrfgQXeQw">
-          <body>&lt;p>Base element for the budget classifier's hierarchy.&lt;/p>&lt;p>@author JaimeOviedo&lt;/p></body>
+          <body>&lt;p>&lt;br>Base&amp;nbsp;element&amp;nbsp;for&amp;nbsp;the&amp;nbsp;budget&amp;nbsp;classifier's&amp;nbsp;hierarchy.&lt;br>&lt;/p>&lt;br>&lt;p>&lt;br>@author&amp;nbsp;JaimeOviedo&lt;br>&lt;/p></body>
         </ownedComment>
         <ownedAttribute xmi:id="_UfkKUEquEeeJsdrfgQXeQw" name="number" visibility="private">
           <ownedComment xmi:id="_crWs4EunEeeV1tNCHYSKhw" annotatedElement="_UfkKUEquEeeJsdrfgQXeQw">
-            <body>&lt;p>The number that identifies the element within his hierarchical level.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;number&amp;nbsp;that&amp;nbsp;identifies&amp;nbsp;the&amp;nbsp;element&amp;nbsp;within&amp;nbsp;his&amp;nbsp;hierarchical&amp;nbsp;level.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_Ufl_gEquEeeJsdrfgQXeQw" name="name" visibility="private">
           <ownedComment xmi:id="_Zew1EEunEeeV1tNCHYSKhw" annotatedElement="_Ufl_gEquEeeJsdrfgQXeQw">
-            <body>&lt;p>The name of the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;name&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_Ufn0sEquEeeJsdrfgQXeQw" name="description" visibility="private">
           <ownedComment xmi:id="_JlPXoEunEeeV1tNCHYSKhw" annotatedElement="_Ufn0sEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Describes the detailed intended usage of the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Describes&amp;nbsp;the&amp;nbsp;detailed&amp;nbsp;intended&amp;nbsp;usage&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_W7HikEq1EeeJsdrfgQXeQw" name="type" visibility="private" isLeaf="true" type="_qoIVMEq0EeeJsdrfgQXeQw">
           <ownedComment xmi:id="_gqKEwEunEeeV1tNCHYSKhw" annotatedElement="_W7HikEq1EeeJsdrfgQXeQw">
-            <body>&lt;p>The type of the element: CLASSIFIER, BUDGET or EXECUTION.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;type&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element:&amp;nbsp;CLASSIFIER,&amp;nbsp;BUDGET&amp;nbsp;or&amp;nbsp;EXECUTION.&lt;br>&lt;/p></body>
           </ownedComment>
         </ownedAttribute>
         <ownedAttribute xmi:id="_eL3MUEq1EeeJsdrfgQXeQw" name="level" visibility="private" isLeaf="true" type="_gVZrsEq1EeeJsdrfgQXeQw">
           <ownedComment xmi:id="_YW-GkEunEeeV1tNCHYSKhw" annotatedElement="_eL3MUEq1EeeJsdrfgQXeQw">
-            <body>&lt;p>The level of the element in the budgetary classifier's hierarchy. The hierarchy is: BATCH, CHAPTER, PROGRAM, SUBTITLE, ITEM and ASSIGNMENT. The latter being the deepest leaf level.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;level&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;classifier's&amp;nbsp;hierarchy.&amp;nbsp;The&amp;nbsp;hierarchy&amp;nbsp;is:&amp;nbsp;BATCH,&lt;br>CHAPTER,&amp;nbsp;PROGRAM,&amp;nbsp;SUBTITLE,&amp;nbsp;ITEM&amp;nbsp;and&amp;nbsp;ASSIGNMENT.&amp;nbsp;The&amp;nbsp;latter&amp;nbsp;being&amp;nbsp;the&amp;nbsp;deepest&amp;nbsp;leaf&amp;nbsp;level.&lt;br>&lt;/p></body>
           </ownedComment>
         </ownedAttribute>
         <ownedAttribute xmi:id="_Gg-6kEymEeekuqvl4T6tsg" name="initialBudget" visibility="private">
           <ownedComment xmi:id="_zxLAsE1OEeekuqvl4T6tsg" annotatedElement="_Gg-6kEymEeekuqvl4T6tsg">
-            <body>&lt;p>The element's budget as was established in the budgetary law.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_uEqDcE1GEeekuqvl4T6tsg" name="actualBudget" visibility="private">
           <ownedComment xmi:id="_A2ya0E1JEeekuqvl4T6tsg" annotatedElement="_uEqDcE1GEeekuqvl4T6tsg">
-            <body>&lt;p>The current budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;current&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_xndb0E1GEeekuqvl4T6tsg" name="currency" visibility="private" type="_pXE6AE1GEeekuqvl4T6tsg">
           <ownedComment xmi:id="_NyRZ0E1JEeekuqvl4T6tsg" annotatedElement="_xndb0E1GEeekuqvl4T6tsg">
-            <body>&lt;p>The budget element's currency. Only composite elements can have mixed currencies.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;budget&amp;nbsp;element's&amp;nbsp;currency.&amp;nbsp;Only&amp;nbsp;composite&amp;nbsp;elements&amp;nbsp;can&amp;nbsp;have&amp;nbsp;mixed&amp;nbsp;currencies.&lt;br>&lt;/p></body>
           </ownedComment>
         </ownedAttribute>
         <ownedAttribute xmi:id="_ym_UQE1IEeekuqvl4T6tsg" name="cumulativeExecution" visibility="private">
           <ownedComment xmi:id="_MTE38E1JEeekuqvl4T6tsg" annotatedElement="_ym_UQE1IEeekuqvl4T6tsg">
-            <body>&lt;p>The amount of the element's budget that has been spent.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;that&amp;nbsp;has&amp;nbsp;been&amp;nbsp;spent.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_fUkVcE1VEeekuqvl4T6tsg" name="actualDollarBudget" visibility="private">
           <ownedComment xmi:id="_hyH9AE1VEeekuqvl4T6tsg" annotatedElement="_fUkVcE1VEeekuqvl4T6tsg">
-            <body>&lt;p>The current dollar budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;current&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedAttribute>
@@ -1621,13 +1664,13 @@
         </ownedAttribute>
         <ownedAttribute xmi:id="_sdc3QE1VEeekuqvl4T6tsg" name="initialDollarBudget" visibility="private">
           <ownedComment xmi:id="_v0r40E1VEeekuqvl4T6tsg" annotatedElement="_sdc3QE1VEeekuqvl4T6tsg">
-            <body>&lt;p>The element's dollar budget as was established in the budgetary law.&lt;/p></body>
+            <body>&lt;p>&lt;br>The&amp;nbsp;element's&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p></body>
           </ownedComment>
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.math.BigInteger%5Bproject%5Eid=goby-budget-extractor%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_UfqQ8EquEeeJsdrfgQXeQw" name="BudgetElement" visibility="public">
           <ownedComment xmi:id="_UfqQ8UquEeeJsdrfgQXeQw" annotatedElement="_UfqQ8EquEeeJsdrfgQXeQw">
-            <body>&lt;p>Creates a new Budget Element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Creates&amp;nbsp;a&amp;nbsp;new&amp;nbsp;Budget&amp;nbsp;Element.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_UfrfEEquEeeJsdrfgQXeQw" name="number">
             <ownedComment xmi:id="_oNxnMEunEeeV1tNCHYSKhw" annotatedElement="_UfrfEEquEeeJsdrfgQXeQw">
@@ -1660,7 +1703,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_cuAscErwEeeJsdrfgQXeQw" name="getType" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_cuBTgErwEeeJsdrfgQXeQw" annotatedElement="_cuAscErwEeeJsdrfgQXeQw">
-            <body>&lt;p>Returns the value of the type field&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;type&amp;nbsp;field&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_cuB6kUrwEeeJsdrfgQXeQw" name="ReturnParameter" type="_qoIVMEq0EeeJsdrfgQXeQw" direction="return">
             <ownedComment xmi:id="_C3_AAEuoEeeV1tNCHYSKhw" annotatedElement="_cuB6kUrwEeeJsdrfgQXeQw">
@@ -1670,7 +1713,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_cuRLIErwEeeJsdrfgQXeQw" name="getLevel" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_cuRyMErwEeeJsdrfgQXeQw" annotatedElement="_cuRLIErwEeeJsdrfgQXeQw">
-            <body>&lt;p>Returns the value of the level field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;level&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_cuSZQErwEeeJsdrfgQXeQw" name="ReturnParameter" type="_gVZrsEq1EeeJsdrfgQXeQw" direction="return">
             <ownedComment xmi:id="_6EOrYEunEeeV1tNCHYSKhw" annotatedElement="_cuSZQErwEeeJsdrfgQXeQw">
@@ -1680,7 +1723,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_UftUQEquEeeJsdrfgQXeQw" name="getDescription" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_Uft7UEquEeeJsdrfgQXeQw" annotatedElement="_UftUQEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Returns the value of the description field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;description&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_UfuiYUquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
             <ownedComment xmi:id="_zUyX4EunEeeV1tNCHYSKhw" annotatedElement="_UfuiYUquEeeJsdrfgQXeQw">
@@ -1691,7 +1734,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_UfwXkEquEeeJsdrfgQXeQw" name="getName" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_UfwXkUquEeeJsdrfgQXeQw" annotatedElement="_UfwXkEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Returns the value of the name field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;name&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_UfxlsEquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
             <ownedComment xmi:id="_88NlIEunEeeV1tNCHYSKhw" annotatedElement="_UfxlsEquEeeJsdrfgQXeQw">
@@ -1702,7 +1745,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_Ufyz0EquEeeJsdrfgQXeQw" name="getNumber" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_Ufyz0UquEeeJsdrfgQXeQw" annotatedElement="_Ufyz0EquEeeJsdrfgQXeQw">
-            <body>&lt;p>Returns the value of the number field&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;number&amp;nbsp;field&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Ufza4UquEeeJsdrfgQXeQw" name="ReturnParameter" direction="return">
             <ownedComment xmi:id="__mrnUEunEeeV1tNCHYSKhw" annotatedElement="_Ufza4UquEeeJsdrfgQXeQw">
@@ -1713,7 +1756,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_Uf1QEEquEeeJsdrfgQXeQw" name="setDescription" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_EKkCMEuoEeeV1tNCHYSKhw" annotatedElement="_Uf1QEEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Sets the value of the description field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;description&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Uf2eMEquEeeJsdrfgQXeQw" name="description">
             <ownedComment xmi:id="_F0FkwEuoEeeV1tNCHYSKhw" annotatedElement="_Uf2eMEquEeeJsdrfgQXeQw">
@@ -1724,7 +1767,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_Uf3sUEquEeeJsdrfgQXeQw" name="setName" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_LNjj0EuoEeeV1tNCHYSKhw" annotatedElement="_Uf3sUEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Sets the value of the name field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;name&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Uf46cEquEeeJsdrfgQXeQw" name="name">
             <ownedComment xmi:id="_MdFSAEuoEeeV1tNCHYSKhw" annotatedElement="_Uf46cEquEeeJsdrfgQXeQw">
@@ -1735,7 +1778,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_Uf6IkEquEeeJsdrfgQXeQw" name="setNumber" visibility="public" isLeaf="true">
           <ownedComment xmi:id="_PCGzgEuoEeeV1tNCHYSKhw" annotatedElement="_Uf6IkEquEeeJsdrfgQXeQw">
-            <body>&lt;p>Sets the value of the number field.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;value&amp;nbsp;of&amp;nbsp;the&amp;nbsp;number&amp;nbsp;field.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Uf7WsEquEeeJsdrfgQXeQw" name="number">
             <ownedComment xmi:id="_QGCVsEuoEeeV1tNCHYSKhw" annotatedElement="_Uf7WsEquEeeJsdrfgQXeQw">
@@ -1746,7 +1789,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_NLNW4EymEeekuqvl4T6tsg" name="getInitialBudget">
           <ownedComment xmi:id="__6FL4E1REeekuqvl4T6tsg" annotatedElement="_NLNW4EymEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the element's budget as was established in the budgetary law&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_QrgN0EymEeekuqvl4T6tsg" name="initialBudget" direction="return">
             <ownedComment xmi:id="_Bh7TcE1SEeekuqvl4T6tsg" annotatedElement="_QrgN0EymEeekuqvl4T6tsg">
@@ -1757,7 +1800,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_SESI8E1GEeekuqvl4T6tsg" name="getActualBudget">
           <ownedComment xmi:id="_lslkQE1REeekuqvl4T6tsg" annotatedElement="_SESI8E1GEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the current budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;current&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_eX6y4E1IEeekuqvl4T6tsg" name="Parameter1" direction="return">
             <ownedComment xmi:id="_njOVwE1REeekuqvl4T6tsg" annotatedElement="_eX6y4E1IEeekuqvl4T6tsg">
@@ -1768,7 +1811,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_ZeWGwE1GEeekuqvl4T6tsg" name="setInitialBudget">
           <ownedComment xmi:id="_E_N5sE1SEeekuqvl4T6tsg" annotatedElement="_ZeWGwE1GEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the element's budget as was established in the budgetary law.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_igrC4E1GEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_GY_JAE1SEeekuqvl4T6tsg" annotatedElement="_igrC4E1GEeekuqvl4T6tsg">
@@ -1779,7 +1822,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_y2sPEE1GEeekuqvl4T6tsg" name="setCurrency">
           <ownedComment xmi:id="_7FVqgE1REeekuqvl4T6tsg" annotatedElement="_y2sPEE1GEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the budget element's currency.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;budget&amp;nbsp;element's&amp;nbsp;currency.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_0SeQkE1GEeekuqvl4T6tsg" name="currency" type="_pXE6AE1GEeekuqvl4T6tsg">
             <ownedComment xmi:id="_8et4QE1REeekuqvl4T6tsg" annotatedElement="_0SeQkE1GEeekuqvl4T6tsg">
@@ -1789,7 +1832,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_030ZUE1GEeekuqvl4T6tsg" name="getCurrency">
           <ownedComment xmi:id="_5E-VQE1REeekuqvl4T6tsg" annotatedElement="_030ZUE1GEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the budget element's currency.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;budget&amp;nbsp;element's&amp;nbsp;currency.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_2KNOQE1GEeekuqvl4T6tsg" name="Parameter1" type="_pXE6AE1GEeekuqvl4T6tsg" direction="return">
             <ownedComment xmi:id="_6J2SoE1REeekuqvl4T6tsg" annotatedElement="_2KNOQE1GEeekuqvl4T6tsg">
@@ -1799,7 +1842,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_YKLeQE1IEeekuqvl4T6tsg" name="setActualBudget">
           <ownedComment xmi:id="_o2R5EE1REeekuqvl4T6tsg" annotatedElement="_YKLeQE1IEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the current budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;current&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Z9o_8E1IEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_qWEQ0E1REeekuqvl4T6tsg" annotatedElement="_Z9o_8E1IEeekuqvl4T6tsg">
@@ -1810,7 +1853,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_2TUcEE1IEeekuqvl4T6tsg" name="getCumulativeExecution">
           <ownedComment xmi:id="_syvuoE1REeekuqvl4T6tsg" annotatedElement="_2TUcEE1IEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the amount of the element's budget that has been spent.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;that&amp;nbsp;has&amp;nbsp;been&amp;nbsp;spent.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_3i0VEE1IEeekuqvl4T6tsg" name="Parameter1" direction="return">
             <ownedComment xmi:id="_zknEAE1REeekuqvl4T6tsg" annotatedElement="_3i0VEE1IEeekuqvl4T6tsg">
@@ -1821,7 +1864,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_4It3cE1IEeekuqvl4T6tsg" name="setCumulativeExecution">
           <ownedComment xmi:id="_1L81QE1REeekuqvl4T6tsg" annotatedElement="_4It3cE1IEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the amount of the element's budget that has been spent.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;that&amp;nbsp;has&amp;nbsp;been&amp;nbsp;spent.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_6M6j0E1IEeekuqvl4T6tsg" name="execution">
             <ownedComment xmi:id="_3BGZAE1REeekuqvl4T6tsg" annotatedElement="_6M6j0E1IEeekuqvl4T6tsg">
@@ -1832,7 +1875,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_2Fsj4E1VEeekuqvl4T6tsg" name="getActualDollarBudget">
           <ownedComment xmi:id="_6DRzwE1VEeekuqvl4T6tsg" annotatedElement="_2Fsj4E1VEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the current dollar budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;current&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_38BzYE1VEeekuqvl4T6tsg" name="Parameter1" direction="return">
             <ownedComment xmi:id="_8Byu4E1VEeekuqvl4T6tsg" annotatedElement="_38BzYE1VEeekuqvl4T6tsg">
@@ -1843,7 +1886,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_JOpxwE1WEeekuqvl4T6tsg" name="setActualDollarBudget">
           <ownedComment xmi:id="_g1UhEE1WEeekuqvl4T6tsg" annotatedElement="_JOpxwE1WEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;current&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_Leg7kE1WEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_ixeEsE1WEeekuqvl4T6tsg" annotatedElement="_Leg7kE1WEeekuqvl4T6tsg">
@@ -1854,7 +1897,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_PC2lAE1WEeekuqvl4T6tsg" name="getInitialDollarBudget">
           <ownedComment xmi:id="_cZkugE1WEeekuqvl4T6tsg" annotatedElement="_PC2lAE1WEeekuqvl4T6tsg">
-            <body>&lt;p>Returns the element's dollar budget as was established in the budgetary law&lt;/p></body>
+            <body>&lt;p>&lt;br>Returns&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_QO79oE1WEeekuqvl4T6tsg" name="Parameter1" direction="return">
             <ownedComment xmi:id="_d0bi8E1WEeekuqvl4T6tsg" annotatedElement="_QO79oE1WEeekuqvl4T6tsg">
@@ -1865,7 +1908,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_R7HyoE1WEeekuqvl4T6tsg" name="setInitialDollarBudget">
           <ownedComment xmi:id="_XzZ0oE1WEeekuqvl4T6tsg" annotatedElement="_R7HyoE1WEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the element's dollar budget as was established in the budgetary law.&lt;/p></body>
+            <body>&lt;p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p></body>
           </ownedComment>
           <ownedParameter xmi:id="_TwagUE1WEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_ZjNlYE1WEeekuqvl4T6tsg" annotatedElement="_TwagUE1WEeekuqvl4T6tsg">
@@ -1890,7 +1933,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_UaAU4EquEeeJsdrfgQXeQw" name="CompositeBudgetElement">
         <ownedComment xmi:id="_UaAU4UquEeeJsdrfgQXeQw" annotatedElement="_UaAU4EquEeeJsdrfgQXeQw">
-          <body>&lt;p>Base class for budgetary elements that are composed hierarchically&lt;/p>&lt;p>@author JaimeOviedo&lt;/p></body>
+          <body>p>&lt;br>Base&amp;nbsp;class&amp;nbsp;for&amp;nbsp;budgetary&amp;nbsp;elements&amp;nbsp;that&amp;nbsp;are&amp;nbsp;composed&amp;nbsp;hierarchically&lt;br>&lt;/p>&lt;br>&lt;p>&lt;br>&lt;br>@author JaimeOviedo&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p>&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
         </ownedComment>
         <generalization xmi:id="_UgdiMEquEeeJsdrfgQXeQw" general="_UZ4ZEEquEeeJsdrfgQXeQw"/>
         <ownedAttribute xmi:id="_UgPfwEquEeeJsdrfgQXeQw" name="subElements" visibility="private" type="_UZ4ZEEquEeeJsdrfgQXeQw">
@@ -1905,98 +1948,16 @@
           </defaultValue>
         </ownedAttribute>
         <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_ohbmwFD8EeeDDreW7cLBoA" name="ChangeType">
-          <ownedAttribute xmi:id="_qQ1C45mtEeeAWKInz3apng" name="name" visibility="private">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:id="_qQ2RAJmtEeeAWKInz3apng" name="value" visibility="private"/>
-          <ownedOperation xmi:id="_qQ-z4ZmtEeeAWKInz3apng" name="ChangeType" visibility="package">
-            <ownedParameter xmi:id="_qQ_a8JmtEeeAWKInz3apng" name="enumName">
-              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            </ownedParameter>
-            <ownedParameter xmi:id="_qRACAJmtEeeAWKInz3apng" name="enumValue"/>
-          </ownedOperation>
-          <ownedOperation xmi:id="_qRACAZmtEeeAWKInz3apng" name="getName" visibility="public">
-            <ownedParameter xmi:id="_qRACApmtEeeAWKInz3apng" name="ReturnParameter" direction="return">
-              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            </ownedParameter>
-          </ownedOperation>
-          <ownedOperation xmi:id="_qRApEJmtEeeAWKInz3apng" name="getValue" visibility="public">
-            <ownedParameter xmi:id="_qRBQIJmtEeeAWKInz3apng" name="ReturnParameter" direction="return"/>
-          </ownedOperation>
-          <ownedOperation xmi:id="_qRBQIZmtEeeAWKInz3apng" name="getEnumByValue" visibility="public" isStatic="true">
-            <ownedParameter xmi:id="_qRB3MJmtEeeAWKInz3apng" name="ReturnParameter" type="_ohbmwFD8EeeDDreW7cLBoA" direction="return"/>
-            <ownedParameter xmi:id="_qRB3MZmtEeeAWKInz3apng" name="enumValue"/>
-          </ownedOperation>
-          <ownedOperation xmi:id="_qRCeQJmtEeeAWKInz3apng" name="getEnumByName" visibility="public" isStatic="true">
-            <ownedParameter xmi:id="_qRCeQZmtEeeAWKInz3apng" name="ReturnParameter" type="_ohbmwFD8EeeDDreW7cLBoA" direction="return"/>
-            <ownedParameter xmi:id="_qRDFUJmtEeeAWKInz3apng" name="enumName">
-              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-            </ownedParameter>
-          </ownedOperation>
-          <ownedLiteral xmi:id="_pv92cFD8EeeDDreW7cLBoA" name="INITIAL_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ3fIJmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ3fIZmtEeeAWKInz3apng" name="arg0" value="INITIAL_BUDGET">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ3fIpmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ3fI5mtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
-          <ownedLiteral xmi:id="_q_0UwFD8EeeDDreW7cLBoA" name="INITIAL_DOLLAR_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ4tQJmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ4tQZmtEeeAWKInz3apng" name="arg0" value="INITIAL_DOLLAR_BUDGET">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ4tQpmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ5UUJmtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
-          <ownedLiteral xmi:id="_sF82YFD8EeeDDreW7cLBoA" name="ACTUAL_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ57YJmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ57YZmtEeeAWKInz3apng" name="arg0" value="ACTUAL_BUDGET">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ6icJmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ6icZmtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
-          <ownedLiteral xmi:id="_s9ap4FD8EeeDDreW7cLBoA" name="ACTUAL_DOLLAR_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ7JgZmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ7wkJmtEeeAWKInz3apng" name="arg0" value="ACTUAL_DOLLAR_BUDGET">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ7wkZmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ7wkpmtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
-          <ownedLiteral xmi:id="_uGw3kFD8EeeDDreW7cLBoA" name="CUMULATIVE_EXECUTION" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ8-sJmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ8-sZmtEeeAWKInz3apng" name="arg0" value="CUMULATIVE_EXECUTION">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ8-spmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ8-s5mtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
-          <ownedLiteral xmi:id="_voGugFD8EeeDDreW7cLBoA" name="CUMULATIVE_DOLLAR_EXECUTION" classifier="_ohbmwFD8EeeDDreW7cLBoA">
-            <slot xmi:id="_qQ-M0JmtEeeAWKInz3apng" definingFeature="_qQ1C45mtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralString" xmi:id="_qQ-M0ZmtEeeAWKInz3apng" name="arg0" value="CUMULATIVE_DOLLAR_EXECUTION">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-              </value>
-            </slot>
-            <slot xmi:id="_qQ-M0pmtEeeAWKInz3apng" definingFeature="_qQ2RAJmtEeeAWKInz3apng">
-              <value xmi:type="uml:LiteralNull" xmi:id="_qQ-z4JmtEeeAWKInz3apng" name="arg1" type="_4PRPkJQOEeeyu_ZR04zubg"/>
-            </slot>
-          </ownedLiteral>
+          <ownedLiteral xmi:id="_pv92cFD8EeeDDreW7cLBoA" name="INITIAL_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
+          <ownedLiteral xmi:id="_q_0UwFD8EeeDDreW7cLBoA" name="INITIAL_DOLLAR_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
+          <ownedLiteral xmi:id="_sF82YFD8EeeDDreW7cLBoA" name="ACTUAL_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
+          <ownedLiteral xmi:id="_s9ap4FD8EeeDDreW7cLBoA" name="ACTUAL_DOLLAR_BUDGET" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
+          <ownedLiteral xmi:id="_uGw3kFD8EeeDDreW7cLBoA" name="CUMULATIVE_EXECUTION" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
+          <ownedLiteral xmi:id="_voGugFD8EeeDDreW7cLBoA" name="CUMULATIVE_DOLLAR_EXECUTION" classifier="_ohbmwFD8EeeDDreW7cLBoA"/>
         </nestedClassifier>
         <ownedOperation xmi:id="_UgRU8EquEeeJsdrfgQXeQw" name="CompositeBudgetElement" visibility="public">
           <ownedComment xmi:id="_UgR8AEquEeeJsdrfgQXeQw" annotatedElement="_UgRU8EquEeeJsdrfgQXeQw">
-            <body>Crea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&amp;nbsp;ClasificadorCompuesto.&lt;br>&lt;br>@param&amp;nbsp;numero&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;numero&lt;br>@param&amp;nbsp;nombre&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;nombre&lt;br>@param&amp;nbsp;descripcion&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;descripcion</body>
+            <body>rea&amp;nbsp;una&amp;nbsp;nueva&amp;nbsp;instancia&amp;nbsp;de&amp;nbsp;la&amp;nbsp;clase&amp;nbsp;ClasificadorCompuesto.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;numero&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;numero&lt;br>&lt;br>@param&amp;nbsp;nombre&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;nombre&lt;br>&lt;br>@param&amp;nbsp;descripcion&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;descripcion&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
           </ownedComment>
           <ownedParameter xmi:id="_UgSjEEquEeeJsdrfgQXeQw" name="number">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
@@ -2021,7 +1982,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_UgW0gEquEeeJsdrfgQXeQw" name="getSubelements" visibility="public">
           <ownedComment xmi:id="_UgW0gUquEeeJsdrfgQXeQw" annotatedElement="_UgW0gEquEeeJsdrfgQXeQw">
-            <body>Devuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos</body>
+            <body>evuelve&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>@return&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElemento</body>
           </ownedComment>
           <ownedParameter xmi:id="_UgW0g0quEeeJsdrfgQXeQw" name="ReturnParameter" type="_TxJzsFHWEeelKfiaecC7iA" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UgXbkEquEeeJsdrfgQXeQw" value="*"/>
@@ -2030,7 +1991,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_UgZQwEquEeeJsdrfgQXeQw" name="setSubelements" visibility="public">
           <ownedComment xmi:id="_UgZQwUquEeeJsdrfgQXeQw" annotatedElement="_UgZQwEquEeeJsdrfgQXeQw">
-            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>@param&amp;nbsp;clasificadores&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos</body>
+            <body>stablece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;clasificadores&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
           </ownedComment>
           <ownedParameter xmi:id="_UgZ30UquEeeJsdrfgQXeQw" name="budgetElements" type="_TxJzsFHWEeelKfiaecC7iA" isUnique="false">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ugae4EquEeeJsdrfgQXeQw" value="*"/>
@@ -2039,7 +2000,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_XZylUE1XEeekuqvl4T6tsg" name="setInitialBudget">
           <ownedComment xmi:id="_XZylUU1XEeekuqvl4T6tsg" annotatedElement="_XZylUE1XEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the element's budget as was established in the budgetary law.&lt;/p></body>
+            <body>p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p</body>
           </ownedComment>
           <ownedParameter xmi:id="_XZylUk1XEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_XZylU01XEeekuqvl4T6tsg" annotatedElement="_XZylUk1XEeekuqvl4T6tsg">
@@ -2050,7 +2011,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_XZzMYE1XEeekuqvl4T6tsg" name="setActualBudget">
           <ownedComment xmi:id="_XZzMYU1XEeekuqvl4T6tsg" annotatedElement="_XZzMYE1XEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the current budget for the element.&lt;/p></body>
+            <body>p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;current&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p</body>
           </ownedComment>
           <ownedParameter xmi:id="_XZzMYk1XEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_XZzMY01XEeekuqvl4T6tsg" annotatedElement="_XZzMYk1XEeekuqvl4T6tsg">
@@ -2061,7 +2022,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_XZ0agE1XEeekuqvl4T6tsg" name="setCumulativeExecution">
           <ownedComment xmi:id="_XZ0agU1XEeekuqvl4T6tsg" annotatedElement="_XZ0agE1XEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the amount of the element's budget that has been spent.&lt;/p></body>
+            <body>p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;amount&amp;nbsp;of&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;budget&amp;nbsp;that&amp;nbsp;has&amp;nbsp;been&amp;nbsp;spent.&lt;br>&lt;/p</body>
           </ownedComment>
           <ownedParameter xmi:id="_XZ0agk1XEeekuqvl4T6tsg" name="execution">
             <ownedComment xmi:id="_XZ0ag01XEeekuqvl4T6tsg" annotatedElement="_XZ0agk1XEeekuqvl4T6tsg">
@@ -2072,7 +2033,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_XZ1Bk01XEeekuqvl4T6tsg" name="setActualDollarBudget">
           <ownedComment xmi:id="_XZ1BlE1XEeekuqvl4T6tsg" annotatedElement="_XZ1Bk01XEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the current dollar budget for the element.&lt;/p></body>
+            <body>p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;current&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;for&amp;nbsp;the&amp;nbsp;element.&lt;br>&lt;/p</body>
           </ownedComment>
           <ownedParameter xmi:id="_XZ1BlU1XEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_XZ1Blk1XEeekuqvl4T6tsg" annotatedElement="_XZ1BlU1XEeekuqvl4T6tsg">
@@ -2083,7 +2044,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_XZ2PsE1XEeekuqvl4T6tsg" name="setInitialDollarBudget">
           <ownedComment xmi:id="_XZ2PsU1XEeekuqvl4T6tsg" annotatedElement="_XZ2PsE1XEeekuqvl4T6tsg">
-            <body>&lt;p>Sets the element's dollar budget as was established in the budgetary law.&lt;/p></body>
+            <body>p>&lt;br>Sets&amp;nbsp;the&amp;nbsp;element's&amp;nbsp;dollar&amp;nbsp;budget&amp;nbsp;as&amp;nbsp;was&amp;nbsp;established&amp;nbsp;in&amp;nbsp;the&amp;nbsp;budgetary&amp;nbsp;law.&lt;br>&lt;/p</body>
           </ownedComment>
           <ownedParameter xmi:id="_XZ2Psk1XEeekuqvl4T6tsg" name="budget">
             <ownedComment xmi:id="_XZ2Ps01XEeekuqvl4T6tsg" annotatedElement="_XZ2Psk1XEeekuqvl4T6tsg">
@@ -2115,7 +2076,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_yI_3oFxlEee8GZGMCONk9w" name="setSubelements" visibility="public">
           <ownedComment xmi:id="_yI_3oVxlEee8GZGMCONk9w" annotatedElement="_yI_3oFxlEee8GZGMCONk9w">
-            <body>Establece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>@param&amp;nbsp;clasificadores&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos</body>
+            <body>stablece&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos.&lt;br>&lt;br>&lt;br>&lt;br>@param&amp;nbsp;clasificadores&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;el&amp;nbsp;valor&amp;nbsp;del&amp;nbsp;campo&amp;nbsp;subElementos&lt;br>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;</body>
           </ownedComment>
           <ownedParameter xmi:id="_yI_3olxlEee8GZGMCONk9w" name="budgetElements" type="_TxJzsFHWEeelKfiaecC7iA" isUnique="false">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yI_3o1xlEee8GZGMCONk9w" value="*"/>
@@ -2338,13 +2299,8 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_pXE6AE1GEeekuqvl4T6tsg" name="BudgetCurrency">
         <ownedComment xmi:id="_G36zQFHdEeelKfiaecC7iA" annotatedElement="_pXE6AE1GEeekuqvl4T6tsg">
-          <body>p>Enumeration&amp;nbsp;of&amp;nbsp;all&amp;nbsp;valid&amp;nbsp;currency&amp;nbsp;options&lt;/p</body>
+          <body>>Enumeration&amp;nbsp;of&amp;nbsp;all&amp;nbsp;valid&amp;nbsp;currency&amp;nbsp;options&lt;/p</body>
         </ownedComment>
-        <ownedOperation xmi:id="_f9ESgJlJEeeN7K_s3Iv6cQ" name="toString" visibility="public">
-          <ownedParameter xmi:id="_f9E5kJlJEeeN7K_s3Iv6cQ" name="ReturnParameter" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
         <ownedLiteral xmi:id="_rFKMcE1GEeekuqvl4T6tsg" name="PESO" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
         <ownedLiteral xmi:id="_sS8OME1GEeekuqvl4T6tsg" name="DOLLAR" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
         <ownedLiteral xmi:id="_nkhZcE1VEeekuqvl4T6tsg" name="MIXED" classifier="_pXE6AE1GEeekuqvl4T6tsg"/>
@@ -2981,6 +2937,12 @@
         </ownedAttribute>
         <ownedAttribute xmi:id="_DkOzgFdEEee4ttLK_7FK1A" name="element" visibility="private" isLeaf="true"/>
         <interfaceRealization xmi:id="_FAPJYFdCEee4ttLK_7FK1A" supplier="_kNOmUFdBEee4ttLK_7FK1A" client="_yNL6EFdBEee4ttLK_7FK1A" contract="_kNOmUFdBEee4ttLK_7FK1A"/>
+        <ownedOperation xmi:id="_PCgL8JpTEee9SelJ6GNJZw" name="inject" visibility="public" isStatic="true" raisedException="_q4ar8FdBEee4ttLK_7FK1A">
+          <ownedParameter xmi:id="_PCgzAJpTEee9SelJ6GNJZw" name="element"/>
+          <ownedParameter xmi:id="_PCgzAZpTEee9SelJ6GNJZw" name="destination">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
         <ownedOperation xmi:id="_8Hj4gFdBEee4ttLK_7FK1A" name="FileSystemInjector">
           <ownedParameter xmi:id="__1zE0FdBEee4ttLK_7FK1A" name="destination">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -4121,10 +4083,6 @@
   <Default:Documentation xmi:id="_VWz6YF5BEeeguv5GRmiMJw" base_Comment="_Fq5bIF5BEeeguv5GRmiMJw"/>
   <Default:Documentation xmi:id="_VW1IgF5BEeeguv5GRmiMJw" base_Comment="_FxjcwV5BEeeguv5GRmiMJw"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_VW2WoF5BEeeguv5GRmiMJw" base_TypedElement="_FsGVAV5BEeeguv5GRmiMJw"/>
-  <JavaTransformation50:JavaGenericInstance xmi:id="_Uxil8F5IEeeguv5GRmiMJw" base_Interface="_RXhWIV5IEeeguv5GRmiMJw"/>
-  <JavaTransformation50:JavaTypeRedirect xmi:id="_UxkbIF5IEeeguv5GRmiMJw" base_Type="_RXjLUV5IEeeguv5GRmiMJw">
-    <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-  </JavaTransformation50:JavaTypeRedirect>
   <Default:Documentation xmi:id="_oaVEUGASEeefXZqJOyM9_Q" base_Comment="_mVqTUmAREeefXZqJOyM9_Q"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_oaWScGASEeefXZqJOyM9_Q" collectionType="java.util.List" base_TypedElement="_mVq6YWAREeefXZqJOyM9_Q"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_oaXgkGASEeefXZqJOyM9_Q" collectionType="java.util.List" base_TypedElement="_rA1IEF5HEeeguv5GRmiMJw"/>
@@ -4179,11 +4137,9 @@
   <Default:Documentation xmi:id="_r9JZMJlJEeeN7K_s3Iv6cQ" base_Comment="_gAh2M5lJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9KAQJlJEeeN7K_s3Iv6cQ" base_Comment="_gArAJJlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9LOYJlJEeeN7K_s3Iv6cQ" base_Comment="_gAvRk5lJEeeN7K_s3Iv6cQ"/>
-  <Default:Documentation xmi:id="_r9L1cJlJEeeN7K_s3Iv6cQ" base_Comment="_gAmutJlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9McgJlJEeeN7K_s3Iv6cQ" base_Comment="_gAdkxJlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9NqoJlJEeeN7K_s3Iv6cQ" base_Comment="_gAahcZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9ORsJlJEeeN7K_s3Iv6cQ" base_Comment="_gAmHoZlJEeeN7K_s3Iv6cQ"/>
-  <Default:Documentation xmi:id="_r9Pf0JlJEeeN7K_s3Iv6cQ" base_Comment="_gAn80ZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9QG4JlJEeeN7K_s3Iv6cQ" base_Comment="_gAc9sJlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9RVAJlJEeeN7K_s3Iv6cQ" base_Comment="_gAUa0ZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9R8EJlJEeeN7K_s3Iv6cQ" base_Comment="_gAMfAZlJEeeN7K_s3Iv6cQ"/>
@@ -4198,7 +4154,6 @@
   <Default:Documentation xmi:id="_r9Z34JlJEeeN7K_s3Iv6cQ" base_Comment="_gATzwZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9bGAJlJEeeN7K_s3Iv6cQ" base_Comment="_gAoj4plJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9btEJlJEeeN7K_s3Iv6cQ" base_Comment="_gAVo8JlJEeeN7K_s3Iv6cQ"/>
-  <Default:Documentation xmi:id="_r9c7MJlJEeeN7K_s3Iv6cQ" base_Comment="_gAQJYJlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9diQJlJEeeN7K_s3Iv6cQ" base_Comment="_gAuDc5lJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9ewYJlJEeeN7K_s3Iv6cQ" base_Comment="_gAI0oZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9fXcJlJEeeN7K_s3Iv6cQ" base_Comment="_gAbvkZlJEeeN7K_s3Iv6cQ"/>
@@ -4214,7 +4169,6 @@
   <Default:Documentation xmi:id="_r9pvgJlJEeeN7K_s3Iv6cQ" base_Comment="_gAk5g5lJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9qWkJlJEeeN7K_s3Iv6cQ" base_Comment="_gAsOQZlJEeeN7K_s3Iv6cQ"/>
   <Default:Documentation xmi:id="_r9rksJlJEeeN7K_s3Iv6cQ" base_Comment="_gAgoFJlJEeeN7K_s3Iv6cQ"/>
-  <Default:Documentation xmi:id="_6YIIgJmrEeeAWKInz3apng" base_Comment="_pFAa4ZmrEeeAWKInz3apng"/>
   <Default:Documentation xmi:id="_6YKkwJmrEeeAWKInz3apng" base_Comment="_pBt2UpmrEeeAWKInz3apng"/>
   <JavaTransformation50:JavaCollection2 xmi:id="_6YMZ8JmrEeeAWKInz3apng" collectionType="java.util.List" base_TypedElement="_pFBpAJmrEeeAWKInz3apng"/>
   <JavaTransformation50:JavaArray xmi:id="_6YOPIJmrEeeAWKInz3apng" base_TypedElement="_pG3cEJmrEeeAWKInz3apng"/>
@@ -4223,4 +4177,8 @@
     <redirectTo xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
   </JavaTransformation50:JavaTypeRedirect>
   <JavaTransformation50:JavaCollection2 xmi:id="_SAOB4JmxEeeAWKInz3apng" collectionType="java.util.List" base_TypedElement="_f8BwsJlJEeeN7K_s3Iv6cQ"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_VOU1AJpTEee9SelJ6GNJZw" collectionType="java.util.List" base_TypedElement="_PAh2BZpTEee9SelJ6GNJZw"/>
+  <Default:Documentation xmi:id="_VOVcEJpTEee9SelJ6GNJZw" base_Comment="_PAh2A5pTEee9SelJ6GNJZw"/>
+  <Default:Documentation xmi:id="_VOWqMJpTEee9SelJ6GNJZw" base_Comment="_PAcWcJpTEee9SelJ6GNJZw"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="_VOXRQJpTEee9SelJ6GNJZw" collectionType="java.util.List" base_TypedElement="_PAcWcppTEee9SelJ6GNJZw"/>
 </xmi:XMI>
